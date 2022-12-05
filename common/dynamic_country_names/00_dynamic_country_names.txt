@@ -1,4 +1,420 @@
-﻿####BAVARIA####
+﻿#### SAXONY ####
+
+SAX = {
+		
+	dynamic_country_name = {
+		name = dyn_c_saxony_absolutist_monarchy
+		adjective = dyn_c_saxony_absolutist_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_monarchy
+		adjective = dyn_c_saxony_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_monarchy
+		adjective = dyn_c_saxony_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_monarchy
+		adjective = dyn_c_saxony_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_monarchy
+		adjective = dyn_c_saxony_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_republic
+		adjective = dyn_c_saxony_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_dictatorship
+		adjective = dyn_c_saxony_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_dictatorship
+		adjective = dyn_c_saxony_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_theocratic
+		adjective = dyn_c_saxony_theocratic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_theocraticvote
+		adjective = dyn_c_saxony_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_theocraticvote
+		adjective = dyn_c_saxony_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_theocraticvote
+		adjective = dyn_c_saxony_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_theocraticvote
+		adjective = dyn_c_saxony_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_communist
+		adjective = dyn_c_saxony_communist_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_communistvote
+		adjective = dyn_c_saxony_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_communistvote
+		adjective = dyn_c_saxony_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_communistvote
+		adjective = dyn_c_saxony_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_saxony_communistvote
+		adjective = dyn_c_saxony_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+
+
+###BAVARIA####
 BAV = {
 		
 	dynamic_country_name = {
