@@ -7241,7 +7241,7 @@ SAX = { # Saxony
 	}	
 	flag_definition = {
 		coa = SAX_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
