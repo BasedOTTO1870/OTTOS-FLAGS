@@ -1,4 +1,8 @@
 colors = {
+	monarchist_saxony 	= 	rgb {124  255 119}
+	democratic_saxony 	=  	rgb {255 248 71}
+	theocratic_saxony 	= 	rgb {178 25 255}
+	communist_saxony 	= 	rgb {139 0 0}
 	democratic_japan 	= 	rgb { 211 220 240 }
 	theocratic_japan 	= 	rgb { 1 0 109 }
 	communist_japan 	= 	rgb { 139 0 0 }

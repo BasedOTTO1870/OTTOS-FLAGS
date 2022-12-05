@@ -613,3 +613,53 @@ monarchist_bavaria = {
 		has_law = law_type:law_monarchy 
 	}
 }
+#####SAXONY#####
+
+democratic_saxony = {
+	color = "democratic_saxony"
+
+	possible = {
+		exists = c:SAX
+		THIS = c:SAX
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_saxony = {
+	color = "democratic_saxony"
+
+	possible = {
+		exists = c:SAX
+		THIS = c:SAX
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_saxony = {
+	color = "communist_saxony"
+
+	possible = {
+		exists = c:SAX
+		THIS = c:SAX
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_saxony = {
+	color = "theocratic_saxony"
+
+	possible = {
+		exists = c:SAX
+		THIS = c:SAX
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_saxony = {
+	color = "monarchist_saxony"
+	possible = {
+		exists = c:SAX
+		THIS = c:SAX
+		has_law = law_type:law_monarchy 
+	}
+}
