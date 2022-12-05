@@ -22,4 +22,8 @@ colors = {
 	democratic_russia 	= 	rgb { 47 147 18 }
 	theocratic_russia 	= 	rgb { 211 220 240 }
 	communist_russia 	= 	rgb { 139 0 0 }
-	}
+	monarchist_bavaria 	= 	rgb { 53 83 255 }
+	democratic_bavaria 	= 	rgb { 79 114 255 }
+	theocratic_bavaria 	= 	rgb { 211 220 240 }
+	communist_bavaria	= 	rgb { 139 0 0 }
+}

@@ -561,3 +561,55 @@ monarchist_netherlands = {
 		has_law = law_type:law_monarchy 
 	}
 }
+
+
+#####Bavaria#####
+
+democratic_bavaria = {
+	color = "democratic_bavaria"
+
+	possible = {
+		exists = c:BAV
+		THIS = c:BAV
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_bavaria = {
+	color = "democratic_bavaria"
+
+	possible = {
+		exists = c:BAV
+		THIS = c:BAV
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_bavaria = {
+	color = "communist_bavaria"
+
+	possible = {
+		exists = c:BAV
+		THIS = c:BAV
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_bavaria = {
+	color = "theocratic_bavaria"
+
+	possible = {
+		exists = c:BAV
+		THIS = c:BAV
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_bavaria = {
+	color = "monarchist_bavaria"
+	possible = {
+		exists = c:BAV
+		THIS = c:BAV
+		has_law = law_type:law_monarchy 
+	}
+}
