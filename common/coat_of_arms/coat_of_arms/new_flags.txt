@@ -18761,6 +18761,42 @@ SAX_communist = {
 		instance = { scale = { 0.9 0.88 } position = { 0.5 0.5 } }
 	}				
 }
+SAX_autocratic_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "theo_saxon_auto.dds"
+	}
+}
+SAX_voting_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "theo_saxon_vote.dds"
+	}
+}
+SAX_autocratic_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "communist_autocracy_saxon_coa.dds"
+	}
+}
+SAX_voting_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "communist_voting_saxon_coa.dds"
+	}
+}
 SAX_subject_PRU = {
 	# 1882
 	pattern = "pattern_solid.tga"

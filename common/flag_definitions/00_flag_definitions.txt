@@ -7253,6 +7253,34 @@ SAX = { # Saxony
 			coa_def_prussian_ensign_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = SAX_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAX_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAX_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAX_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
 }	
 
 SCA = { # Scandinavia
