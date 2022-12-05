@@ -1,0 +1,13 @@
+{
+  "name" : "OTTO's Dynamic Names, Flags & Colours",
+  "id" : "2897580664",
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "picture" : "thumbnail.png",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

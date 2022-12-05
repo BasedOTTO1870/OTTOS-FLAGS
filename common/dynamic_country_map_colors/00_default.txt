@@ -1,0 +1,563 @@
+﻿#####RUSSIA#####
+
+democratic_russia = {
+	color = "democratic_russia"
+
+	possible = {
+		exists = c:RUS
+		THIS = c:RUS
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_russia = {
+	color = "democratic_russia"
+
+	possible = {
+		exists = c:RUS
+		THIS = c:RUS
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_russia = {
+	color = "communist_russia"
+
+	possible = {
+		exists = c:RUS
+		THIS = c:RUS
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_russia = {
+	color = "theocratic_russia"
+
+	possible = {
+		exists = c:RUS
+		THIS = c:RUS
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_russia = {
+	color = "monarchist_russia"
+	possible = {
+		exists = c:RUS
+		THIS = c:RUS
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+###JAPAN###
+
+democratic_japan = {
+	color = "democratic_japan"
+
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_japan = {
+	color = "democratic_japan"
+
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_japan = {
+	color = "communist_japan"
+
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_japan = {
+	color = "theocratic_japan"
+
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_law = law_type:law_theocracy
+	}
+}
+
+japanese_shogunate = {
+	color = "democratic_japan"
+	possible = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_law = law_type:law_monarchy 
+		NOT = { has_variable = meiji_var }
+	}
+}
+
+#####PRUSSIA#####
+
+democratic_prussia = {
+	color = "democratic_prussia"
+
+	possible = {
+		exists = c:PRU
+		THIS = c:PRU
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_prussia = {
+	color = "democratic_prussia"
+
+	possible = {
+		exists = c:PRU
+		THIS = c:PRU
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_prussia = {
+	color = "communist_prussia"
+
+	possible = {
+		exists = c:PRU
+		THIS = c:PRU
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_prussia = {
+	color = "theocratic_prussia"
+
+	possible = {
+		exists = c:PRU
+		THIS = c:PRU
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_prussia = {
+	color = "monarchist_prussia"
+	possible = {
+		exists = c:PRU
+		THIS = c:PRU
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####AUSTRIA#####
+
+democratic_austria = {
+	color = "democratic_austria"
+
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_austria = {
+	color = "democratic_austria"
+
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_austria = {
+	color = "communist_austria"
+
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_austria = {
+	color = "theocratic_austria"
+
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_austria = {
+	color = "monarchist_austria"
+	possible = {
+		exists = c:AUS
+		THIS = c:AUS
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####FRANCE#####
+
+democratic_france = {
+	color = "democratic_france"
+
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_france = {
+	color = "democratic_france"
+
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_france = {
+	color = "communist_france"
+
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_france = {
+	color = "theocratic_france"
+
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_france = {
+	color = "monarchist_france"
+	possible = {
+		exists = c:FRA
+		THIS = c:FRA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####SPAIN#####
+
+democratic_spain = {
+	color = "democratic_spain"
+
+	possible = {
+		exists = c:SPA
+		THIS = c:SPA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_spain = {
+	color = "democratic_spain"
+
+	possible = {
+		exists = c:SPA
+		THIS = c:SPA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_spain = {
+	color = "communist_spain"
+
+	possible = {
+		exists = c:SPA
+		THIS = c:SPA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_spain = {
+	color = "theocratic_spain"
+
+	possible = {
+		exists = c:SPA
+		THIS = c:SPA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_spain = {
+	color = "monarchist_spain"
+	possible = {
+		exists = c:SPA
+		THIS = c:SPA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####TURKEY#####
+
+democratic_turkey = {
+	color = "democratic_turkey"
+
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_turkey = {
+	color = "democratic_turkey"
+
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_turkey = {
+	color = "communist_turkey"
+
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_turkey = {
+	color = "theocratic_turkey"
+
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_turkey = {
+	color = "monarchist_turkey"
+	possible = {
+		exists = c:TUR
+		THIS = c:TUR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####CHINA#####
+
+democratic_china = {
+	color = "democratic_china"
+
+	possible = {
+		exists = c:CHI
+		THIS = c:CHI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_china = {
+	color = "democratic_china"
+
+	possible = {
+		exists = c:CHI
+		THIS = c:CHI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_china = {
+	color = "communist_china"
+
+	possible = {
+		exists = c:CHI
+		THIS = c:CHI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_china = {
+	color = "theocratic_china"
+
+	possible = {
+		exists = c:CHI
+		THIS = c:CHI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_china = {
+	color = "monarchist_china"
+	possible = {
+		exists = c:CHI
+		THIS = c:CHI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####EGYPT#####
+
+democratic_egypt = {
+	color = "democratic_egypt"
+
+	possible = {
+		exists = c:EGY
+		THIS = c:EGY
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_egypt = {
+	color = "democratic_egypt"
+
+	possible = {
+		exists = c:EGY
+		THIS = c:EGY
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_egypt = {
+	color = "communist_egypt"
+
+	possible = {
+		exists = c:EGY
+		THIS = c:EGY
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_egypt = {
+	color = "theocratic_egypt"
+
+	possible = {
+		exists = c:EGY
+		THIS = c:EGY
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_egypt = {
+	color = "monarchist_egypt"
+	possible = {
+		exists = c:EGY
+		THIS = c:EGY
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####BELGIUM#####
+
+democratic_belgium = {
+	color = "democratic_belgium"
+
+	possible = {
+		exists = c:BEL
+		THIS = c:BEL
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_belgium = {
+	color = "democratic_belgium"
+
+	possible = {
+		exists = c:BEL
+		THIS = c:BEL
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_belgium = {
+	color = "communist_belgium"
+
+	possible = {
+		exists = c:BEL
+		THIS = c:BEL
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_belgium = {
+	color = "theocratic_belgium"
+
+	possible = {
+		exists = c:BEL
+		THIS = c:BEL
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_belgium = {
+	color = "monarchist_belgium"
+	possible = {
+		exists = c:BEL
+		THIS = c:BEL
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####NETHERLANDS#####
+
+democratic_netherlands = {
+	color = "democratic_netherlands"
+
+	possible = {
+		exists = c:NET
+		THIS = c:NET
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_netherlands = {
+	color = "democratic_netherlands"
+
+	possible = {
+		exists = c:NET
+		THIS = c:NET
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_netherlands = {
+	color = "communist_netherlands"
+
+	possible = {
+		exists = c:NET
+		THIS = c:NET
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_netherlands = {
+	color = "theocratic_netherlands"
+
+	possible = {
+		exists = c:NET
+		THIS = c:NET
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_netherlands = {
+	color = "monarchist_netherlands"
+	possible = {
+		exists = c:NET
+		THIS = c:NET
+		has_law = law_type:law_monarchy 
+	}
+}

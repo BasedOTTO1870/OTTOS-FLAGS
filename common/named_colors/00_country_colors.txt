@@ -1,0 +1,25 @@
+colors = {
+	democratic_japan 	= 	rgb { 211 220 240 }
+	theocratic_japan 	= 	rgb { 1 0 109 }
+	communist_japan 	= 	rgb { 139 0 0 }
+	monarchist_prussia 	= 	rgb { 0 15 30 }
+	democratic_prussia 	= 	rgb { 0 15 50 }
+	theocratic_prussia 	= 	rgb { 239 182 66 }
+	communist_prussia 	= 	rgb { 139 0 0 }
+	monarchist_austria 	= 	rgb { 211 220 240 }
+	democratic_austria 	= 	rgb { 211 220 240 }
+	theocratic_austria 	= 	rgb { 255 0 70 }
+	communist_austria 	= 	rgb { 139 0 0 }
+	monarchist_france 	= 	rgb { 0 16 255 }
+	democratic_france 	= 	rgb { 124 167 196 }
+	theocratic_france 	= 	rgb { 145 203 255 }
+	communist_france 	= 	rgb { 139 0 0 }
+	monarchist_spain 	= 	rgb { 205 149 12 }
+	democratic_spain 	= 	rgb { 238 173 14 }
+	theocratic_spain 	= 	rgb { 110 67 148 }
+	communist_spain 	= 	rgb { 139 0 0 }
+	monarchist_russia 	= 	rgb { 47 50 18 }
+	democratic_russia 	= 	rgb { 47 147 18 }
+	theocratic_russia 	= 	rgb { 211 220 240 }
+	communist_russia 	= 	rgb { 139 0 0 }
+	}
