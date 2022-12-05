@@ -1907,6 +1907,45 @@ BAV_subject_PRU = {
 	}
 }
 
+BAV_autocratic_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "theo_bavaria_auto.dds"
+	}
+}
+BAV_voting_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "theo_bavaria_vote.dds"
+	}
+}
+BAV_autocratic_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "communist_autocracy_bavaria_coa.dds"
+	}
+}
+BAV_voting_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "communist_voting_bavaria_coa.dds"
+	}
+}
+
+
+
 
 BEL = {
 	pattern = "pattern_solid.tga"

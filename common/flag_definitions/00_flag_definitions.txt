@@ -765,14 +765,14 @@ BAV = { # Bavaria
 	flag_definition = {
 		coa = BAV_theocracy
 		subject_canton = BAV_theocracy
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAV_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -783,7 +783,35 @@ BAV = { # Bavaria
 		trigger = { 
 			coa_def_prussian_ensign_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = BAV_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAV_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAV_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAV_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
 }
 
 BEL = { # Belgium
