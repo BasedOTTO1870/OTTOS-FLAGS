@@ -54,5 +54,8 @@ colors = {
 	democratic_hanover 	= 	rgb { 224 11 0 }
 	theocratic_hanover 	= 	rgb { 3 0 50 }
 	communist_hanover	= 	rgb { 160 0 0 }
-}
+	monarchist_wurttemberg 	= 	rgb { 119 0 0 }
+	democratic_wurttemberg 	= 	rgb { 175 0 0 }
+	theocratic_wurttemberg 	= 	rgb { 0 70 105 }
+	communist_wurttemberg	= 	rgb { 139 0 0 }
 }
