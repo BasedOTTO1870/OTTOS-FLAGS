@@ -8814,7 +8814,6 @@ WLS = { # Wales
 }
 
 WUR = { # Wurttemberg
-	
 	flag_definition = {
 		coa = WUR
 		subject_canton = WUR
@@ -8828,61 +8827,15 @@ WUR = { # Wurttemberg
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}
-	flag_definition = {
-		coa = WUR_monarchy
-		subject_canton = WUR_monarchy
-		priority = 20
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}
+	}	
 	flag_definition = {
 		coa = WUR_republic
 		subject_canton = WUR_republic
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = WUR_subject		
-		priority = 20
+		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}
-	flag_definition = {
-		coa = WUR_dictatorship
-		subject_canton = WUR_dictatorship	
-		priority = 50
-		trigger = { 
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = WUR_autocratic_theocracy
-		priority = 1500
-		trigger = { 
-			coa_def_theocratic_autocracy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = WUR_voting_theocracy
-		priority = 1500
-		trigger = { 
-			coa_def_theocratic_voting_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = WUR_autocratic_communism
-		priority = 1500
-		trigger = { 
-			coa_def_communist_autocracy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = WUR_voting_communism
-		priority = 1500
-		trigger = { 
-			coa_def_communist_voting_flag_trigger = yes
-		}
-	}
+	}	
 	flag_definition = {
 		coa = WUR_oligarchy
 		subject_canton = WUR_oligarchy
@@ -8893,7 +8846,7 @@ WUR = { # Wurttemberg
 	}		
 	flag_definition = {
 		coa = WUR_communist
-		priority = 0
+		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}

@@ -4,8 +4,8 @@ democratic_wurttemberg = {
 	color = "democratic_wurttemberg"
 
 	possible = {
-		exists = c:HAN
-		THIS = c:HAN
+		exists = c:WUR
+		THIS = c:WUR
 		has_law = law_type:law_presidential_republic
 	}
 }
@@ -14,8 +14,8 @@ democratic_wurttemberg = {
 	color = "democratic_wurttemberg"
 
 	possible = {
-		exists = c:HAN
-		THIS = c:HAN
+		exists = c:WUR
+		THIS = c:WUR
 		has_law = law_type:law_parliamentary_republic
 	}
 }
@@ -24,8 +24,8 @@ communist_wurttemberg = {
 	color = "communist_wurttemberg"
 
 	possible = {
-		exists = c:HAN
-		THIS = c:HAN
+		exists = c:WUR
+		THIS = c:WUR
 		has_law = law_type:law_council_republic
 	}
 }
@@ -34,8 +34,8 @@ theocratic_wurttemberg = {
 	color = "theocratic_wurttemberg"
 
 	possible = {
-		exists = c:HAN
-		THIS = c:HAN
+		exists = c:WUR
+		THIS = c:WUR
 		has_law = law_type:law_theocracy
 	}
 }
@@ -43,8 +43,8 @@ theocratic_wurttemberg = {
 monarchist_wurttemberg = {
 	color = "monarchist_wurttemberg"
 	possible = {
-		exists = c:HAN
-		THIS = c:HAN
+		exists = c:WUR
+		THIS = c:WUR
 		has_law = law_type:law_monarchy 
 	}
 }
