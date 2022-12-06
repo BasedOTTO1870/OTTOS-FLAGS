@@ -3681,24 +3681,68 @@ HAN = { # Hannover
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = HAN_monarchy
+		subject_canton = HAN_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = HAN_republic
 		subject_canton = HAN_republic
 		allow_overlord_canton = yes		
 		coa_with_overlord_canton = HAN_subject		
-		priority = 10
+		priority = 20
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = HAN_communist
+		coa = HAN_dictatorship
+		subject_canton = HAN_dictatorship	
+		priority = 50
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HAN_autocratic_theocracy
 		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HAN_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HAN_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HAN_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HAN_communist
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
 		coa = HAN_subject	
 		subject_canton = HAN		

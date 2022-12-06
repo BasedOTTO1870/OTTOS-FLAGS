@@ -1,4 +1,55 @@
-﻿#####RUSSIA#####
+﻿#####HANOVER#####
+
+democratic_hanover = {
+	color = "democratic_hanover"
+
+	possible = {
+		exists = c:HAN
+		THIS = c:HAN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_hanover = {
+	color = "democratic_hanover"
+
+	possible = {
+		exists = c:HAN
+		THIS = c:HAN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_hanover = {
+	color = "communist_hanover"
+
+	possible = {
+		exists = c:HAN
+		THIS = c:HAN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_hanover = {
+	color = "theocratic_hanover"
+
+	possible = {
+		exists = c:HAN
+		THIS = c:HAN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_hanover = {
+	color = "monarchist_hanover"
+	possible = {
+		exists = c:HAN
+		THIS = c:HAN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####RUSSIA#####
 
 democratic_russia = {
 	color = "democratic_russia"

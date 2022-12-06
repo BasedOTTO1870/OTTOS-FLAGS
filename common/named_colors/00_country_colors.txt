@@ -50,4 +50,9 @@ colors = {
 	democratic_china 	= 	rgb { 0 40 70 }
 	theocratic_china 	= 	rgb { 255 106 0 }
 	communist_china	= 	rgb { 160 0 0 }
+	monarchist_hanover 	= 	rgb { 188 157 0 }
+	democratic_hanover 	= 	rgb { 224 11 0 }
+	theocratic_hanover 	= 	rgb { 3 0 50 }
+	communist_hanover	= 	rgb { 160 0 0 }
+}
 }

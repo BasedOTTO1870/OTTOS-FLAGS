@@ -9029,55 +9029,65 @@ HAM_subject_PRU = {
         instance = { scale = { 0.48 0.48 } offset = { 0.26 0.26 } }		
     }		
 }
-
 HAN = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "white"
-		color2 = "white"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_Basic.dds"
 	}
 }
 HAN_absolute_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "white"
-		color2 = "white"
-	}
-    sub = {
-        parent = "sub_crown" 
-        instance = { scale = { 0.5 0.5 } offset = { 0.25 0.02 }  } # top left
-		color1 = "yellow"
-		color2 = "red"
-		color3 = "azure"
-		color4 = "white"
-		color5 = "red_dark"		
-    }	
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		instance = { scale = { 0.76 0.76 } position = { 0.5 0.58 } }	
-		color1 = "brown"
-		color2 = "white"
-	}	
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		instance = { scale = { 0.74 0.74 } position = { 0.5 0.58 } }	
-		color1 = "red"
-		color2 = "white"
-	}	
-	colored_emblem = {
-		texture = "ce_horse.dds"
-		instance = { scale = { 0.58 0.58 } position = { 0.51 0.58 } }	
-		color1 = "white"
-		color2 = "white"
-		color3 = "grey"
-	}			
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_absolute_monarchy.dds"
+	}		
 }
+HAN_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_monarchy.dds"
+	}		
+}
+HAN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_republic.dds"
+	}	
+}
+HAN_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	textured_emblem = {
+		texture = "Hanover_dictatorship.dds" }
+}
+HAN_autocratic_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_theocracy_autocracy.dds" }
+}
+HAN_voting_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_theocracy_vote.dds" }
+}
+HAN_autocratic_communism = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_communist_autocracy.dds" }
+}
+HAN_voting_communism = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "Hanover_communist_vote.dds"
+}
+###################################################################################
 HAN_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -9130,18 +9140,6 @@ HAN_subject_GBR = {
         parent = "sub_HAN_uk" 
 		instance = { scale = { 0.5 0.5 } }			
     }	
-}
-HAN_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_horse.dds"
-		color1 = "white"
-		color2 = "white"
-		color3 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
-	}
 }
 HAN_subject_gold = {
 	pattern = "pattern_solid.tga"
@@ -14639,12 +14637,9 @@ NET_subject = {
 		instance = { scale = { 0.40 0.40 } position = { 0.755 0.53 } }
 	}	
 }
-
 NET_autocratic_theocracy = {
-	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-
 	textured_emblem = {
 		texture = "theo_netherlands_auto.dds"
 	}
