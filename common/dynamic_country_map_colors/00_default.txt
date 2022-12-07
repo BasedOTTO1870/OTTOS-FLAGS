@@ -1,4 +1,209 @@
-﻿#####WURTTEMBERG#####
+﻿#####lubeck#####
+
+democratic_lubeck = {
+	color = "democratic_lubeck"
+
+	possible = {
+		exists = c:LUB
+		THIS = c:LUB
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_lubeck = {
+	color = "democratic_lubeck"
+
+	possible = {
+		exists = c:LUB
+		THIS = c:LUB
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_lubeck = {
+	color = "communist_lubeck"
+
+	possible = {
+		exists = c:LUB
+		THIS = c:LUB
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_lubeck = {
+	color = "theocratic_lubeck"
+
+	possible = {
+		exists = c:LUB
+		THIS = c:LUB
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_lubeck = {
+	color = "monarchist_lubeck"
+	possible = {
+		exists = c:LUB
+		THIS = c:LUB
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####hamburg#####
+
+democratic_hamburg = {
+	color = "democratic_hamburg"
+
+	possible = {
+		exists = c:HAM
+		THIS = c:HAM
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_hamburg = {
+	color = "democratic_hamburg"
+
+	possible = {
+		exists = c:HAM
+		THIS = c:HAM
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_hamburg = {
+	color = "communist_hamburg"
+
+	possible = {
+		exists = c:HAM
+		THIS = c:HAM
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_hamburg = {
+	color = "theocratic_hamburg"
+
+	possible = {
+		exists = c:HAM
+		THIS = c:HAM
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_hamburg = {
+	color = "monarchist_hamburg"
+	possible = {
+		exists = c:HAM
+		THIS = c:HAM
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####bremen#####
+
+democratic_bremen = {
+	color = "democratic_bremen"
+
+	possible = {
+		exists = c:BRE
+		THIS = c:BRE
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_bremen = {
+	color = "democratic_bremen"
+
+	possible = {
+		exists = c:BRE
+		THIS = c:BRE
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_bremen = {
+	color = "communist_bremen"
+
+	possible = {
+		exists = c:BRE
+		THIS = c:BRE
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_bremen = {
+	color = "theocratic_bremen"
+
+	possible = {
+		exists = c:BRE
+		THIS = c:BRE
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_bremen = {
+	color = "monarchist_bremen"
+	possible = {
+		exists = c:BRE
+		THIS = c:BRE
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####oldenburg#####
+
+democratic_oldenburg = {
+	color = "democratic_oldenburg"
+
+	possible = {
+		exists = c:OLD
+		THIS = c:OLD
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_oldenburg = {
+	color = "democratic_oldenburg"
+
+	possible = {
+		exists = c:OLD
+		THIS = c:OLD
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_oldenburg = {
+	color = "communist_oldenburg"
+
+	possible = {
+		exists = c:OLD
+		THIS = c:OLD
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_oldenburg = {
+	color = "theocratic_oldenburg"
+
+	possible = {
+		exists = c:OLD
+		THIS = c:OLD
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_oldenburg = {
+	color = "monarchist_oldenburg"
+	possible = {
+		exists = c:OLD
+		THIS = c:OLD
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####WURTTEMBERG#####
 
 democratic_wurttemberg = {
 	color = "democratic_wurttemberg"
