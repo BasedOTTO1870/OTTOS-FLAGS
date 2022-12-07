@@ -694,11 +694,55 @@ BAD = { # Baden
 	}	
 	flag_definition = {
 		coa = BAD_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
-	}		
+	}
+	flag_definition = {
+		coa = BAD_monarchy
+		subject_canton = BAD_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_dictatorship
+		subject_canton = BAD_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 BAH = { # Bahamas
@@ -1206,6 +1250,58 @@ BRA = { # Brunswick
 		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = BRA_monarchy
+		subject_canton = BRA_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_dictatorship
+		subject_canton = BRA_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_oligarchy
+		subject_canton = BRA_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BRA_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
 		}
 	}	
 }
@@ -5302,6 +5398,14 @@ MEC = { # Mecklenburg
 		priority = 1
 	}
 	flag_definition = {
+		coa = MEC_monarchy
+		subject_canton = MEC_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = MEC_republic
 		subject_canton = MEC_republic
 		priority = 10
@@ -5309,6 +5413,14 @@ MEC = { # Mecklenburg
 			coa_def_republic_flag_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = MEC_dictatorship
+		subject_canton = MEC_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = MEC_oligarchy
 		subject_canton = MEC_oligarchy
@@ -5320,14 +5432,14 @@ MEC = { # Mecklenburg
 	flag_definition = {
 		coa = MEC_absolute_monarchy
 		subject_canton = MEC_absolute_monarchy
-		priority = 20
+		priority = 25
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = MEC_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -5338,7 +5450,35 @@ MEC = { # Mecklenburg
 		trigger = { 
 			coa_def_prussian_ensign_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = MEC_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEC_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEC_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEC_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
 }	
 
 MEI = {
@@ -5622,6 +5762,74 @@ MST = {
 		subject_canton = MST
 		allow_overlord_canton = yes		
 		priority = 1
+	}
+		flag_definition = {
+		coa = MST_monarchy
+		subject_canton = MST_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_republic
+		subject_canton = MST_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = MST_dictatorship
+		subject_canton = MST_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_oligarchy
+		subject_canton = MST_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = MST_absolute_monarchy
+		subject_canton = MST_absolute_monarchy
+		priority = 25
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MST_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
 	}
 }
 
@@ -6989,6 +7197,20 @@ PRU = { # Prussia
 		priority = 1500
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PRU_theocratic_autocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PRU_theocratic_voting
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {

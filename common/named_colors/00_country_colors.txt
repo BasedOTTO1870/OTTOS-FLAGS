@@ -74,4 +74,16 @@ colors = {
 	democratic_lubeck 		= 	rgb { 50 200 50 }
 	theocratic_lubeck 		= 	rgb { 130 100 200 }
 	communist_lubeck		= 	rgb { 139 0 0 }
+	monarchist_strelitz 		= 	rgb { 204 184 61 }
+	democratic_strelitz 		= 	rgb { 237 217 70 }
+	theocratic_strelitz 		= 	rgb { 89 0 122  }
+	communist_strelitz			= 	rgb { 139 0 0 }
+	monarchist_mecklenburg 		= 	rgb { 228 132 55 }
+	democratic_mecklenburg 		= 	rgb { 255 146 63 }
+	theocratic_mecklenburg 		= 	rgb { 113 0 57  }
+	communist_mecklenburg		= 	rgb { 139 0 0 }
+	monarchist_brunswick 		= 	rgb { 0 115 185 }
+	democratic_brunswick 		= 	rgb { 0 150 250 }
+	theocratic_brunswick 		= 	rgb { 250 230 }
+	communist_brunswick			= 	rgb { 139 0 0 }
 }

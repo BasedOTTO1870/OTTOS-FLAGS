@@ -13,6 +13,13 @@
 @NZL_coa_offset = @[3/16] 
 @sm_fra = 0.16
 
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "x.dds"
+	}
+
 #ABO = { # Aboriginals
 #	pattern = "pattern_solid.tga"
 #	color1 = "black"
@@ -1381,22 +1388,58 @@ AUS_dictatorship = {
 	}	
 }
 AUS_theocracy = {
-	
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_austria_coa.dds"
-	}
+	color1 = "red"
+	color2 = "white"
+	
+	colored_emblem = {		
+		texture = "ce_cross_cotised.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}		
 }
 AUS_communist = {
-	
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_austria_coa.dds"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}	
+	colored_emblem = {
+		texture = "ce_coa_roundel_austria.dds"
+		color1 = "azure"
+		color2 = "yellow"
+		color3 = "red"		
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.45 } }			
+	}		
+	colored_emblem = {
+		texture = "ce_coa_frame_austria.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 }  }	
 	}
+	colored_emblem = {
+		texture = "ce_hammer_wheat.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.40 0.40 } position = { 0.5 0.52 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.275 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.30 0.30 } position = { 0.5 0.275 } }			
+	}		
 }
 AUS_fascist = {
 	# Flag of Fatherland's Front
@@ -1631,59 +1674,14 @@ AZB_communist = {
 
 
 BAD = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
 
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BAD.dds"
 	}
-}
-BAD_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-				
-	colored_emblem = {
-		texture = "ce_stripes_06.dds"
-		color1 = "red"
-		color2 = "red"		
-	}				
-}
-BAD_absolute_monarchy = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-				
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "red"
-		color2 = "red"		
-	}
-	colored_emblem = {
-		texture = "ce_shield_baden.dds"
-		color1 = "yellow"
-		color2 = "black"
-		color3 = "red"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.58 } }		
-	}	
-	colored_emblem = {
-		texture = "ce_crown_simple.dds"
-		color1 = "yellow_dark"
-		color2 = "azure"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.28 } }	
-	}	
-}
-BAD_oligarchy = {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-	color2 = "red"
 	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "red"
-		color2 = "yellow"
-	}		
 }
 BAD_communist = {
 	pattern = "pattern_solid.tga"
@@ -1720,6 +1718,96 @@ BAD_communist = {
 		color2 = "red"
 		instance = { scale = { 0.10 0.10 } position = { 0.16 0.10 } }
 	}		
+}
+BAD_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADAM.dds"
+	}
+
+}
+BAD_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADRE.dds"
+	}
+	
+}
+BAD_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADMO.dds"
+	}
+	
+}
+BAD_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADDI.dds"
+	}
+	
+}
+BAD_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADOL.dds"
+	}
+	
+}
+BAD_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADAT.dds"
+	}
+	
+}
+BAD_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADVT.dds"
+	}
+	
+}
+BAD_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADVC.dds"
+	}
+	
+}
+BAD_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADAC.dds"
+	}
+	
 }
 
 BAH = {
@@ -1907,45 +1995,6 @@ BAV_subject_PRU = {
 	}
 }
 
-BAV_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_bavaria_auto.dds"
-	}
-}
-BAV_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_bavaria_vote.dds"
-	}
-}
-BAV_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_bavaria_coa.dds"
-	}
-}
-BAV_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_bavaria_coa.dds"
-	}
-}
-
-
-
 
 BEL = {
 	pattern = "pattern_solid.tga"
@@ -2053,42 +2102,6 @@ BEL_communist = {
 		color1 = color2
 		color2 = color2
 		instance = { position = { 0.29 0.25 } scale = { 0.4 0.4 } } 
-	}
-}
-BEL_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_belgium_auto.dds"
-	}
-}
-BEL_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_belgium_vote.dds"
-	}
-}
-BEL_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_belgium_coa.dds"
-	}
-}
-BEL_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_belgium_coa.dds"
 	}
 }
 BEL_fascist = {		
@@ -2674,73 +2687,104 @@ BOS_subject = {
 }
 
 BRA = { # Brunswick
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
 
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRA.dds"
 	}
+
 }
 BRA_absolute_monarchy = {
+
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "white"
-		color2 = "white"
-	}		
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "red"
-		instance = { scale = { 0.19 0.08 } position = { 0.5 0.245 } }	
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAAM.dds"
 	}
-	colored_emblem = {
-		texture = "ce_crown_simple.dds"
-		color1 = "yellow"
-		color2 = "azure"
-		color3 = "white"
-		instance = { scale = { 0.35 0.35 } position = { 0.5 0.24 } }	
-	}
-	colored_emblem = {
-		texture = "ce_coa_brunswick.dds"
-		instance = { scale = { 0.7 0.7 } position = { 0.5 0.595 } }	
-		color1 = "blue"
-		color2 = "yellow"
-		color3 = "red"
-	}		
+
 }
 BRA_republic = {
-	# 1912 flag without crown
+
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRARE.dds"
 	}
-	colored_emblem = {
-		texture = "ce_shield_hesse.dds"
-		instance = { scale = { 0.76 0.76 } position = { 0.5 0.5 } }	
-		color1 = "brown"
-		color2 = "white"
-	}	
-	colored_emblem = {
-		texture = "ce_shield_hesse.dds"
-		instance = { scale = { 0.74 0.74 } position = { 0.5 0.5 } }	
-		color1 = "red"
-		color2 = "white"
-	}	
-	colored_emblem = {
-		texture = "ce_horse.dds"
-		instance = { scale = { 0.58 0.58 } position = { 0.51 0.5 } }	
-		color1 = "white"
-		color2 = "white"
-		color3 = "grey"
-	}	
+	
+}
+BRA_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAMO.dds"
+	}
+	
+}
+BRA_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRADI.dds"
+	}
+	
+}
+BRA_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAOL.dds"
+	}
+	
+}
+BRA_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAAT.dds"
+	}
+	
+}
+BRA_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAVT.dds"
+	}
+	
+}
+BRA_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAVC.dds"
+	}
+	
+}
+BRA_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAAC.dds"
+	}
+	
 }
 
 BRE = {
@@ -6963,42 +7007,6 @@ EGY_republic = {
 		color2 = "black"
 	}	
 }
-EGY_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_egypt_auto.dds"
-	}
-}
-EGY_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_egypt_vote.dds"
-	}
-}
-EGY_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_egypt_coa.dds"
-	}
-}
-EGY_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_egypt_coa.dds"
-	}
-}
 EGY_dictatorship = {
 	# 1958 revolution
 	
@@ -7247,7 +7255,7 @@ FRA_subject = {
 FRA_theocracy = {
 	# Inspired from flag from the Ancien Régime (so it may exist already)
 	pattern = "pattern_cross.dds"
-	color1 = "white"
+	color1 = "blue"
 	color2 = "white"
 	
 	colored_emblem = {
@@ -7291,42 +7299,6 @@ FRA_theocracy = {
 		instance = { position = { 0.435 1.0 } scale = { @sm_fra @sm_fra } }
 		instance = { position = { 0.565 1.0 } scale = { @sm_fra @sm_fra } }			
 		mask = { 2 }
-	}
-}
-FRA_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_france_auto.dds"
-	}
-}
-FRA_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_france_vote.dds"
-	}
-}
-FRA_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_france_coa.dds"
-	}
-}
-FRA_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_france_coa.dds"
 	}
 }
 FRA_dictatorship = {
@@ -8424,6 +8396,47 @@ GGR_fascist = {
 	}		
 }
 
+GER_bavarian = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	color3 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+GER_austrian = { # German Confederation
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "red"
+	color3 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.33 0.5 } position = { @[third/2] @semy } }
+	}
+
+	colored_emblem = {
+		texture = "ce_eagle_double_headed.dds"
+		color1 = "black"
+		color2 = "yellow_dark"
+		color3 = "white"		
+		instance = { scale = { @[uru_canton_height*0.9] @[uru_canton_height*0.9] } position = { @[third/2] 0.25 } }
+	}
+}
+
 GLI = { #Galicia
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -9029,65 +9042,37 @@ HAM_subject_PRU = {
         instance = { scale = { 0.48 0.48 } offset = { 0.26 0.26 } }		
     }		
 }
+
 HAN = {
+
 	pattern = "pattern_solid.tga"
 	color1 = "white"
+
 	textured_emblem = {
-		texture = "Hanover_Basic.dds"
+	texture = "HAN.dds"
 	}
+
 }
 HAN_absolute_monarchy = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
+
 	textured_emblem = {
-		texture = "Hanover_absolute_monarchy.dds"
-	}		
+	texture = "HANAM.dds"
+	}
+		
 }
 HAN_monarchy = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
+
 	textured_emblem = {
-		texture = "Hanover_monarchy.dds"
-	}		
+	texture = "HANMO.dds"
+	}
+		
 }
-HAN_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "Hanover_republic.dds"
-	}	
-}
-HAN_dictatorship = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	textured_emblem = {
-		texture = "Hanover_dictatorship.dds" }
-}
-HAN_autocratic_theocracy = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "Hanover_theocracy_autocracy.dds" }
-}
-HAN_voting_theocracy = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "Hanover_theocracy_vote.dds" }
-}
-HAN_autocratic_communism = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "Hanover_communist_autocracy.dds" }
-}
-HAN_voting_communism = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "Hanover_communist_vote.dds"
-}
-###################################################################################
 HAN_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -9140,6 +9125,66 @@ HAN_subject_GBR = {
         parent = "sub_HAN_uk" 
 		instance = { scale = { 0.5 0.5 } }			
     }	
+}
+HAN_republic = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANRE.dds"
+	}
+	
+}
+HAN_dictatorship = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANDI.dds"
+	}
+	
+}
+HAN_voting_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANVT.dds"
+	}
+	
+}
+HAN_voting_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANVC.dds"
+	}
+	
+}
+HAN_autocratic_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANAC.dds"
+	}
+	
+}
+HAN_autocratic_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANAT.dds"
+	}
+	
 }
 HAN_subject_gold = {
 	pattern = "pattern_solid.tga"
@@ -10421,6 +10466,42 @@ ITA = { # Italy
 		instance = { scale = { 0.55 0.55 } position = { 0.5 0.25 } }
 	}	
 }
+ITA_sicilian = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	textured_emblem = {
+		texture = "te_necklace_two_sicilies.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.50 } }
+	}	
+	textured_emblem = {
+		texture = "te_crown.dds"
+		instance = { scale = { 0.375 0.375 } position = { 0.5 0.30 } }
+	}	
+	textured_emblem = {
+		texture = "te_coa_two_sicilies.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.50 } }
+	}			
+}
+ITA_papal = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+	textured_emblem = {
+		texture = "te_coa_papal_states_tiara.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.49 } }
+	}					
+}
 ITA_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -10794,32 +10875,38 @@ JAP_republic = {
 	}
 }
 JAP_dictatorship = {
+	# based on a naval flag
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-
-	textured_emblem = {
-		texture = "dictatorship_japan_coa.dds"
-	}
 	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
+	}
 }
 JAP_theocracy = {
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
-	textured_emblem = {
-		texture = "theo_japan_coa.dds"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
 	}
-}
-JAP_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_japan_coa.dds"
-	}
+	colored_emblem = {
+		texture = "ce_logograms_japan.dds"
+		color1 = "black"
+		color2 = "black"
+        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
 JAP_subject = {
 	# Based on imperial std
@@ -12827,77 +12914,103 @@ MCH = { # Manchuria
 	}		
 }
 
-MEC = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
+
+
+MEC = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MEC.dds"
 	}
+	
 }
 MEC_absolute_monarchy = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
+	textured_emblem = {
+		texture = "MECAM.dds"
 	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
-	}
-    sub = {
-        parent = "sub_MEC_coa" 
-		color1 = "yellow"
-		color2 = "black"
-		color3 = "white"
-		color4 = "red"
-		color5 = "yellow_light"	
-        instance = { scale = { 0.7 0.7 } offset = { 0.15 0.15 } }		
-    }		
+	
 }
-MEC_republic = {
+MEC_monarchy = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "red"
+	textured_emblem = {
+		texture = "MECMO.dds"
+	}
+	
+}
+MEC_autocratic_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECRE.dds"
+	}
+}
+MEC_voting_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECDI.dds"
 	}
 }
 MEC_oligarchy = {
-	# 1818 Merchant flag
+	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_laurel.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { 0.58 0.58 } position = { 0.5 0.53 } }			
-	}
-    sub = {
-        parent = "sub_MEC_coa" 
-		color1 = "yellow"
-		color2 = "black"
-		color3 = "white"
-		color4 = "red"
-		color5 = "yellow_light"	
-        instance = { scale = { 0.6 0.6 } offset = { 0.2 0.2 } }		
-    }		
+	textured_emblem = {
+		texture = "MECOL.dds"
+	}	
 }
+MEC_voting_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECVT.dds"
+	}	
+}
+MEC_voting_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECVC.dds"
+	}	
+}
+MEC_autocratic_theocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECAT.dds"
+	}	
+}
+MEC_autocratic_communism = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "MECAC.dds"
+	}	
+}
+
 MEC_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -14636,40 +14749,6 @@ NET_subject = {
 		color3 = "white"
 		instance = { scale = { 0.40 0.40 } position = { 0.755 0.53 } }
 	}	
-}
-NET_autocratic_theocracy = {
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	textured_emblem = {
-		texture = "theo_netherlands_auto.dds"
-	}
-}
-NET_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_netherlands_vote.dds"
-	}
-}
-NET_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_netherlands_coa.dds"
-	}
-}
-NET_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_netherlands_coa.dds"
-	}
 }
 
 NEW = {
@@ -17867,22 +17946,25 @@ PRU = {
 	}		
 }
 PRU_teutonic_order = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "black"
 
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+PRU_republic = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
 	textured_emblem = {
-		texture = "theo_prussia_coa.dds"
+	texture = "PRURE.dds"
 	}
-
-}
-PRU_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	textured_emblem = {
-		texture = "democratic_prussia_coa.dds"
-	}
+	
 }
 PRU_absolute_monarchy = {
 	# Late 19th c. with stripes and changes to the eagle (scepter-sword, monogram, bone links)
@@ -17909,8 +17991,9 @@ PRU_communist_voting = {
 	color1 = "white"
 
 	textured_emblem = {
-		texture = "communist_voting_prussia_coa.dds"
+	texture = "PRUVC.dds"
 	}
+	
 }
 PRU_communist_autocracy = {
 	
@@ -17918,12 +18001,33 @@ PRU_communist_autocracy = {
 	color1 = "white"
 
 	textured_emblem = {
-		texture = "communist_autocracy_prussia_coa.dds"
+	texture = "PRUAC.dds"
 	}
+	
+}
+PRU_theocratic_voting = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PRUAT.dds"
+	}
+	
+}
+PRU_theocratic_autocracy = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PRUAT.dds"
+	}
+	
 }
 PRU_communist = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "white"
 
 	colored_emblem = {
 		texture = "ce_solid.dds"
@@ -18333,44 +18437,16 @@ RUS_fascist = {
 		color2 = "blue"
 	}	
 }
-
-RUS_presidential_dictatorship = {		
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-	
-	textured_emblem = {
-		texture = "dictatorship_russia_coa.dds"
-	}		
-}
-
 RUS_theocracy = {		
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "red"
 	
 	textured_emblem = {
-		texture = "theo_russia_coa.dds"
+		texture = "te_st_george_and_the_dragon.dds"
 		instance = { scale = { 0.9 0.9 } position = { 0.5 0.51 } }
 	}		
 }
 
-RUS_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_russia_auto.dds"
-	}
-}
-RUS_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_russia_vote.dds"
-	}
-}
 
 SAF = {
 	pattern = "pattern_solid.tga"
@@ -18755,42 +18831,6 @@ SAX_communist = {
 		color2 = "yellow"
 		instance = { scale = { 0.9 0.88 } position = { 0.5 0.5 } }
 	}				
-}
-SAX_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_saxon_auto.dds"
-	}
-}
-SAX_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_saxon_vote.dds"
-	}
-}
-SAX_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_saxon_coa.dds"
-	}
-}
-SAX_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_saxon_coa.dds"
-	}
 }
 SAX_subject_PRU = {
 	# 1882
@@ -19859,42 +19899,6 @@ SPA_theocracy = {
 		color2 = "red"
 		instance = { scale = { 0.6 0.6 } position = { 0.33 0.52 } }
 	}	
-}
-SPA_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_spain_auto.dds"
-	}
-}
-SPA_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_spain_vote.dds"
-	}
-}
-SPA_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_spain_coa.dds"
-	}
-}
-SPA_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_spain_coa.dds"
-	}
 }
 SPA_subject = {
 	pattern = "pattern_solid.tga"
@@ -21076,42 +21080,6 @@ TUR_subject = {
 		color2 = "white"
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
 	}		
-}
-TUR_autocratic_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_turkey_auto.dds"
-	}
-}
-TUR_voting_theocracy = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "theo_turkey_vote.dds"
-	}
-}
-TUR_autocratic_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_autocracy_turkey_coa.dds"
-	}
-}
-TUR_voting_communism = {
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	textured_emblem = {
-		texture = "communist_voting_turkey_coa.dds"
-	}
 }
 TUR_republic_subject = {
 	

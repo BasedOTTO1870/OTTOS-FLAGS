@@ -1,4 +1,158 @@
-﻿#####lubeck#####
+﻿#####brunswick#####
+
+democratic_brunswick = {
+	color = "democratic_brunswick"
+
+	possible = {
+		exists = c:BRA
+		THIS = c:BRA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_brunswick = {
+	color = "democratic_brunswick"
+
+	possible = {
+		exists = c:BRA
+		THIS = c:BRA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_brunswick = {
+	color = "communist_brunswick"
+
+	possible = {
+		exists = c:BRA
+		THIS = c:BRA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_brunswick = {
+	color = "theocratic_brunswick"
+
+	possible = {
+		exists = c:BRA
+		THIS = c:BRA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_brunswick = {
+	color = "monarchist_brunswick"
+	possible = {
+		exists = c:BRA
+		THIS = c:BRA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####mecklenburg#####
+
+democratic_mecklenburg = {
+	color = "democratic_mecklenburg"
+
+	possible = {
+		exists = c:MEC
+		THIS = c:MEC
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_mecklenburg = {
+	color = "democratic_mecklenburg"
+
+	possible = {
+		exists = c:MEC
+		THIS = c:MEC
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_mecklenburg = {
+	color = "communist_mecklenburg"
+
+	possible = {
+		exists = c:MEC
+		THIS = c:MEC
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_mecklenburg = {
+	color = "theocratic_mecklenburg"
+
+	possible = {
+		exists = c:MEC
+		THIS = c:MEC
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_mecklenburg = {
+	color = "monarchist_mecklenburg"
+	possible = {
+		exists = c:MEC
+		THIS = c:MEC
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####strelitz#####
+
+democratic_strelitz = {
+	color = "democratic_strelitz"
+
+	possible = {
+		exists = c:MST
+		THIS = c:MST
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_strelitz = {
+	color = "democratic_strelitz"
+
+	possible = {
+		exists = c:MST
+		THIS = c:MST
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_strelitz = {
+	color = "communist_strelitz"
+
+	possible = {
+		exists = c:MST
+		THIS = c:MST
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_strelitz = {
+	color = "theocratic_strelitz"
+
+	possible = {
+		exists = c:MST
+		THIS = c:MST
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_strelitz = {
+	color = "monarchist_strelitz"
+	possible = {
+		exists = c:MST
+		THIS = c:MST
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####lubeck#####
 
 democratic_lubeck = {
 	color = "democratic_lubeck"
