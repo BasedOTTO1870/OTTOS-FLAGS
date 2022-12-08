@@ -832,13 +832,13 @@ FRM = {
 
 
 
-#####HESSEN#####
+#####hesse#####
 
 HES = { 
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_absolutist_monarchy
-		adjective = dyn_c_hessen_absolutist_monarchy_adj
+		name = dyn_c_hesse_absolutist_monarchy
+		adjective = dyn_c_hesse_absolutist_monarchy_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -854,8 +854,8 @@ HES = {
 	
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_monarchy
-		adjective = dyn_c_hessen_monarchy_adj
+		name = dyn_c_hesse_monarchy
+		adjective = dyn_c_hesse_monarchy_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -870,8 +870,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_monarchy
-		adjective = dyn_c_hessen_monarchy_adj
+		name = dyn_c_hesse_monarchy
+		adjective = dyn_c_hesse_monarchy_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -886,8 +886,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_monarchy
-		adjective = dyn_c_hessen_monarchy_adj
+		name = dyn_c_hesse_monarchy
+		adjective = dyn_c_hesse_monarchy_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -902,8 +902,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_monarchy
-		adjective = dyn_c_hessen_monarchy_adj
+		name = dyn_c_hesse_monarchy
+		adjective = dyn_c_hesse_monarchy_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -920,8 +920,8 @@ HES = {
 	#############republic#############
 	
 		dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -936,8 +936,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -952,8 +952,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -968,8 +968,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -984,8 +984,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1000,8 +1000,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1016,8 +1016,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1032,8 +1032,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_republic
-		adjective = dyn_c_hessen_republic_adj
+		name = dyn_c_hesse_republic
+		adjective = dyn_c_hesse_republic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1050,8 +1050,8 @@ HES = {
 	#############dictatorship#############
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_dictatorship
-		adjective = dyn_c_hessen_dictatorship_adj
+		name = dyn_c_hesse_dictatorship
+		adjective = dyn_c_hesse_dictatorship_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1066,8 +1066,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_dictatorship
-		adjective = dyn_c_hessen_dictatorship_adj
+		name = dyn_c_hesse_dictatorship
+		adjective = dyn_c_hesse_dictatorship_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1084,8 +1084,8 @@ HES = {
 	######theocratic#####
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_theocratic
-		adjective = dyn_c_hessen_theocratic_adj
+		name = dyn_c_hesse_theocratic
+		adjective = dyn_c_hesse_theocratic_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1100,8 +1100,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_theocraticvote
-		adjective = dyn_c_hessen_theocraticvote_adj
+		name = dyn_c_hesse_theocraticvote
+		adjective = dyn_c_hesse_theocraticvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1116,8 +1116,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_theocraticvote
-		adjective = dyn_c_hessen_theocraticvote_adj
+		name = dyn_c_hesse_theocraticvote
+		adjective = dyn_c_hesse_theocraticvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1132,8 +1132,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_theocraticvote
-		adjective = dyn_c_hessen_theocraticvote_adj
+		name = dyn_c_hesse_theocraticvote
+		adjective = dyn_c_hesse_theocraticvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1148,8 +1148,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_theocraticvote
-		adjective = dyn_c_hessen_theocraticvote_adj
+		name = dyn_c_hesse_theocraticvote
+		adjective = dyn_c_hesse_theocraticvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1166,8 +1166,8 @@ HES = {
 	######communist#####
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_communist
-		adjective = dyn_c_hessen_communist_adj
+		name = dyn_c_hesse_communist
+		adjective = dyn_c_hesse_communist_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1182,8 +1182,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_communistvote
-		adjective = dyn_c_hessen_communistvote_adj
+		name = dyn_c_hesse_communistvote
+		adjective = dyn_c_hesse_communistvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1198,8 +1198,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_communistvote
-		adjective = dyn_c_hessen_communistvote_adj
+		name = dyn_c_hesse_communistvote
+		adjective = dyn_c_hesse_communistvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1214,8 +1214,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_communistvote
-		adjective = dyn_c_hessen_communistvote_adj
+		name = dyn_c_hesse_communistvote
+		adjective = dyn_c_hesse_communistvote_adj
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1230,8 +1230,8 @@ HES = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_hessen_communistvote
-		adjective = dyn_c_hessen_communistvote_adj
+		name = dyn_c_hesse_communistvote
+		adjective = dyn_c_hesse_communistvote_adj
 
 		is_main_tag_only = yes
 		priority = 0

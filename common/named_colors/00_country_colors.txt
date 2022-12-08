@@ -1,4 +1,16 @@
 colors = {
+	monarchist_hesse	= 	{ 146  108  146 }
+	democratic_hesse	= 	 { 146  108  146 }
+	theocratic_hesse	=	{221   73  255 }
+	communist_hesse	= 	rgb { 139 0 0 }
+	monarchist_hohenzollern	= 	{ 48  169  96 }
+	democratic_hohenzollern	= 	 { 48  169  96 }
+	theocratic_hohenzollern	= {221   73  255 }
+	communist_hohenzollern	= 	rgb { 139 0 0 }
+	monarchist_frankfurt	= 	{ 243  201  33 }
+	democratic_frankfurt	= 	 { 243  201  33 }
+	theocratic_frankfurt	= {221   73  255 }
+	communist_frankfurt	= 	rgb { 139 0 0 }
 	monarchist_saxony 	= 	rgb {124  255 119}
 	democratic_saxony 	=  	rgb {255 248 71}
 	theocratic_saxony 	= 	rgb {178 25 255}

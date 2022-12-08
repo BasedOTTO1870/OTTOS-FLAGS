@@ -1,4 +1,158 @@
-﻿#####schaumburg#####
+﻿#####hohenzollern#####
+
+democratic_hohenzollern = {
+	color = "democratic_hohenzollern"
+
+	possible = {
+		exists = c:HOH
+		THIS = c:HOH
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_hohenzollern = {
+	color = "democratic_hohenzollern"
+
+	possible = {
+		exists = c:HOH
+		THIS = c:HOH
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_hohenzollern = {
+	color = "communist_hohenzollern"
+
+	possible = {
+		exists = c:HOH
+		THIS = c:HOH
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_hohenzollern = {
+	color = "theocratic_hohenzollern"
+
+	possible = {
+		exists = c:HOH
+		THIS = c:HOH
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_hohenzollern = {
+	color = "monarchist_hohenzollern"
+	possible = {
+		exists = c:HOH
+		THIS = c:HOH
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####hesse#####
+
+democratic_hesse = {
+	color = "democratic_hesse"
+
+	possible = {
+		exists = c:HES
+		THIS = c:HES
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_hesse = {
+	color = "democratic_hesse"
+
+	possible = {
+		exists = c:HES
+		THIS = c:HES
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_hesse = {
+	color = "communist_hesse"
+
+	possible = {
+		exists = c:HES
+		THIS = c:HES
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_hesse = {
+	color = "theocratic_hesse"
+
+	possible = {
+		exists = c:HES
+		THIS = c:HES
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_hesse = {
+	color = "monarchist_hesse"
+	possible = {
+		exists = c:HES
+		THIS = c:HES
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####frankfurt#####
+
+democratic_frankfurt = {
+	color = "democratic_frankfurt"
+
+	possible = {
+		exists = c:FRM
+		THIS = c:FRM
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_frankfurt = {
+	color = "democratic_frankfurt"
+
+	possible = {
+		exists = c:FRM
+		THIS = c:FRM
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_frankfurt = {
+	color = "communist_frankfurt"
+
+	possible = {
+		exists = c:FRM
+		THIS = c:FRM
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_frankfurt = {
+	color = "theocratic_frankfurt"
+
+	possible = {
+		exists = c:FRM
+		THIS = c:FRM
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_frankfurt = {
+	color = "monarchist_frankfurt"
+	possible = {
+		exists = c:FRM
+		THIS = c:FRM
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####schaumburg#####
 
 democratic_schaumburg = {
 	color = "democratic_schaumburg"
