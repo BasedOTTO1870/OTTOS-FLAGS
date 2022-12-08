@@ -572,7 +572,7 @@ AUS = { # Austria
 	flag_definition = {
 		coa = AUS_theocracy
 		subject_canton = AUS_theocracy
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
@@ -587,7 +587,7 @@ AUS = { # Austria
 	}
 	flag_definition = {
 		coa = AUS_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -599,7 +599,35 @@ AUS = { # Austria
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
-	}			
+	}
+	flag_definition = {
+		coa = AUS_theocracy_new
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = AUS_theocracy_new
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = AUS_communism_new
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = AUS_communism_new
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 AWA = { # Awadh
@@ -4589,9 +4617,16 @@ JAP = { # Japan
 		coa = JAP_communism
 		priority = 1500
 		trigger = { 
-			coa_def_communist_japan_flag_trigger = yes
+			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = JAP_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 	flag_definition = {
 		coa = JAP_usa
 		priority = 30
