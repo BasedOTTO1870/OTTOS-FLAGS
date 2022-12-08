@@ -109,15 +109,104 @@ WEI = {
 }
 
 HEK = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "red"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "white"
-		color2 = "white"
+	textured_emblem = {
+	texture = "HEK.dds"
 	}
+}
+
+HEK_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKAM.dds"
+	}
+
+}
+HEK_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKRE.dds"
+	}
+	
+}
+HEK_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKMO.dds"
+	}
+	
+}
+HEK_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKDI.dds"
+	}
+	
+}
+HEK_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKOL.dds"
+	}
+	
+}
+HEK_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKAT.dds"
+	}
+	
+}
+HEK_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKVT.dds"
+	}
+	
+}
+HEK_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKVC.dds"
+	}
+	
+}
+HEK_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HEKAC.dds"
+	}
+	
 }
 
 LIP = {
