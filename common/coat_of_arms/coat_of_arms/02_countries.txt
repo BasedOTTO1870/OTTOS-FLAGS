@@ -18163,20 +18163,13 @@ PRK = {
 }
 
 PRU = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_eagle_prussia.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
-		color1 = "black"
-		color2 = "yellow"	
-		color3 = "pearl"		
-	}		
 	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.15 0.20 } position = { 0.52 0.195 } rotation = 12 }
-	}		
+	texture = "PRU.dds"
+	}	
 }
 PRU_teutonic_order = {
 	pattern = "pattern_solid.tga"
@@ -18200,23 +18193,43 @@ PRU_republic = {
 	
 }
 PRU_absolute_monarchy = {
-	# Late 19th c. with stripes and changes to the eagle (scepter-sword, monogram, bone links)
-	# Starting flag although PRU is the historical one (more convenient and still fits the gov type)
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.09 } }	
-		instance = { scale = { 1.0 0.18 } position = { 0.5 0.91 } }			
+	textured_emblem = {
+	texture = "PRUAM.dds"
+	}	
+}
+PRU_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PRUMO.dds"
 	}
-	textured_emblem  = {
-		texture = "te_eagle_prussia_monogram_crown.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.485 } }	
-	}		
+	
+}
+PRU_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PRUDI.dds"
+	}
+	
+}
+PRU_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PRUOL.dds"
+	}
+	
 }
 PRU_communist_voting = {
 	
@@ -18244,7 +18257,7 @@ PRU_theocratic_voting = {
 	color1 = "white"
 
 	textured_emblem = {
-	texture = "PRUAT.dds"
+	texture = "PRUVT.dds"
 	}
 	
 }

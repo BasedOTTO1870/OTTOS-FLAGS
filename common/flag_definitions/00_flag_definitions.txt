@@ -7455,19 +7455,11 @@ PRU = { # Prussia
 		subject_canton = PRU_teutonic_order
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
-		priority = 5		
+		priority = 0		
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
-	flag_definition = {
-		coa = PRU_republic
-		subject_canton = PRU_republic
-		priority = 20
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
 	flag_definition = {
 		coa = PRU_absolute_monarchy
 		subject_canton = PRU_absolute_monarchy
@@ -7478,7 +7470,39 @@ PRU = { # Prussia
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = PRU_monarchy
+		subject_canton = PRU_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PRU_oligarchy
+		subject_canton = PRU_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PRU_dictatorship
+		subject_canton = PRU_dictatorship
+		priority = 25
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PRU_republic
+		subject_canton = PRU_republic
+		priority = 20
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = PRU_communist_autocracy
 		priority = 1500
