@@ -1,4 +1,838 @@
-﻿#####Hohenzollern#####
+﻿#####nassau#####
+
+NAS = { 
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_absolutist_monarchy
+		adjective = dyn_c_nassau_absolutist_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_monarchy
+		adjective = dyn_c_nassau_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_monarchy
+		adjective = dyn_c_nassau_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_monarchy
+		adjective = dyn_c_nassau_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_monarchy
+		adjective = dyn_c_nassau_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_republic
+		adjective = dyn_c_nassau_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_dictatorship
+		adjective = dyn_c_nassau_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_dictatorship
+		adjective = dyn_c_nassau_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_theocratic
+		adjective = dyn_c_nassau_theocratic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_theocraticvote
+		adjective = dyn_c_nassau_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_theocraticvote
+		adjective = dyn_c_nassau_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_theocraticvote
+		adjective = dyn_c_nassau_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_theocraticvote
+		adjective = dyn_c_nassau_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_communist
+		adjective = dyn_c_nassau_communist_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_communistvote
+		adjective = dyn_c_nassau_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_communistvote
+		adjective = dyn_c_nassau_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_communistvote
+		adjective = dyn_c_nassau_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_nassau_communistvote
+		adjective = dyn_c_nassau_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+}
+
+
+
+#####hessenkassel#####
+
+HEK = { 
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_absolutist_monarchy
+		adjective = dyn_c_hessenkassel_absolutist_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_monarchy
+		adjective = dyn_c_hessenkassel_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_monarchy
+		adjective = dyn_c_hessenkassel_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_monarchy
+		adjective = dyn_c_hessenkassel_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_monarchy
+		adjective = dyn_c_hessenkassel_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_republic
+		adjective = dyn_c_hessenkassel_republic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_dictatorship
+		adjective = dyn_c_hessenkassel_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_dictatorship
+		adjective = dyn_c_hessenkassel_dictatorship_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_theocratic
+		adjective = dyn_c_hessenkassel_theocratic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_theocraticvote
+		adjective = dyn_c_hessenkassel_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_theocraticvote
+		adjective = dyn_c_hessenkassel_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_theocraticvote
+		adjective = dyn_c_hessenkassel_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_theocraticvote
+		adjective = dyn_c_hessenkassel_theocraticvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_communist
+		adjective = dyn_c_hessenkassel_communist_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_communistvote
+		adjective = dyn_c_hessenkassel_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_communistvote
+		adjective = dyn_c_hessenkassel_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_communistvote
+		adjective = dyn_c_hessenkassel_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_hessenkassel_communistvote
+		adjective = dyn_c_hessenkassel_communistvote_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+}
+
+
+
+#####Hohenzollern#####
 
 HOH = { 
 	
