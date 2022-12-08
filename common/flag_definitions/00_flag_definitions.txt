@@ -363,6 +363,14 @@ ANH = { # Anhalt
 		priority = 1
 	}
 	flag_definition = {
+		coa = ANH_republic
+		subject_canton = ANH_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = ANH_absolute_monarchy
 		subject_canton = ANH_absolute_monarchy
 		priority = 20
@@ -370,6 +378,58 @@ ANH = { # Anhalt
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = ANH_monarchy
+		subject_canton = ANH_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_dictatorship
+		subject_canton = ANH_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_oligarchy
+		subject_canton = ANH_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANH_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}		
 }	
 
 ARA = { # Arabia
@@ -5231,6 +5291,79 @@ LIP = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+	flag_definition = {
+		coa = LIP
+		subject_canton = LIP
+		priority = 1
+	}
+	flag_definition = {
+		coa = LIP_republic
+		subject_canton = LIP_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = LIP_absolute_monarchy
+		subject_canton = LIP_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = LIP_monarchy
+		subject_canton = LIP_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_dictatorship
+		subject_canton = LIP_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_oligarchy
+		subject_canton = LIP_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIP_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 LIT = { # Lithuania
@@ -7744,6 +7877,79 @@ SCM = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+	flag_definition = {
+		coa = SCM
+		subject_canton = SCM
+		priority = 1
+	}
+	flag_definition = {
+		coa = SCM_republic
+		subject_canton = SCM_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCM_absolute_monarchy
+		subject_canton = SCM_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCM_monarchy
+		subject_canton = SCM_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_dictatorship
+		subject_canton = SCM_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_oligarchy
+		subject_canton = SCM_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCM_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 SCN = { # Scania

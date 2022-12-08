@@ -657,54 +657,104 @@ AMZ = {
 }
 
 ANH = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "green"
-		color2 = "white"
+	textured_emblem = {
+	texture = "ANH.dds"
 	}
 }
-ANH_absolute_monarchy = {
-	# 1863
-	pattern = "pattern_vertical_split_01.tga"
-	color1 = "red"
-	color2 = "red"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "green"
-		color2 = "white"
-	}
-	colored_emblem = {
-		texture = "ce_shield_anhalt_per_pale.dds"
-		color1 = "black"
-		color2 = "yellow"
-		color3 = "green"
-		instance = { scale = { 0.7 0.7 } position = { 0.5 0.55 } }	
-		mask = {2}
-	}	
-	colored_emblem = {
-		texture = "ce_shield_anhalt_per_pale.dds"
-		color1 = "white"
-		color2 = "black"
-		color3 = "black"
-		instance = { scale = { 0.7 0.7 } position = { 0.5 0.55 } }	
-		mask = {1}
-	}	
-	colored_emblem = {
-		texture = "ce_eagle.dds"
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "white"
-		instance = { scale = { 0.62 0.7 } position = { 0.5 0.55 } }	
-		mask = {1}
-	}
+ANH_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
 	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.225 } }	
-	}	
+	texture = "ANHAM.dds"
+	}
+
+}
+ANH_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHRE.dds"
+	}
+	
+}
+ANH_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHMO.dds"
+	}
+	
+}
+ANH_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHDI.dds"
+	}
+	
+}
+ANH_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHOL.dds"
+	}
+	
+}
+ANH_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHAT.dds"
+	}
+	
+}
+ANH_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHVT.dds"
+	}
+	
+}
+ANH_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHVC.dds"
+	}
+	
+}
+ANH_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ANHAC.dds"
+	}
+	
 }
 
 ANL = {

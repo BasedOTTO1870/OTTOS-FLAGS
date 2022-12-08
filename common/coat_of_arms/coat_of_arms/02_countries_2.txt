@@ -121,15 +121,104 @@ HEK = {
 }
 
 LIP = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-	color2 = "yellow"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "red"
-		color2 = "red"
+	textured_emblem = {
+	texture = "LIP.dds"
 	}
+}
+
+LIP_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPAM.dds"
+	}
+
+}
+LIP_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPRE.dds"
+	}
+	
+}
+LIP_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPMO.dds"
+	}
+	
+}
+LIP_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPDI.dds"
+	}
+	
+}
+LIP_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPOL.dds"
+	}
+	
+}
+LIP_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPAT.dds"
+	}
+	
+}
+LIP_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPVT.dds"
+	}
+	
+}
+LIP_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPVC.dds"
+	}
+	
+}
+LIP_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LIPAC.dds"
+	}
+	
 }
 
 MST = {
@@ -276,15 +365,104 @@ HOH = {
 }
 
 SCM = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "red"
-		color2 = "blue"
+	textured_emblem = {
+	texture = "SCM.dds"
 	}
+}
+
+SCM_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMAM.dds"
+	}
+
+}
+SCM_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMRE.dds"
+	}
+	
+}
+SCM_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMMO.dds"
+	}
+	
+}
+SCM_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMDI.dds"
+	}
+	
+}
+SCM_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMOL.dds"
+	}
+	
+}
+SCM_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMAT.dds"
+	}
+	
+}
+SCM_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMVT.dds"
+	}
+	
+}
+SCM_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMVC.dds"
+	}
+	
+}
+SCM_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCMAC.dds"
+	}
+	
 }
 
 SCW = {
