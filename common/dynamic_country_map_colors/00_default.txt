@@ -1,4 +1,158 @@
-﻿#####brunswick#####
+﻿#####schaumburg#####
+
+democratic_schaumburg = {
+	color = "democratic_schaumburg"
+
+	possible = {
+		exists = c:SCM
+		THIS = c:SCM
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_schaumburg = {
+	color = "democratic_schaumburg"
+
+	possible = {
+		exists = c:SCM
+		THIS = c:SCM
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_schaumburg = {
+	color = "communist_schaumburg"
+
+	possible = {
+		exists = c:SCM
+		THIS = c:SCM
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_schaumburg = {
+	color = "theocratic_schaumburg"
+
+	possible = {
+		exists = c:SCM
+		THIS = c:SCM
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_schaumburg = {
+	color = "monarchist_schaumburg"
+	possible = {
+		exists = c:SCM
+		THIS = c:SCM
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####anhalt#####
+
+democratic_anhalt = {
+	color = "democratic_anhalt"
+
+	possible = {
+		exists = c:ANH
+		THIS = c:ANH
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_anhalt = {
+	color = "democratic_anhalt"
+
+	possible = {
+		exists = c:ANH
+		THIS = c:ANH
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_anhalt = {
+	color = "communist_anhalt"
+
+	possible = {
+		exists = c:ANH
+		THIS = c:ANH
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_anhalt = {
+	color = "theocratic_anhalt"
+
+	possible = {
+		exists = c:ANH
+		THIS = c:ANH
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_anhalt = {
+	color = "monarchist_anhalt"
+	possible = {
+		exists = c:ANH
+		THIS = c:ANH
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####lippe#####
+
+democratic_lippe = {
+	color = "democratic_lippe"
+
+	possible = {
+		exists = c:LIP
+		THIS = c:LIP
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_lippe = {
+	color = "democratic_lippe"
+
+	possible = {
+		exists = c:LIP
+		THIS = c:LIP
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_lippe = {
+	color = "communist_lippe"
+
+	possible = {
+		exists = c:LIP
+		THIS = c:LIP
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_lippe = {
+	color = "theocratic_lippe"
+
+	possible = {
+		exists = c:LIP
+		THIS = c:LIP
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_lippe = {
+	color = "monarchist_lippe"
+	possible = {
+		exists = c:LIP
+		THIS = c:LIP
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####brunswick#####
 
 democratic_brunswick = {
 	color = "democratic_brunswick"
