@@ -1,4 +1,259 @@
-﻿#####hohenzollern#####
+﻿#####schwarzburg#####
+
+democratic_schwarzburg = {
+	color = "democratic_schwarzburg"
+
+	possible = {
+		exists = c:SCW
+		THIS = c:SCW
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_schwarzburg = {
+	color = "democratic_schwarzburg"
+
+	possible = {
+		exists = c:SCW
+		THIS = c:SCW
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_schwarzburg = {
+	color = "communist_schwarzburg"
+
+	possible = {
+		exists = c:SCW
+		THIS = c:SCW
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_schwarzburg = {
+	color = "theocratic_schwarzburg"
+
+	possible = {
+		exists = c:SCW
+		THIS = c:SCW
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_schwarzburg = {
+	color = "monarchist_schwarzburg"
+	possible = {
+		exists = c:SCW
+		THIS = c:SCW
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####waldeck#####
+
+democratic_waldeck = {
+	color = "democratic_waldeck"
+
+	possible = {
+		exists = c:WLD
+		THIS = c:WLD
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_waldeck = {
+	color = "democratic_waldeck"
+
+	possible = {
+		exists = c:WLD
+		THIS = c:WLD
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_waldeck = {
+	color = "communist_waldeck"
+
+	possible = {
+		exists = c:WLD
+		THIS = c:WLD
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_waldeck = {
+	color = "theocratic_waldeck"
+
+	possible = {
+		exists = c:WLD
+		THIS = c:WLD
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_waldeck = {
+	color = "monarchist_waldeck"
+	possible = {
+		exists = c:WLD
+		THIS = c:WLD
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####coburg#####
+
+democratic_coburg = {
+	color = "democratic_coburg"
+
+	possible = {
+		exists = c:COB
+		THIS = c:COB
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_coburg = {
+	color = "democratic_coburg"
+
+	possible = {
+		exists = c:COB
+		THIS = c:COB
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_coburg = {
+	color = "communist_coburg"
+
+	possible = {
+		exists = c:COB
+		THIS = c:COB
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_coburg = {
+	color = "theocratic_coburg"
+
+	possible = {
+		exists = c:COB
+		THIS = c:COB
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_coburg = {
+	color = "monarchist_coburg"
+	possible = {
+		exists = c:COB
+		THIS = c:COB
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####weimar#####
+
+democratic_weimar = {
+	color = "democratic_weimar"
+
+	possible = {
+		exists = c:WEI
+		THIS = c:WEI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_weimar = {
+	color = "democratic_weimar"
+
+	possible = {
+		exists = c:WEI
+		THIS = c:WEI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_weimar = {
+	color = "communist_weimar"
+
+	possible = {
+		exists = c:WEI
+		THIS = c:WEI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_weimar = {
+	color = "theocratic_weimar"
+
+	possible = {
+		exists = c:WEI
+		THIS = c:WEI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_weimar = {
+	color = "monarchist_weimar"
+	possible = {
+		exists = c:WEI
+		THIS = c:WEI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####meiningen#####
+
+democratic_meiningen = {
+	color = "democratic_meiningen"
+
+	possible = {
+		exists = c:MEI
+		THIS = c:MEI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_meiningen = {
+	color = "democratic_meiningen"
+
+	possible = {
+		exists = c:MEI
+		THIS = c:MEI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_meiningen = {
+	color = "communist_meiningen"
+
+	possible = {
+		exists = c:MEI
+		THIS = c:MEI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_meiningen = {
+	color = "theocratic_meiningen"
+
+	possible = {
+		exists = c:MEI
+		THIS = c:MEI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_meiningen = {
+	color = "monarchist_meiningen"
+	possible = {
+		exists = c:MEI
+		THIS = c:MEI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####hohenzollern#####
 
 democratic_hohenzollern = {
 	color = "democratic_hohenzollern"

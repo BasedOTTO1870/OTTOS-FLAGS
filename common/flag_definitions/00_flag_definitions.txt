@@ -2281,6 +2281,74 @@ COB = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+		flag_definition = {
+		coa = COB_republic
+		subject_canton = COB_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = COB_absolute_monarchy
+		subject_canton = COB_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = COB_monarchy
+		subject_canton = COB_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_dictatorship
+		subject_canton = COB_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_oligarchy
+		subject_canton = COB_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = COB_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 COM = { # Comanche
@@ -5927,6 +5995,74 @@ MEI = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+		flag_definition = {
+		coa = MEI_republic
+		subject_canton = MEI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = MEI_absolute_monarchy
+		subject_canton = MEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = MEI_monarchy
+		subject_canton = MEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_dictatorship
+		subject_canton = MEI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_oligarchy
+		subject_canton = MEI_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEI_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 MEW = { # Mewar
@@ -8278,6 +8414,74 @@ SCW = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+	flag_definition = {
+		coa = SCW_republic
+		subject_canton = SCW_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCW_absolute_monarchy
+		subject_canton = SCW_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCW_monarchy
+		subject_canton = SCW_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_dictatorship
+		subject_canton = SCW_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_oligarchy
+		subject_canton = SCW_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCW_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 SEL = { # Selangor
@@ -9563,6 +9767,74 @@ WEI = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+	flag_definition = {
+		coa = WEI_republic
+		subject_canton = WEI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WEI_absolute_monarchy
+		subject_canton = WEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WEI_monarchy
+		subject_canton = WEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_dictatorship
+		subject_canton = WEI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_oligarchy
+		subject_canton = WEI_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WEI_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 WES = { # Westphalia
@@ -9590,6 +9862,74 @@ WLD = {
 		allow_overlord_canton = yes		
 		priority = 1
 	}
+	flag_definition = {
+		coa = WLD_republic
+		subject_canton = WLD_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WLD_absolute_monarchy
+		subject_canton = WLD_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WLD_monarchy
+		subject_canton = WLD_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_dictatorship
+		subject_canton = WLD_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_oligarchy
+		subject_canton = WLD_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLD_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 WLL = { # Wallonia
@@ -9657,13 +9997,19 @@ WUR = { # Wurttemberg
 		priority = 1
 	}
 	flag_definition = {
-		coa = WUR_absolute_monarchy
-		subject_canton = WUR_absolute_monarchy
-		priority = 20
+		coa = WUR_communist
+		priority = 0
 		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
+			coa_def_communist_flag_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = WUR_subject_PRU
+		priority = 10
+		trigger = { 
+			coa_def_prussian_ensign_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = WUR_republic
 		subject_canton = WUR_republic
@@ -9673,25 +10019,63 @@ WUR = { # Wurttemberg
 		}
 	}	
 	flag_definition = {
+		coa = WUR_absolute_monarchy
+		subject_canton = WUR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WUR_monarchy
+		subject_canton = WUR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WUR_dictatorship
+		subject_canton = WUR_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = WUR_oligarchy
 		subject_canton = WUR_oligarchy
 		priority = 25
 		trigger = {
 			coa_def_oligarchy_flag_trigger = yes
 		}
-	}		
+	}
 	flag_definition = {
-		coa = WUR_communist
+		coa = WUR_autocratic_theocracy
 		priority = 1500
 		trigger = { 
-			coa_def_communist_flag_trigger = yes
+			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
-		coa = WUR_subject_PRU
-		priority = 50
+		coa = WUR_voting_theocracy
+		priority = 1500
 		trigger = { 
-			coa_def_prussian_ensign_trigger = yes
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WUR_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WUR_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
 		}
 	}	
 }
