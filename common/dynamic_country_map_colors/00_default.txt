@@ -1,4 +1,55 @@
-﻿#####denmark#####
+﻿#####scandinavia#####
+
+democratic_scandinavia = {
+	color = "democratic_scandinavia"
+
+	possible = {
+		exists = c:SCA
+		THIS = c:SCA
+		has_law = law_type:law_presiSCAtial_republic
+	}
+}
+
+democratic_scandinavia = {
+	color = "democratic_scandinavia"
+
+	possible = {
+		exists = c:SCA
+		THIS = c:SCA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_scandinavia = {
+	color = "communist_scandinavia"
+
+	possible = {
+		exists = c:SCA
+		THIS = c:SCA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_scandinavia = {
+	color = "theocratic_scandinavia"
+
+	possible = {
+		exists = c:SCA
+		THIS = c:SCA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_scandinavia = {
+	color = "monarchist_scandinavia"
+	possible = {
+		exists = c:SCA
+		THIS = c:SCA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####denmark#####
 
 democratic_denmark = {
 	color = "democratic_denmark"

@@ -1,4 +1,8 @@
 colors = {
+	 monarchist_scandinavia = rgb {160 96 0}
+	democratic_scandinavia =  rgb {62  122  189}
+	theocratic_scandinavia = rgb {160 0 66}
+	communist_scandinavia = rgb {139 0 0}
 	  monarchist_denmark = rgb {255 22 46}
 	democratic_denmark =  rgb {255  107  94}
 	theocratic_denmark = rgb {255 255 76}
