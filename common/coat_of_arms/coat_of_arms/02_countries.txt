@@ -7695,12 +7695,9 @@ FRA_fascist = {
 FIN = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "blue"
 
-	colored_emblem = {
-		texture = "ce_cross_finland.dds"
-		color1 = color2
-		color2 = color2
+	textured_emblem = {
+	texture = "FIN.dds"
 	}
 }
 FIN_subject = {
@@ -7715,12 +7712,114 @@ FIN_subject = {
 		color2 = color2
 	}
 }
+FIN_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINAM.dds"
+	}
+
+}
+FIN_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINRE.dds"
+	}
+	
+}
+FIN_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINMO.dds"
+	}
+	
+}
+FIN_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINDI.dds"
+	}
+	
+}
+FIN_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINOL.dds"
+	}
+	
+}
+FIN_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINAT.dds"
+	}
+	
+}
+FIN_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINVT.dds"
+	}
+	
+}
+FIN_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINVC.dds"
+	}
+	
+}
+FIN_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINAC.dds"
+	}
+	
+}
+FIN_subject_sweden = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINSWE.dds"
+	}
+	
+}
 FIN_subject_RUS = {
-	# Default starting flag - renamed from FIN_subject
 	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "blue"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FINRUS.dds"
+	}
 }
 FIN_fascist = {		
 	# Colors and overall design of Lapuan Liike with a pagan cross as the main symbol
