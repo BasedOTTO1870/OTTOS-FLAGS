@@ -8926,27 +8926,84 @@ SCN = { # Scania
 		subject_canton = SCN_canton
 		priority = 1
 	}
-
-	flag_definition = {
-		coa = SCN_republic
-		subject_canton = SCN_republic
-		allow_overlord_canton = yes		
-		priority = 15
-		trigger = {
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-
 	flag_definition = {
 		coa = SCN_sweden
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
 		subject_canton = SCN_canton
-		priority = 5
+		priority = 0
 		trigger = { 
 			coa_def_swedish_ensign_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = SCN_republic
+		subject_canton = SCN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCN_absolute_monarchy
+		subject_canton = SCN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCN_monarchy
+		subject_canton = SCN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_dictatorship
+		subject_canton = SCN_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_oligarchy
+		subject_canton = SCN_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCN_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 
@@ -9340,18 +9397,79 @@ SMI = { # Sapmi Lappland
 		coa = SMI_sweden
 		coa_with_overlord_canton = SMI_sweden_subject
 		allow_overlord_canton = yes
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_swedish_ensign_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = SMI_republic
-		priority = 15
+		subject_canton = SMI_republic
+		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
+	}	
+	flag_definition = {
+		coa = SMI_absolute_monarchy
+		subject_canton = SMI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SMI_monarchy
+		subject_canton = SMI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
 	}
+	flag_definition = {
+		coa = SMI_dictatorship
+		subject_canton = SMI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SMI_oligarchy
+		subject_canton = SMI_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SMI_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SMI_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SMI_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SMI_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 SPA = { # Spain

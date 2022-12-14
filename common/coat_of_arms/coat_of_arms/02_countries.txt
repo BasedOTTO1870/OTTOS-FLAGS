@@ -19968,6 +19968,96 @@ SCN = {
 		color2 = color2
 	}
 }
+SCN_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNAM.dds"
+	}
+
+}
+SCN_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNRE.dds"
+	}
+	
+}
+SCN_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNMO.dds"
+	}
+	
+}
+SCN_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNDI.dds"
+	}
+	
+}
+SCN_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNOL.dds"
+	}
+	
+}
+SCN_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNAT.dds"
+	}
+	
+}
+SCN_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNVT.dds"
+	}
+	
+}
+SCN_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNVC.dds"
+	}
+	
+}
+SCN_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCNAC.dds"
+	}
+	
+}
 SCN_sweden = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -20767,54 +20857,96 @@ SMI_sweden_subject = {
         instance = { position = { 0.75 0.5 } scale = { 0.75 0.75 } }
 	}
 }
-SMI_republic = {
-	# Modern Sami flag
-	pattern = "pattern_verical_bicolor_offset.dds"
-	color1 = "blue"
-	color2 = "yellow"
-	color3 = "red"
-	color4 = "green"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color1
-		color2 = color1
-        instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-        instance = { position = { 0.2 0.5 } scale = { 0.4 1.0 } }		
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color2
-		color2 = color2
-        instance = { position = { 0.45 0.5 } scale = { 0.1 1.0 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color4
-		color2 = color4
-        instance = { position = { 0.35 0.5 } scale = { 0.1 1.0 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_frame_circle_outline.dds"
-		color1 = color3
-		color2 = color3
-		mask = { 2 }
-        instance = { position = { 0.4 0.5 } scale = { 0.66 0.66 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_frame_circle_outline.dds"
-		color1 = color1
-		color2 = color1
-		mask = { 1 }
-        instance = { position = { 0.4 0.5 } scale = { 0.66 0.66 } }				
-	}	
-}
+SMI_absolute_monarchy = {
 
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIAM.dds"
+	}
+
+}
+SMI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIRE.dds"
+	}
+	
+}
+SMI_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIMO.dds"
+	}
+	
+}
+SMI_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIDI.dds"
+	}
+	
+}
+SMI_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIOL.dds"
+	}
+	
+}
+SMI_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIAT.dds"
+	}
+	
+}
+SMI_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIVT.dds"
+	}
+	
+}
+SMI_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIVC.dds"
+	}
+	
+}
+SMI_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SMIAC.dds"
+	}
+	
+}
 SOK = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
