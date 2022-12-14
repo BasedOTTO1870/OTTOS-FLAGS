@@ -1,4 +1,158 @@
-﻿#####schwarzburg#####
+﻿#####sweden#####
+
+democratic_sweden = {
+	color = "democratic_sweden"
+
+	possible = {
+		exists = c:SWE
+		THIS = c:SWE
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_sweden = {
+	color = "democratic_sweden"
+
+	possible = {
+		exists = c:SWE
+		THIS = c:SWE
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_sweden = {
+	color = "communist_sweden"
+
+	possible = {
+		exists = c:SWE
+		THIS = c:SWE
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_sweden = {
+	color = "theocratic_sweden"
+
+	possible = {
+		exists = c:SWE
+		THIS = c:SWE
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_sweden = {
+	color = "monarchist_sweden"
+	possible = {
+		exists = c:SWE
+		THIS = c:SWE
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####finland#####
+
+democratic_finland = {
+	color = "democratic_finland"
+
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_finland = {
+	color = "democratic_finland"
+
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_finland = {
+	color = "communist_finland"
+
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_finland = {
+	color = "theocratic_finland"
+
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_finland = {
+	color = "monarchist_finland"
+	possible = {
+		exists = c:FIN
+		THIS = c:FIN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####norway#####
+
+democratic_norway = {
+	color = "democratic_norway"
+
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_norway = {
+	color = "democratic_norway"
+
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_norway = {
+	color = "communist_norway"
+
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_norway = {
+	color = "theocratic_norway"
+
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_norway = {
+	color = "monarchist_norway"
+	possible = {
+		exists = c:NOR
+		THIS = c:NOR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####schwarzburg#####
 
 democratic_schwarzburg = {
 	color = "democratic_schwarzburg"
