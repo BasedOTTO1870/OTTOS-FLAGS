@@ -19490,7 +19490,96 @@ SCA = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
+SCA_absolute_monarchy = {
 
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAAM.dds"
+	}
+
+}
+SCA_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCARE.dds"
+	}
+	
+}
+SCA_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAMO.dds"
+	}
+	
+}
+SCA_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCADI.dds"
+	}
+	
+}
+SCA_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAOL.dds"
+	}
+	
+}
+SCA_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAAT.dds"
+	}
+	
+}
+SCA_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAVT.dds"
+	}
+	
+}
+SCA_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAVC.dds"
+	}
+	
+}
+SCA_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCAAC.dds"
+	}
+	
+}
 SCA_canton = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"

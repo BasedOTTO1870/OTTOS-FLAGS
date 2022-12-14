@@ -8453,12 +8453,80 @@ SCA = { # Scandinavia
 		subject_canton = SCA_canton
 		priority = 1
 	}
+	flag_definition = {
+		coa = SCA_republic
+		subject_canton = SCA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCA_absolute_monarchy
+		subject_canton = SCA_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCA_monarchy
+		subject_canton = SCA_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_dictatorship
+		subject_canton = SCA_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_oligarchy
+		subject_canton = SCA_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCA_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 
 	flag_definition = {
 		coa = SCA_kalmar_union
 		subject_canton = SCA_kalmar_union
 		allow_overlord_canton = yes		
-		priority = 20
+		priority = 0
 		trigger = {
 			coa_def_kalmar_flag_trigger = yes
 		}
