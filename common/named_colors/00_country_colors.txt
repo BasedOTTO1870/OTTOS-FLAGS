@@ -1,9 +1,13 @@
 colors = {
+	  monarchist_denmark = rgb {255 22 46}
+	democratic_denmark =  rgb {255  107  94}
+	theocratic_denmark = rgb {255 255 76}
+	communist_denmark = 	rgb {139 0 0}
 	monarchist_finland = rgb {50  43  255}
 	democratic_finland =  rgb {255  255  255}
 	theocratic_finland = rgb {255 255 76}
 	communist_finland = 	rgb {139 0 0}
-	monarchist_sweden = rgb {0 0  255}
+	monarchist_sweden = rgb {0 0  163}
 	democratic_sweden =  rgb {40  106  186}
 	theocratic_sweden = rgb {186 154 81}
 	communist_sweden = 	rgb {139 0 0}

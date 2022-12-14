@@ -1,4 +1,55 @@
-﻿#####sweden#####
+﻿#####denmark#####
+
+democratic_denmark = {
+	color = "democratic_denmark"
+
+	possible = {
+		exists = c:DEN
+		THIS = c:DEN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_denmark = {
+	color = "democratic_denmark"
+
+	possible = {
+		exists = c:DEN
+		THIS = c:DEN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_denmark = {
+	color = "communist_denmark"
+
+	possible = {
+		exists = c:DEN
+		THIS = c:DEN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_denmark = {
+	color = "theocratic_denmark"
+
+	possible = {
+		exists = c:DEN
+		THIS = c:DEN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_denmark = {
+	color = "monarchist_denmark"
+	possible = {
+		exists = c:DEN
+		THIS = c:DEN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####sweden#####
 
 democratic_sweden = {
 	color = "democratic_sweden"
