@@ -6958,60 +6958,113 @@ ETH_subject = {
 }
 
 DEN = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_cross_denmark.dds"
-		color1 = color2
-		color2 = color2
+	textured_emblem = {
+	texture = "DEN.dds"
 	}
 }
 DEN_absolute_monarchy = {
-	# National Coat of Arms as placeholder
-	
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
 
-	colored_emblem = {
-		texture = "ce_cross_denmark.dds"
-		color1 = color2
-		color2 = color2
-	}
-	colored_emblem = {
-		texture = "ce_royal_mantle.dds"
-		instance = { scale = { 0.8 0.8 } position = { @third 0.55 } }
-		color1 = "red"
-		color2 = "yellow"
-		color3 = "white"		
-	}	
-	colored_emblem = {
-		texture = "ce_shield_german_round.dds"
-		instance = { scale = { 0.45 0.5 } position = { @third 0.6 } }
-		color1 = "yellow_dark"
-		color2 = "blue"		
-	}	
-	colored_emblem = {
-		texture = "ce_shield_german_round.dds"
-		instance = { scale = { 0.43 0.48 } position = { @third 0.6 } }
-		color1 = "yellow"
-		color2 = "blue"		
-	}
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
 	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.35 0.35 } position = { @third 0.21 } }
-	}	
-	colored_emblem = {
-		texture = "ce_lion_passant_guardant_long.dds"
-		color1 = "azure"
-		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.24 0.22 } position = { @third 0.5 } }
-		instance = { scale = { 0.23 0.22 } position = { @third 0.6 } }
-		instance = { scale = { 0.18 0.20 } position = { @third 0.7 } }		
-	}	
+	texture = "DENAM.dds"
+	}
+
+}
+DEN_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENRE.dds"
+	}
+	
+}
+DEN_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENMO.dds"
+	}
+	
+}
+DEN_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENDI.dds"
+	}
+	
+}
+DEN_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENOL.dds"
+	}
+	
+}
+DEN_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENAT.dds"
+	}
+	
+}
+DEN_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENVT.dds"
+	}
+	
+}
+DEN_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENVC.dds"
+	}
+	
+}
+DEN_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENAC.dds"
+	}
+	
+}
+DEN_subject_sweden = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DENSWE.dds"
+	}
+	
 }
 DEN_canton = {
 	pattern = "pattern_solid.tga"

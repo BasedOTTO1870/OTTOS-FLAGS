@@ -652,3 +652,10 @@ coa_def_swedish_norway_union_trigger = {
 		is_subject_of =  c:SWE
 	}
 }
+
+coa_def_swedish_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { 
+		is_subject_of = c:SWE
+	}
+}
