@@ -6878,6 +6878,7 @@ NIC = { # Nicaragua
 		priority = 30
 		trigger = { 
 			coa_def_mexican_ensign_trigger = yes
+			coa_def_mexican_ensign_trigger = yes
 		}
 	}	
 }
@@ -6910,8 +6911,15 @@ NOR = { # Norway
 		}
 	}
 	flag_definition = {
-		coa = NOR_communist
+		coa = NOR_subject_sweden
 		priority = 1500
+		trigger = { 
+			coa_def_swedish_norway_union_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_communist
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -6923,7 +6931,75 @@ NOR = { # Norway
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
-	}		
+	}
+	flag_definition = {
+		coa = NOR_republic
+		subject_canton = NOR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = NOR_absolute_monarchy
+		subject_canton = NOR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = NOR_monarchy
+		subject_canton = NOR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_dictatorship
+		subject_canton = NOR_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_oligarchy
+		subject_canton = NOR_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NOR_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 }
 
 NSW = { # New South Wales
@@ -8888,7 +8964,7 @@ SWE = { # Sweden
 		allow_overlord_canton = yes
 		subject_canton = SWE_canton
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
-		priority = 5
+		priority = 30
 		trigger = {
 			coa_SWE_use_norway_canton_trigger = yes
 		}
@@ -8978,7 +9054,7 @@ SWE = { # Sweden
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
 		subject_canton = SWE_theocracy_canton
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
@@ -8995,7 +9071,7 @@ SWE = { # Sweden
 	}
 	flag_definition = {
 		coa = SWE_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}

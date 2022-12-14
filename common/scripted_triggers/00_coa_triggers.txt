@@ -645,3 +645,10 @@ coa_def_kalmar_flag_trigger = {
 		}
 	}
 }
+
+coa_def_swedish_norway_union_trigger = {
+	exists = c:NOR
+	c:NOR = { 
+		is_subject_of =  c:SWE
+	}
+}

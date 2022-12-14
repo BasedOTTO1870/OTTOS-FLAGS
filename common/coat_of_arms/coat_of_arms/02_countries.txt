@@ -15248,16 +15248,23 @@ NNV_subject = {
 }
 
 NOR = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
-	color3 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_cross_norway.dds"
-		color1 = color2
-		color2 = color3
+	textured_emblem = {
+	texture = "NOR.dds"
 	}
+}
+NOR_subject_sweden = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWEUNI.dds"
+	}
+	
 }
 NOR_canton = {
 	pattern = "pattern_solid.tga"
@@ -15307,6 +15314,96 @@ NOR_fascist = {
 		color2 = "yellow"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}	
+}
+NOR_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORAM.dds"
+	}
+
+}
+NOR_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORRE.dds"
+	}
+	
+}
+NOR_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORMO.dds"
+	}
+	
+}
+NOR_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORDI.dds"
+	}
+	
+}
+NOR_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NOROL.dds"
+	}
+	
+}
+NOR_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORAT.dds"
+	}
+	
+}
+NOR_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORVT.dds"
+	}
+	
+}
+NOR_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORVC.dds"
+	}
+	
+}
+NOR_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NORAC.dds"
+	}
+	
 }
 
 NRU = {
@@ -20478,6 +20575,46 @@ SWE_dictatorship = {
 
 	textured_emblem = {
 	texture = "SWEDI.dds"
+	}
+	
+}
+SWE_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWEAT.dds"
+	}
+	
+}
+SWE_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWEVT.dds"
+	}
+	
+}
+SWE_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWEVC.dds"
+	}
+	
+}
+SWE_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWEAC.dds"
 	}
 	
 }
