@@ -3943,7 +3943,170 @@ GRE = { # Greece
 		}
 	}	
 }
-
+GRN = {
+	flag_definition = {
+		coa = GRN
+		subject_canton = GRN
+		priority = 1
+	}
+	flag_definition = {
+		coa = GRN_republic
+		subject_canton = GRN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = GRN_absolute_monarchy
+		subject_canton = GRN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = GRN_monarchy
+		subject_canton = GRN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_dictatorship
+		subject_canton = GRN_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_oligarchy
+		subject_canton = GRN_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GRN_subject_denmark
+		priority = 1500
+		trigger = { 
+			coa_def_danish_subject_trigger = yes
+		}
+	}
+}
+SCH = {
+	flag_definition = {
+		coa = SCH
+		subject_canton = SCH
+		priority = 1
+	}
+	flag_definition = {
+		coa = SCH_republic
+		subject_canton = SCH_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCH_absolute_monarchy
+		subject_canton = SCH_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCH_monarchy
+		subject_canton = SCH_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_dictatorship
+		subject_canton = SCH_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_oligarchy
+		subject_canton = SCH_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_autocratic_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_voting_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_autocratic_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCH_voting_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCH_subject_denmark
+		priority = 1500
+		trigger = { 
+			coa_def_danish_subject_trigger = yes
+		}
+	}
+}
 GUA = { # Guatemala
 	flag_definition = {
 		coa = GUA
@@ -4596,19 +4759,50 @@ HOL = { # Holstein
 		priority = 1
 	}
 	flag_definition = {
+		coa = HOL_subject_DEN
+		subject_canton = HOL_subject_DEN
+		priority = 0
+		trigger = {
+			coa_def_danish_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HOL_communist
+		priority = 0
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = HOL_republic
 		subject_canton = HOL_republic
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
+	}	
+	flag_definition = {
+		coa = HOL_absolute_monarchy
+		subject_canton = HOL_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = HOL_monarchy
+		subject_canton = HOL_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
 	}
 	flag_definition = {
-		coa = HOL_subject_DEN
-		subject_canton = HOL_subject_DEN
-		priority = 35
-		trigger = {
-			coa_def_danish_ensign_trigger = yes
+		coa = HOL_dictatorship
+		subject_canton = HOL_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
 		}
 	}
 	flag_definition = {
@@ -4618,14 +4812,42 @@ HOL = { # Holstein
 		trigger = {
 			coa_def_oligarchy_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
-		coa = HOL_communist
+		coa = HOL_autocratic_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HOL_voting_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HOL_autocratic_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HOL_voting_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}		
+	flag_definition = {
+		coa = HOL_subject_denmark
 		priority = 1500
 		trigger = { 
-			coa_def_communist_flag_trigger = yes
+			coa_def_danish_subject_trigger = yes
 		}
-	}	
+	}
 }	
 
 HON = { # Honduras
@@ -4649,7 +4871,7 @@ HON = { # Honduras
 		trigger = { 
 			coa_def_mexican_ensign_trigger = yes
 		}
-	}	
+	}
 }
 
 HRO = { # Herero
@@ -4720,7 +4942,88 @@ HYD = { # Hyderabad
 		}
 	}	
 }
-
+ICL = {
+	flag_definition = {
+		coa = ICL
+		subject_canton = ICL
+		priority = 1
+	}
+	flag_definition = {
+		coa = ICL_republic
+		subject_canton = ICL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ICL_absolute_monarchy
+		subject_canton = ICL_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ICL_monarchy
+		subject_canton = ICL_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_dictatorship
+		subject_canton = ICL_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_oligarchy
+		subject_canton = ICL_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_autocratic_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_voting_theocracy
+		priority = 1300
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_autocratic_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_voting_communism
+		priority = 1300
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ICL_subject_denmark
+		priority = 1500
+		trigger = { 
+			coa_def_danish_subject_trigger = yes
+		}
+	}
+	}
 IDN = { # Indonesia
 	flag_definition = {
 		coa = IDN

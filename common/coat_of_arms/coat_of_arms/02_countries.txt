@@ -8896,25 +8896,114 @@ GRI = {
 }
 
 GRN = {
-	@grn_pos_x = @[7/18]
-	pattern = "pattern_horizontal_split_01.tga"
+	
+	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
 
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { @grn_pos_x 0.5 } }
+	textured_emblem = {
+	texture = "GRN.dds"
+	}
+	
+}
+GRN_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNAM.dds"
 	}
 
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { @grn_pos_x 0.5 } }
-		mask = { 2 }
+}
+GRN_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNRE.dds"
 	}
+	
+}
+GRN_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNMO.dds"
+	}
+	
+}
+GRN_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNDI.dds"
+	}
+	
+}
+GRN_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNOL.dds"
+	}
+	
+}
+GRN_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNAT.dds"
+	}
+	
+}
+GRN_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNVT.dds"
+	}
+	
+}
+GRN_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNVC.dds"
+	}
+	
+}
+GRN_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNAC.dds"
+	}
+	
+}
+GRN_subject_denmark = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GRNDEN.dds"
+	}
+	
 }
 
 GUA = { # Guatemala
@@ -10121,46 +10210,113 @@ HOB_subject = {
 }
 
 HOL = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
 	
-	textured_emblem  = {
-		texture = "te_coa_schleswig_holstein.dds"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.55 } }	
-	}	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
 	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.38 0.42 } position = { 0.5 0.21 } }
-	}		
+	texture = "HOL.dds"
+	}	
+}
+HOL_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLAM.dds"
+	}
+
 }
 HOL_republic = {
+
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "white"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLRE.dds"
+	}
 	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "red"
-	}		
+}
+HOL_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLMO.dds"
+	}
+	
+}
+HOL_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLDI.dds"
+	}
+	
 }
 HOL_oligarchy = {
-	# Merchant flag
+
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "white"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "red"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLOL.dds"
 	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.5 0.34 } position = { 0.25 @[third/2] } }			
-	}	
+	
+}
+HOL_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLAT.dds"
+	}
+	
+}
+HOL_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLVT.dds"
+	}
+	
+}
+HOL_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLVC.dds"
+	}
+	
+}
+HOL_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLAC.dds"
+	}
+	
+}
+HOL_subject_denmark = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLDEN.dds"
+	}
+	
 }
 HOL_communist = { 
 	pattern = "pattern_solid.tga"
@@ -10488,14 +10644,113 @@ IBE = {
 }
 
 ICL = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_cross_denmark.dds"
-		color1 = "white"
-		color2 = "red"
+	textured_emblem = {
+	texture = "ICL.dds"
 	}
+}
+ICL_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLAM.dds"
+	}
+
+}
+ICL_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLRE.dds"
+	}
+	
+}
+ICL_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLMO.dds"
+	}
+	
+}
+ICL_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLDI.dds"
+	}
+	
+}
+ICL_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLOL.dds"
+	}
+	
+}
+ICL_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLAT.dds"
+	}
+	
+}
+ICL_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLVT.dds"
+	}
+	
+}
+ICL_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLVC.dds"
+	}
+	
+}
+ICL_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLAC.dds"
+	}
+	
+}
+ICL_subject_denmark = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ICLDEN.dds"
+	}
+	
 }
 
 IDN_republic = {
@@ -19594,13 +19849,112 @@ SCA_canton = {
 
 SCH = { # Schleswig
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+	textured_emblem = {
+	texture = "SCH.dds"
 	}
+	
+}
+SCH_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHAM.dds"
+	}
+
+}
+SCH_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHRE.dds"
+	}
+	
+}
+SCH_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHMO.dds"
+	}
+	
+}
+SCH_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHDI.dds"
+	}
+	
+}
+SCH_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHOL.dds"
+	}
+	
+}
+SCH_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHAT.dds"
+	}
+	
+}
+SCH_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHVT.dds"
+	}
+	
+}
+SCH_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHVC.dds"
+	}
+	
+}
+SCH_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHAC.dds"
+	}
+	
+}
+SCH_subject_denmark = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHDEN.dds"
+	}
+	
 }
 
 SCN = {
