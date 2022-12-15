@@ -51,6 +51,16 @@ COB = {
 	texture = "COB.dds"
 	}
 }
+COB_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "COBPRU.dds"
+	}
+	
+}
 COB_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -160,6 +170,16 @@ MEI_absolute_monarchy = {
 	texture = "MEIAM.dds"
 	}
 
+}
+MEI_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEIPRU.dds"
+	}
+	
 }
 MEI_republic = {
 
@@ -280,6 +300,16 @@ WEI_absolute_monarchy = {
 	}
 
 }
+WEI_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WEIPRU.dds"
+	}
+	
+}
 WEI_republic = {
 
 	pattern = "pattern_solid.tga"
@@ -369,7 +399,16 @@ HEK = {
 	texture = "HEK.dds"
 	}
 }
+HEK_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
+	textured_emblem = {
+	texture = "HEKPRU.dds"
+	}
+	
+}
 HEK_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -470,7 +509,16 @@ LIP = {
 	texture = "LIP.dds"
 	}
 }
+LIP_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
+	textured_emblem = {
+	texture = "LIPPRU.dds"
+	}
+	
+}
 LIP_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -571,6 +619,16 @@ MST = {
 	texture = "MST.dds"
 	
 	}
+}
+MST_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MSTPRU.dds"
+	}
+	
 }
 MST_absolute_monarchy = {
 	
@@ -714,7 +772,16 @@ SCM = {
 	texture = "SCM.dds"
 	}
 }
+SCM_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
+	textured_emblem = {
+	texture = "SCMPRU.dds"
+	}
+	
+}
 SCM_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -816,6 +883,16 @@ SCW = {
 	}
 	
 }
+SCW_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCWPRU.dds"
+	}
+	
+}
 SCW_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -914,6 +991,16 @@ WLD = {
 
 	textured_emblem = {
 	texture = "WLDAC.dds"
+	}
+	
+}
+WLD_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLDPRU.dds"
 	}
 	
 }

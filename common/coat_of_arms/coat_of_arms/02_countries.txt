@@ -665,7 +665,16 @@ ANH = {
 	texture = "ANH.dds"
 	}
 }
+ANH_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
+	textured_emblem = {
+	texture = "ANHPRU.dds"
+	}
+	
+}
 ANH_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -1753,6 +1762,16 @@ BAD = {
 	}
 	
 }
+BAD_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BADPRU.dds"
+	}
+	
+}
 BAD_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1986,6 +2005,16 @@ BAV_republic  = {
 	pattern = "pattern_lozengy_bend.dds"
 	color1 = "blue_light"
 	color2 = "white"
+}
+BAV_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BAVPRU.dds"
+	}
+	
 }
 BAV_absolute_monarchy = {
 	# Wittelsbach arms
@@ -2847,6 +2876,16 @@ BRA = { # Brunswick
 	}
 
 }
+BRA_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BRAPRU.dds"
+	}
+	
+}
 BRA_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -2946,6 +2985,16 @@ BRE = {
 	textured_emblem = {
 	texture = "BRE.dds"
 	}
+}
+BRE_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BREPRU.dds"
+	}
+	
 }
 BRE_absolute_monarchy = {
 
@@ -7933,6 +7982,16 @@ FRM = {
 	texture = "FRM.dds"
 	}
 }
+FRM_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FRMPRU.dds"
+	}
+	
+}
 FRM_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -9369,6 +9428,16 @@ HAM = {
 	texture = "HAM.dds"
 	}
 }
+HAM_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HAMPRU.dds"
+	}
+	
+}
 HAM_absolute_monarchy = {
 
 	pattern = "pattern_solid.tga"
@@ -9524,6 +9593,16 @@ HAN_absolute_monarchy = {
 	texture = "HANAM.dds"
 	}
 		
+}
+HAN_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HANPRU.dds"
+	}
+	
 }
 HAN_monarchy = {
 	
@@ -9977,6 +10056,16 @@ HES_communist = {
 		instance = { scale = { 0.60 0.60 } position = { 0.5 0.53 }  }	
 	}		
 }
+HES_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HESPRU.dds"
+	}
+	
+}
 HES_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -10217,6 +10306,16 @@ HOL = {
 	textured_emblem = {
 	texture = "HOL.dds"
 	}	
+}
+HOL_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "HOLPRU.dds"
+	}
+	
 }
 HOL_absolute_monarchy = {
 
@@ -13027,6 +13126,16 @@ LUB_absolute_monarchy = {
 	}
 
 }
+LUB_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "LUBPRU.dds"
+	}
+	
+}
 LUB_republic = {
 
 	pattern = "pattern_solid.tga"
@@ -13520,6 +13629,16 @@ MEC = {
 
 	textured_emblem = {
 		texture = "MEC.dds"
+	}
+	
+}
+MEC_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MECPRU.dds"
 	}
 	
 }
@@ -14829,6 +14948,16 @@ NAS_absolute_monarchy = {
 	texture = "NASAM.dds"
 	}
 
+}
+NAS_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NASPRU.dds"
+	}
+	
 }
 NAS_republic = {
 
@@ -16318,6 +16447,16 @@ OLD_absolute_monarchy = {
 	texture = "OLDAM.dds"
 	}
 
+}
+OLD_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "OLDPRU.dds"
+	}
+	
 }
 OLD_republic = {
 
@@ -19594,6 +19733,16 @@ SAX = {
 		color2 = "green"
 	}
 }
+SAX_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SAXPRU.dds"
+	}
+	
+}
 SAX_absolute_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -19853,6 +20002,16 @@ SCH = { # Schleswig
 
 	textured_emblem = {
 	texture = "SCH.dds"
+	}
+	
+}
+SCH_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCHPRU.dds"
 	}
 	
 }
@@ -23961,6 +24120,16 @@ WUR = {
 	textured_emblem = {
 	texture = "WUR.dds"
 	}
+}
+WUR_subject_prussia  = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WURPRU.dds"
+	}
+	
 }
 WUR_communist = {
 	pattern = "pattern_solid.tga"

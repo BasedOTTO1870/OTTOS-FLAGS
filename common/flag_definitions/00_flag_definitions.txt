@@ -369,7 +369,14 @@ ANH = { # Anhalt
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = ANH_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = ANH_absolute_monarchy
 		subject_canton = ANH_absolute_monarchy
@@ -805,30 +812,37 @@ BAD = { # Baden
 	}
 	flag_definition = {
 		coa = BAD_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAD_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAD_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAD_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAD_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
 		}
 	}	
 }
@@ -918,30 +932,37 @@ BAV = { # Bavaria
 	}
 	flag_definition = {
 		coa = BAV_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAV_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAV_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = BAV_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = BAV_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
 		}
 	}
 }
@@ -1339,7 +1360,14 @@ BRA = { # Brunswick
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = BRA_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = BRA_monarchy
 		subject_canton = BRA_absolute_monarchy
@@ -1407,7 +1435,14 @@ BRE = { # Bremen
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = BRE_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = BRE_absolute_monarchy
 		subject_canton = BRE_absolute_monarchy
@@ -2288,7 +2323,14 @@ COB = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = COB_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = COB_absolute_monarchy
 		subject_canton = COB_absolute_monarchy
@@ -3555,14 +3597,21 @@ FRM = { # Frankfurt
 		}
 	}
 	flag_definition = {
+		coa = FRM_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = FRM_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = FRM_voting_theocracy
+		coa = 1300
 		priority = 1500
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
@@ -3570,21 +3619,21 @@ FRM = { # Frankfurt
 	}
 	flag_definition = {
 		coa = FRM_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = FRM_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = FRM_communist
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -4046,7 +4095,14 @@ SCH = {
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = SCH_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = SCH_monarchy
 		subject_canton = SCH_absolute_monarchy
@@ -4260,7 +4316,14 @@ flag_definition = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = HAM_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = HAM_absolute_monarchy
 		subject_canton = HAM_absolute_monarchy
@@ -4354,7 +4417,14 @@ HAN = { # Hannover
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = HAN_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = HAN_absolute_monarchy
 		subject_canton = HAN_absolute_monarchy
@@ -4579,32 +4649,39 @@ HEK = {
 	}
 	flag_definition = {
 		coa = HEK_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HEK_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HEK_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HEK_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = HEK_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}
 }
 
 HES = { # Hesse
@@ -4662,6 +4739,13 @@ HES = { # Hesse
 		trigger = { 
 			coa_def_prussian_ensign_trigger = yes
 		}
+	}
+	flag_definition = {
+		coa = HES_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
 	}	
 	flag_definition = {
 		coa = HES_monarchy
@@ -4681,28 +4765,28 @@ HES = { # Hesse
 	}
 	flag_definition = {
 		coa = HES_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HES_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HES_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = HES_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
@@ -4773,6 +4857,13 @@ HOL = { # Holstein
 			coa_def_communist_flag_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = HOL_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}	
 	flag_definition = {
 		coa = HOL_republic
 		subject_canton = HOL_republic
@@ -5981,7 +6072,14 @@ LIP = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = LIP_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = LIP_absolute_monarchy
 		subject_canton = LIP_absolute_monarchy
@@ -6158,7 +6256,14 @@ flag_definition = {
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = LUB_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = LUB_monarchy
 		subject_canton = LUB_absolute_monarchy
@@ -6359,6 +6464,13 @@ MEC = { # Mecklenburg
 		}
 	}
 	flag_definition = {
+		coa = MEC_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = MEC_republic
 		subject_canton = MEC_republic
 		priority = 10
@@ -6466,6 +6578,13 @@ MEI = {
 		}
 	}
 	flag_definition = {
+		coa = MEI_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = MEI_dictatorship
 		subject_canton = MEI_dictatorship
 		priority = 15
@@ -6483,28 +6602,28 @@ MEI = {
 	}
 	flag_definition = {
 		coa = MEI_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = MEI_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = MEI_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = MEI_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
@@ -6793,6 +6912,13 @@ MST = {
 		}
 	}
 	flag_definition = {
+		coa = MST_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = MST_republic
 		subject_canton = MST_republic
 		priority = 10
@@ -7013,6 +7139,13 @@ NAS = { # Nassau
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
+	}
+	flag_definition = {
+		coa = NAS_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
 	}	
 	flag_definition = {
 		coa = NAS_monarchy
@@ -7040,28 +7173,28 @@ NAS = { # Nassau
 	}
 	flag_definition = {
 		coa = NAS_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = NAS_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = NAS_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = NAS_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
@@ -7593,7 +7726,14 @@ OLD = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = OLD_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = OLD_absolute_monarchy
 		subject_canton = OLD_absolute_monarchy
@@ -8689,6 +8829,13 @@ SAX = { # Saxony
 		priority = 1
 	}
 	flag_definition = {
+		coa = SAX_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = SAX_republic
 		subject_canton = SAX_republic
 		priority = 10
@@ -8855,7 +9002,14 @@ SCM = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = SCM_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = SCM_absolute_monarchy
 		subject_canton = SCM_absolute_monarchy
@@ -9068,7 +9222,14 @@ SCW = {
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = SCW_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 	flag_definition = {
 		coa = SCW_absolute_monarchy
 		subject_canton = SCW_absolute_monarchy
@@ -10536,6 +10697,13 @@ WEI = {
 		priority = 1
 	}
 	flag_definition = {
+		coa = WEI_subject_prussia
+		priority = 1600
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = WEI_republic
 		subject_canton = WEI_republic
 		priority = 10
@@ -10645,6 +10813,13 @@ WLD = {
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
+	}
+	flag_definition = {
+		coa = WLD_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
 	}	
 	flag_definition = {
 		coa = WLD_monarchy
@@ -10672,28 +10847,28 @@ WLD = {
 	}
 	flag_definition = {
 		coa = WLD_autocratic_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLD_voting_theocracy
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_theocratic_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLD_autocratic_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_autocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLD_voting_communism
-		priority = 1500
+		priority = 1300
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
@@ -10845,7 +11020,14 @@ WUR = { # Wurttemberg
 		trigger = { 
 			coa_def_communist_voting_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = WUR_subject_prussia
+		priority = 1400
+		trigger = { 
+			coa_def_prussian_subject_trigger = yes
+		}
+	}		
 }
 
 XIN = { # Xinjiang

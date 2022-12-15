@@ -666,3 +666,10 @@ coa_def_danish_subject_trigger = {
 		is_subject_of = c:DEN
 	}
 }
+
+coa_def_prussian_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { 
+		is_subject_of = c:PRU
+	}
+}
