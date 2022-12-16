@@ -1,4 +1,310 @@
-﻿#####scandinavia#####
+﻿#####sapmi#####
+
+democratic_sapmi = {
+	color = "democratic_sapmi"
+
+	possible = {
+		exists = c:SMI
+		THIS = c:SMI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_sapmi = {
+	color = "democratic_sapmi"
+
+	possible = {
+		exists = c:SMI
+		THIS = c:SMI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_sapmi = {
+	color = "communist_sapmi"
+
+	possible = {
+		exists = c:SMI
+		THIS = c:SMI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_sapmi = {
+	color = "theocratic_sapmi"
+
+	possible = {
+		exists = c:SMI
+		THIS = c:SMI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_sapmi = {
+	color = "monarchist_sapmi"
+	possible = {
+		exists = c:SMI
+		THIS = c:SMI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####iceland#####
+
+democratic_iceland = {
+	color = "democratic_iceland"
+
+	possible = {
+		exists = c:ICL
+		THIS = c:ICL
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_iceland = {
+	color = "democratic_iceland"
+
+	possible = {
+		exists = c:ICL
+		THIS = c:ICL
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_iceland = {
+	color = "communist_iceland"
+
+	possible = {
+		exists = c:ICL
+		THIS = c:ICL
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_iceland = {
+	color = "theocratic_iceland"
+
+	possible = {
+		exists = c:ICL
+		THIS = c:ICL
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_iceland = {
+	color = "monarchist_iceland"
+	possible = {
+		exists = c:ICL
+		THIS = c:ICL
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####scania#####
+
+democratic_scania = {
+	color = "democratic_scania"
+
+	possible = {
+		exists = c:SCN
+		THIS = c:SCN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_scania = {
+	color = "democratic_scania"
+
+	possible = {
+		exists = c:SCN
+		THIS = c:SCN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_scania = {
+	color = "communist_scania"
+
+	possible = {
+		exists = c:SCN
+		THIS = c:SCN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_scania = {
+	color = "theocratic_scania"
+
+	possible = {
+		exists = c:SCN
+		THIS = c:SCN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_scania = {
+	color = "monarchist_scania"
+	possible = {
+		exists = c:SCN
+		THIS = c:SCN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####schleswig#####
+
+democratic_schleswig = {
+	color = "democratic_schleswig"
+
+	possible = {
+		exists = c:SCH
+		THIS = c:SCH
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_schleswig = {
+	color = "democratic_schleswig"
+
+	possible = {
+		exists = c:SCH
+		THIS = c:SCH
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_schleswig = {
+	color = "communist_schleswig"
+
+	possible = {
+		exists = c:SCH
+		THIS = c:SCH
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_schleswig = {
+	color = "theocratic_schleswig"
+
+	possible = {
+		exists = c:SCH
+		THIS = c:SCH
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_schleswig = {
+	color = "monarchist_schleswig"
+	possible = {
+		exists = c:SCH
+		THIS = c:SCH
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####holstein#####
+
+democratic_holstein = {
+	color = "democratic_holstein"
+
+	possible = {
+		exists = c:HOL
+		THIS = c:HOL
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_holstein = {
+	color = "democratic_holstein"
+
+	possible = {
+		exists = c:HOL
+		THIS = c:HOL
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_holstein = {
+	color = "communist_holstein"
+
+	possible = {
+		exists = c:HOL
+		THIS = c:HOL
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_holstein = {
+	color = "theocratic_holstein"
+
+	possible = {
+		exists = c:HOL
+		THIS = c:HOL
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_holstein = {
+	color = "monarchist_holstein"
+	possible = {
+		exists = c:HOL
+		THIS = c:HOL
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####greenland#####
+
+democratic_greenland = {
+	color = "democratic_greenland"
+
+	possible = {
+		exists = c:GRN
+		THIS = c:GRN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_greenland = {
+	color = "democratic_greenland"
+
+	possible = {
+		exists = c:GRN
+		THIS = c:GRN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_greenland = {
+	color = "communist_greenland"
+
+	possible = {
+		exists = c:GRN
+		THIS = c:GRN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_greenland = {
+	color = "theocratic_greenland"
+
+	possible = {
+		exists = c:GRN
+		THIS = c:GRN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_greenland = {
+	color = "monarchist_greenland"
+	possible = {
+		exists = c:GRN
+		THIS = c:GRN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####scandinavia#####
 
 democratic_scandinavia = {
 	color = "democratic_scandinavia"
