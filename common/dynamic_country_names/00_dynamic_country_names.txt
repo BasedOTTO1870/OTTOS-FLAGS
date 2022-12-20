@@ -1,4 +1,2064 @@
-﻿###lucca####
+﻿###lombardy####
+LOM = {
+		
+	dynamic_country_name = {
+		name = dyn_c_lombardy_absolutist_monarchy
+		adjective = LOM_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_monarchy
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_monarchy
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_monarchy
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_monarchy
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_republic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_dictatorship
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_dictatorship
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_theocratic
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_theocraticvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_theocraticvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_theocraticvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_theocraticvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_communist
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_communistvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_communistvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_communistvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lombardy_communistvote
+		adjective = LOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+###venice####
+VEN = {
+		
+	dynamic_country_name = {
+		name = dyn_c_venice_absolutist_monarchy
+		adjective = VEN_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_monarchy
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_monarchy
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_monarchy
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_monarchy
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_republic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_dictatorship
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_dictatorship
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_theocratic
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_theocraticvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_theocraticvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_theocraticvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_theocraticvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_communist
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_communistvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_communistvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_communistvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_venice_communistvote
+		adjective = VEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+###sardinia####
+SAR = {
+		
+	dynamic_country_name = {
+		name = dyn_c_sardinia_absolutist_monarchy
+		adjective = SAR_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_monarchy
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_monarchy
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_monarchy
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_monarchy
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_republic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_dictatorship
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_dictatorship
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_theocratic
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_theocraticvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_theocraticvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_theocraticvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_theocraticvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_communist
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_communistvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_communistvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_communistvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_sardinia_communistvote
+		adjective = SAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+###modena####
+MOD = {
+		
+	dynamic_country_name = {
+		name = dyn_c_modena_absolutist_monarchy
+		adjective = MOD_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_monarchy
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_monarchy
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_monarchy
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_monarchy
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_republic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_dictatorship
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_dictatorship
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_theocratic
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_theocraticvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_theocraticvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_theocraticvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_theocraticvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_communist
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_communistvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_communistvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_communistvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_modena_communistvote
+		adjective = MOD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+###parma####
+PAR = {
+		
+	dynamic_country_name = {
+		name = dyn_c_parma_absolutist_monarchy
+		adjective = PAR_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_monarchy
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_monarchy
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_monarchy
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_monarchy
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+		dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_republic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_dictatorship
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_dictatorship
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_theocratic
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_theocraticvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_theocraticvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_theocraticvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_theocraticvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_communist
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_communistvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_communistvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_communistvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_parma_communistvote
+		adjective = PAR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+}
+
+###lucca####
 LUC = {
 		
 	dynamic_country_name = {

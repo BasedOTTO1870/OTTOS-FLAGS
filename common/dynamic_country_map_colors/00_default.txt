@@ -1,4 +1,264 @@
-﻿#####lucca#####
+﻿#####lombardy#####
+
+democratic_lombardy = {
+	color = "democratic_lombardy"
+
+	possible = {
+		exists = c:LOM
+		THIS = c:LOM
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_lombardy = {
+	color = "democratic_lombardy"
+
+	possible = {
+		exists = c:LOM
+		THIS = c:LOM
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_lombardy = {
+	color = "communist_lombardy"
+
+	possible = {
+		exists = c:LOM
+		THIS = c:LOM
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_lombardy = {
+	color = "theocratic_lombardy"
+
+	possible = {
+		exists = c:LOM
+		THIS = c:LOM
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_lombardy = {
+	color = "monarchist_lombardy"
+	possible = {
+		exists = c:LOM
+		THIS = c:LOM
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####venice#####
+
+democratic_venice = {
+	color = "democratic_venice"
+
+	possible = {
+		exists = c:VEN
+		THIS = c:VEN
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_venice = {
+	color = "democratic_venice"
+
+	possible = {
+		exists = c:VEN
+		THIS = c:VEN
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_venice = {
+	color = "communist_venice"
+
+	possible = {
+		exists = c:VEN
+		THIS = c:VEN
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_venice = {
+	color = "theocratic_venice"
+
+	possible = {
+		exists = c:VEN
+		THIS = c:VEN
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_venice = {
+	color = "monarchist_venice"
+	possible = {
+		exists = c:VEN
+		THIS = c:VEN
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####sardinia#####
+
+democratic_sardinia = {
+	color = "democratic_sardinia"
+
+	possible = {
+		exists = c:SAR
+		THIS = c:SAR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_sardinia = {
+	color = "democratic_sardinia"
+
+	possible = {
+		exists = c:SAR
+		THIS = c:SAR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_sardinia = {
+	color = "communist_sardinia"
+
+	possible = {
+		exists = c:SAR
+		THIS = c:SAR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_sardinia = {
+	color = "theocratic_sardinia"
+
+	possible = {
+		exists = c:SAR
+		THIS = c:SAR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_sardinia = {
+	color = "monarchist_sardinia"
+	possible = {
+		exists = c:SAR
+		THIS = c:SAR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####parma#####
+
+democratic_parma = {
+	color = "democratic_parma"
+
+	possible = {
+		exists = c:PAR
+		THIS = c:PAR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_parma = {
+	color = "democratic_parma"
+
+	possible = {
+		exists = c:PAR
+		THIS = c:PAR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_parma = {
+	color = "communist_parma"
+
+	possible = {
+		exists = c:PAR
+		THIS = c:PAR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_parma = {
+	color = "theocratic_parma"
+
+	possible = {
+		exists = c:PAR
+		THIS = c:PAR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_parma = {
+	color = "monarchist_parma"
+	possible = {
+		exists = c:PAR
+		THIS = c:PAR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####modena#####
+
+democratic_modena = {
+	color = "democratic_modena"
+
+	possible = {
+		exists = c:MOD
+		THIS = c:MOD
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_modena = {
+	color = "democratic_modena"
+
+	possible = {
+		exists = c:MOD
+		THIS = c:MOD
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_modena = {
+	color = "communist_modena"
+
+	possible = {
+		exists = c:MOD
+		THIS = c:MOD
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_modena = {
+	color = "theocratic_modena"
+
+	possible = {
+		exists = c:MOD
+		THIS = c:MOD
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_modena = {
+	color = "monarchist_modena"
+	possible = {
+		exists = c:MOD
+		THIS = c:MOD
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####lucca#####
 
 democratic_lucca = {
 	color = "democratic_lucca"

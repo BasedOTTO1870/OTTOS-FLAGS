@@ -6334,7 +6334,81 @@ LKT = { # Lakota Sioux
 		priority = 1
 	}
 }
-
+LOM = {	
+	flag_definition = {
+		coa = LOM
+		subject_canton = LOM
+		priority = 1
+	}
+	flag_definition = {
+		coa = LOM_republic
+		subject_canton = LOM_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = LOM_absolute_monarchy
+		subject_canton = LOM_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = LOM_monarchy
+		subject_canton = LOM_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_dictatorship
+		subject_canton = LOM_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_oligarchy
+		subject_canton = LOM_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOM_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+}
 LOU = { # Louisiana
 	flag_definition = {
 		coa = LOU
@@ -6994,16 +7068,74 @@ MOD = { # Modena
 	flag_definition = {
 		coa = MOD_republic
 		subject_canton = MOD_republic
-		allow_overlord_canton = yes			
-		overlord_canton_scale = { 0.337 0.337 }			
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = MOD_communist
+		coa = MOD_absolute_monarchy
+		subject_canton = MOD_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = MOD_monarchy
+		subject_canton = MOD_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_dictatorship
+		subject_canton = MOD_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_oligarchy
+		subject_canton = MOD_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_autocratic_theocracy
 		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MOD_communist
+		priority = 	0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -8302,34 +8434,74 @@ PAR = { # Parma
 	flag_definition = {
 		coa = PAR_republic
 		subject_canton = PAR_republic
-		allow_overlord_canton = yes		
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}
+	}	
 	flag_definition = {
 		coa = PAR_absolute_monarchy
 		subject_canton = PAR_absolute_monarchy
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = PAR_absolute_monarchy_subject	
 		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
+		coa = PAR_monarchy
+		subject_canton = PAR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = PAR_dictatorship
 		subject_canton = PAR_dictatorship
-		allow_overlord_canton = yes	
-		priority = 20
-		trigger = {
+		priority = 15
+		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
 		}
-	}		
+	}
+	flag_definition = {
+		coa = PAR_oligarchy
+		subject_canton = PAR_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PAR_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PAR_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PAR_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = PAR_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}	
 	flag_definition = {
 		coa = PAR_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -9051,14 +9223,75 @@ SAR = { # Sardignia-Piedmont
 	}
 	flag_definition = {
 		coa = SAR_republic
+		subject_canton = SAR_republic
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
+	}	
+	flag_definition = {
+		coa = SAR_absolute_monarchy
+		subject_canton = SAR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SAR_monarchy
+		subject_canton = SAR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_dictatorship
+		subject_canton = SAR_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_oligarchy
+		subject_canton = SAR_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SAR_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
 	}
 	flag_definition = {
 		coa = SAR_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -10928,7 +11161,77 @@ VEN = { # Venice
 		subject_canton = VEN
 		priority = 1
 	}
+		flag_definition = {
+		coa = VEN_republic
+		subject_canton = VEN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = VEN_absolute_monarchy
+		subject_canton = VEN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = VEN_monarchy
+		subject_canton = VEN_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_dictatorship
+		subject_canton = VEN_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_oligarchy
+		subject_canton = VEN_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEN_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+
 }
+
 
 VIE = { # Vientiane
 	flag_definition = {
