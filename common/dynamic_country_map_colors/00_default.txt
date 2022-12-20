@@ -1,4 +1,259 @@
-﻿#####sapmi#####
+﻿#####lucca#####
+
+democratic_lucca = {
+	color = "democratic_lucca"
+
+	possible = {
+		exists = c:LUC
+		THIS = c:LUC
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_lucca = {
+	color = "democratic_lucca"
+
+	possible = {
+		exists = c:LUC
+		THIS = c:LUC
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_lucca = {
+	color = "communist_lucca"
+
+	possible = {
+		exists = c:LUC
+		THIS = c:LUC
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_lucca = {
+	color = "theocratic_lucca"
+
+	possible = {
+		exists = c:LUC
+		THIS = c:LUC
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_lucca = {
+	color = "monarchist_lucca"
+	possible = {
+		exists = c:LUC
+		THIS = c:LUC
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####tuscany#####
+
+democratic_tuscany = {
+	color = "democratic_tuscany"
+
+	possible = {
+		exists = c:TUS
+		THIS = c:TUS
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_tuscany = {
+	color = "democratic_tuscany"
+
+	possible = {
+		exists = c:TUS
+		THIS = c:TUS
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_tuscany = {
+	color = "communist_tuscany"
+
+	possible = {
+		exists = c:TUS
+		THIS = c:TUS
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_tuscany = {
+	color = "theocratic_tuscany"
+
+	possible = {
+		exists = c:TUS
+		THIS = c:TUS
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_tuscany = {
+	color = "monarchist_tuscany"
+	possible = {
+		exists = c:TUS
+		THIS = c:TUS
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####papalstate#####
+
+democratic_papalstate = {
+	color = "democratic_papalstate"
+
+	possible = {
+		exists = c:PAP
+		THIS = c:PAP
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_papalstate = {
+	color = "democratic_papalstate"
+
+	possible = {
+		exists = c:PAP
+		THIS = c:PAP
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_papalstate = {
+	color = "communist_papalstate"
+
+	possible = {
+		exists = c:PAP
+		THIS = c:PAP
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_papalstate = {
+	color = "theocratic_papalstate"
+
+	possible = {
+		exists = c:PAP
+		THIS = c:PAP
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_papalstate = {
+	color = "monarchist_papalstate"
+	possible = {
+		exists = c:PAP
+		THIS = c:PAP
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####germany#####
+
+democratic_germany = {
+	color = "democratic_germany"
+
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_germany = {
+	color = "democratic_germany"
+
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_germany = {
+	color = "communist_germany"
+
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_germany = {
+	color = "theocratic_germany"
+
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_germany = {
+	color = "monarchist_germany"
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####twosicilies#####
+
+democratic_twosicilies = {
+	color = "democratic_twosicilies"
+
+	possible = {
+		exists = c:SIC
+		THIS = c:SIC
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_twosicilies = {
+	color = "democratic_twosicilies"
+
+	possible = {
+		exists = c:SIC
+		THIS = c:SIC
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_twosicilies = {
+	color = "communist_twosicilies"
+
+	possible = {
+		exists = c:SIC
+		THIS = c:SIC
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_twosicilies = {
+	color = "theocratic_twosicilies"
+
+	possible = {
+		exists = c:SIC
+		THIS = c:SIC
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_twosicilies = {
+	color = "monarchist_twosicilies"
+	possible = {
+		exists = c:SIC
+		THIS = c:SIC
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####sapmi#####
 
 democratic_sapmi = {
 	color = "democratic_sapmi"
