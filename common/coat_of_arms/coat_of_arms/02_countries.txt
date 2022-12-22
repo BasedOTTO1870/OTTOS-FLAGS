@@ -11305,91 +11305,163 @@ ISR = { # Israel
 }
 
 ITA = { # Italy
-	# Until 1946
-	pattern = "pattern_solid.tga"
-	color1 = "green"
 
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
 	textured_emblem = {
-		texture = "te_coa_italia.dds"
-		instance = { scale = { 0.7 0.7 } position = { 0.5 0.62 } }
-	}	
-	textured_emblem = {
-		texture = "te_crown.dds"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.25 } }
+	texture = "ITA.dds"
 	}	
 }
-ITA_sicilian = {
-	pattern = "pattern_solid.tga"
-	color1 = "green"
+ITA_absolute_monarchy = {
 
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}
-	textured_emblem = {
-		texture = "te_necklace_two_sicilies.dds"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.50 } }
-	}	
-	textured_emblem = {
-		texture = "te_crown.dds"
-		instance = { scale = { 0.375 0.375 } position = { 0.5 0.30 } }
-	}	
-	textured_emblem = {
-		texture = "te_coa_two_sicilies.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.50 } }
-	}			
-}
-ITA_papal = {
 	pattern = "pattern_solid.tga"
-	color1 = "green"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}
 	textured_emblem = {
-		texture = "te_coa_papal_states_tiara.dds"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.49 } }
-	}					
+	texture = "ITAAM.dds"
+	}
+
 }
 ITA_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "green"
 
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}		
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITARE.dds"
+	}
+	
+}
+ITA_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAMO.dds"
+	}
+	
 }
 ITA_dictatorship = {
-	# Flag of Napoleonic kingdom
-	
-	pattern = "pattern_rhombus.dds"
-	color1 = "red"
-	color2 = "white"
-	color3 = "red"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "blue"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_eagle_napoleonian.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		color3 = "green"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITADI.dds"
 	}
+	
+}
+ITA_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAOL.dds"
+	}
+	
+}
+ITA_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAAT.dds"
+	}
+	
+}
+ITA_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAVT.dds"
+	}
+	
+}
+ITA_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAVC.dds"
+	}
+	
+}
+ITA_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAAC.dds"
+	}
+	
+}
+ITA_sicilian = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITASIC.dds"
+	}
+			
+}
+ITA_venice = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAVEN.dds"
+	}
+			
+}
+ITA_lombardy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITALOM.dds"
+	}
+			
+}
+ITA_sardinia = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITASAR.dds"
+	}
+			
+}
+ITA_tuscany = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITATUS.dds"
+	}
+			
+}
+ITA_papal = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ITAPAP.dds"
+	}
+					
 }
 ITA_communist = {
 	pattern = "pattern_border_double.dds"
@@ -18857,101 +18929,104 @@ PON = { # Pontianak
 }
 
 POR = { # Portugal
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 0.5 1.0 } position = { 0.25 0.5 } }			
-	}
 	textured_emblem = {
-		texture = "te_crown.dds"
-		instance = { scale = { 0.68 0.75 } position = { 0.5 0.28 } }
+	texture = "POR.dds"
 	}
-	textured_emblem = {
-		texture = "te_coa_portugal.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.67 } }
-	}	
-}
-POR_republic = {
-	# 1910 Republican flag
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { @third 1.0 } position = { @[third/2] 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_armillary_sphere.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.75 0.75 } position = { @third 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_coa_portuguese_republic.dds"
-		instance = { scale = { 0.55 0.55 } position = { @third 0.5 } }
-	}	
-}
-POR_dictatorship = {
-	# Design mostly borrowed from republican war flag
 	
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { 0.5 1.0 } position = { 0.25 0.5 } }			
-	}
-	colored_emblem = {
-		texture = "ce_wreath.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
-	}	
-	colored_emblem = {
-		texture = "ce_armillary_sphere.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.60 0.60 } position = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_coa_portuguese_republic.dds"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
-	}	
 }
 POR_absolute_monarchy = {
-	# 1816-26
+
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	
-	textured_emblem = {
-		texture = "te_crown_cut.dds"
-		instance = { scale = { 0.5 0.5 } position = { @third 0.235 } }
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 0.5 0.5 } position = { @third 0.58 } }
-	}
-	colored_emblem = {
-		texture = "ce_armillary_sphere.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.7 0.7 } position = { @third 0.58 } }
-	}
 
 	textured_emblem = {
-		texture = "te_coa_portugal.dds"
-		instance = { scale = { 0.7 0.7 } position = { @third 0.58 } }
+	texture = "PORAM.dds"
 	}
+
+}
+POR_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORRE.dds"
+	}
+	
+}
+POR_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORMO.dds"
+	}
+	
+}
+POR_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORDI.dds"
+	}
+	
+}
+POR_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "POROL.dds"
+	}
+	
+}
+POR_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORAT.dds"
+	}
+	
+}
+POR_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORVT.dds"
+	}
+	
+}
+POR_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORVC.dds"
+	}
+	
+}
+POR_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "PORAC.dds"
+	}
+	
 }
 POR_communist = {
 	pattern = "pattern_solid.tga"
@@ -21703,86 +21778,64 @@ SOK = {
 }
 
 SPA = {
+	
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }			
-	}
 	textured_emblem = {
-		texture = "te_crown.dds"
-		instance = { scale = { 0.35 0.35 } position = { 0.33 0.36 } }
-	}		
-    sub = {
-        parent = "sub_SPA_coa" 
-        instance = { scale = { 0.5 0.5 } offset = { 0.08 0.32 } }
-    }	
+	texture = "SPA.dds"
+	}
+	
 }
 SPA_absolute_monarchy = {
+
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
 
-	colored_emblem = {
-		texture = "ce_cross_burgundy.dds"
-		color1 = color2
-		color2 = color2
+	textured_emblem = {
+	texture = "SPAAM.dds"
 	}
+
 }
 SPA_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "yellow"
-	color3 = "purple"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color2
-		color2 = color3
-	}
-	textured_emblem = {
-		texture = "te_coa_spanish_republic.dds"
-		instance = { position = { 0.5 0.51 }scale = { 0.45 0.45 } } 
-	}
-}
-SPA_dictatorship = {
-	# Just the overall idea for now : Will look much better with the corrected eagle as supporter
+
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
 
-	colored_emblem = {
-		texture = "ce_cross_burgundy.dds"
-		color1 = color2
-		color2 = color2
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "yellow_dark"
-		color2 = "yellow_dark"
-		instance = { scale = { 0.28 0.28 } position = { 0.505 0.315 } }
-	}		
-	colored_emblem = {
-		texture = "ce_eagle.dds"
-		color1 = "black"
-		color2 = "yellow"
-		color3 = "white"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
-	}		
-	colored_emblem = {
-		texture = "ce_wreath.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { 0.32 0.32 } position = { 0.5 0.55 } }
-	}
 	textured_emblem = {
-		texture = "te_coa_spanish_republic.dds"
-		instance = { scale = { 0.37 0.37 } position = { 0.5 0.50 } } 
+	texture = "SPARE.dds"
 	}
+	
+}
+SPA_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SPAMO.dds"
+	}
+	
+}
+SPA_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SPADI.dds"
+	}
+	
+}
+SPA_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SPAOL.dds"
+	}
+	
 }
 SPA_communist = {
 	pattern = "pattern_solid.tga"

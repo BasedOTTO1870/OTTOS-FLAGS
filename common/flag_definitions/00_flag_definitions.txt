@@ -5454,22 +5454,75 @@ ITA = { # Italy
 	}
 	flag_definition = {
 		coa = ITA_republic
+		subject_canton = ITA_republic
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = ITA_dictatorship
-		subject_canton = ITA_dictatorship
+		coa = ITA_absolute_monarchy
+		subject_canton = ITA_absolute_monarchy
 		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = ITA_communist
+		coa = ITA_monarchy
+		subject_canton = ITA_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_dictatorship
+		subject_canton = ITA_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_oligarchy
+		subject_canton = ITA_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_autocratic_theocracy
 		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_communist
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -5477,9 +5530,100 @@ ITA = { # Italy
 	flag_definition = {
 		coa = ITA_fascist
 		subject_canton = ITA_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA_sicilian
+		priority = 2000
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				capital = { 
+					OR = {
+						state_region = s:STATE_SICILY 
+						state_region = s:STATE_CAMPANIA
+						state_region = s:STATE_ABRUZZO
+						state_region = s:STATE_APULIA
+						state_region = s:STATE_CALABRIA
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_tuscany
+		priority = 2000
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				capital = { 
+					OR = {
+						state_region = s:STATE_TUSCANY
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_sardinia
+		priority = 2000
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				capital = { 
+					OR = {
+						state_region = s:STATE_PIEDMONT
+						state_region = s:STATE_SAVOY
+						state_region = s:STATE_SARDINIA
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_lombardy
+		priority = 2000
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				capital = { 
+					OR = {
+						state_region = s:STATE_LOMBARDY
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_venice
+		priority = 2000
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				capital = { 
+					OR = {
+						state_region = s:STATE_VENETIA
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_papal
+		subject_canton = ITA_papal
+		priority = 2000
+		
+		trigger = {
+			NOT = { exists = c:PAP } # Can't be Pope if the Pope is still in control of another country!
+			coa_def_theocracy_flag_trigger = yes
 		}
 	}	
 }
@@ -8778,14 +8922,6 @@ POR = { # Portugal
 		priority = 1
 	}
 	flag_definition = {
-		coa = POR_absolute_monarchy
-		subject_canton = POR_absolute_monarchy
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
 		coa = POR_republic
 		subject_canton = POR_republic
 		priority = 10
@@ -8794,16 +8930,68 @@ POR = { # Portugal
 		}
 	}	
 	flag_definition = {
+		coa = POR_absolute_monarchy
+		subject_canton = POR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = POR_monarchy
+		subject_canton = POR_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = POR_dictatorship
 		subject_canton = POR_dictatorship
-		priority = 20
-		trigger = {
+		priority = 15
+		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = POR_oligarchy
+		subject_canton = POR_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = POR_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = POR_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = POR_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = POR_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = POR_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -8811,7 +8999,7 @@ POR = { # Portugal
 	flag_definition = {
 		coa = POR_fascist
 		subject_canton = POR_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
@@ -10194,21 +10382,37 @@ SPA = { # Spain
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
-	}
+	}	
 	flag_definition = {
 		coa = SPA_absolute_monarchy
-		subject_canton = SPA_absolute_monarchy	
-		priority = 10
+		subject_canton = SPA_absolute_monarchy
+		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SPA_monarchy
+		subject_canton = SPA_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = SPA_dictatorship
 		subject_canton = SPA_dictatorship
-		priority = 20
-		trigger = {
+		priority = 15
+		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SPA_oligarchy
+		subject_canton = SPA_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {

@@ -1,4 +1,8 @@
 colors = {
+	monarchist_italy = rgb { 85 130 65 }
+	democratic_italy =  rgb { 114 173 86 }
+	theocratic_italy = rgb { 183 154 58 }
+	communist_italy = rgb { 139 0 0 }
 	monarchist_lombardy = rgb { 84 62 84 }
 	democratic_lombardy =  rgb { 165 122 165 }
 	theocratic_lombardy = rgb { 142 0 142 }
@@ -90,8 +94,8 @@ colors = {
 	democratic_france 	= 	rgb { 124 167 196 }
 	theocratic_france 	= 	rgb { 145 203 255 }
 	communist_france 	= 	rgb { 139 0 0 }
-	monarchist_spain 	= 	rgb { 205 149 12 }
-	democratic_spain 	= 	rgb { 238 173 14 }
+	monarchist_spain 	= 	rgb { 173 124 10 }
+	democratic_spain 	= 	rgb { 204 146 12 }
 	theocratic_spain 	= 	rgb { 110 67 148 }
 	communist_spain 	= 	rgb { 139 0 0 }
 	monarchist_russia 	= 	rgb { 47 50 18 }
@@ -214,5 +218,9 @@ colors = {
 	democratic_scania 			= 	rgb { 220 140 20 }
 	theocratic_scania 			= 	rgb { 70 0 70 }
 	communist_scania			= 	rgb { 139 0 0 }
+	monarchist_portugal 		= 	rgb { 28 82 148 }
+	democratic_portugal 		= 	rgb { 28 109 55 }
+	theocratic_portugal 		= 	rgb { 53 104 89 }
+	communist_portugal			= 	rgb { 139 0 0 }
 	
 }

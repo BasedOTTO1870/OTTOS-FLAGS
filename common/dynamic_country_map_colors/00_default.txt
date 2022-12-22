@@ -1,4 +1,108 @@
-﻿#####lombardy#####
+﻿#####portugal#####
+
+democratic_portugal = {
+	color = "democratic_portugal"
+
+	possible = {
+		exists = c:POR
+		THIS = c:POR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_portugal = {
+	color = "democratic_portugal"
+
+	possible = {
+		exists = c:POR
+		THIS = c:POR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_portugal = {
+	color = "communist_portugal"
+
+	possible = {
+		exists = c:POR
+		THIS = c:POR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_portugal = {
+	color = "theocratic_portugal"
+
+	possible = {
+		exists = c:POR
+		THIS = c:POR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_portugal = {
+	color = "monarchist_portugal"
+	possible = {
+		exists = c:POR
+		THIS = c:POR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####italy#####
+
+democratic_italy = {
+	color = "democratic_italy"
+
+	possible = {
+		exists = c:ITA
+		THIS = c:ITA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_italy = {
+	color = "democratic_italy"
+
+	possible = {
+		exists = c:ITA
+		THIS = c:ITA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_italy = {
+	color = "communist_italy"
+
+	possible = {
+		exists = c:ITA
+		THIS = c:ITA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_italy = {
+	color = "theocratic_italy"
+
+	possible = {
+		exists = c:ITA
+		THIS = c:ITA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_italy = {
+	color = "monarchist_italy"
+	possible = {
+		exists = c:ITA
+		THIS = c:ITA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+
+#####lombardy#####
 
 democratic_lombardy = {
 	color = "democratic_lombardy"
