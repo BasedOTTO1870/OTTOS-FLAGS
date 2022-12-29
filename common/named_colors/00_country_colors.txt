@@ -1,4 +1,8 @@
 colors = {
+	monarchist_switzerland = rgb { 130 35 30 }
+	democratic_switzerland =  rgb { 199 53 46 }
+	theocratic_switzerland = rgb { 107 29 64 }
+	communist_switzerland = rgb { 139 0 0 }
 	monarchist_italy = rgb { 85 130 65 }
 	democratic_italy =  rgb { 114 173 86 }
 	theocratic_italy = rgb { 183 154 58 }
@@ -222,5 +226,9 @@ colors = {
 	democratic_portugal 		= 	rgb { 28 109 55 }
 	theocratic_portugal 		= 	rgb { 53 104 89 }
 	communist_portugal			= 	rgb { 139 0 0 }
+	monarchist_NGF 		= 	rgb { 41 37 37 }
+	democratic_NGF 		= 	rgb { 41 37 37 }
+	theocratic_NGF 		= 	rgb { 168 140 0 }
+	communist_NGF			= 	rgb { 139 0 0 }
 	
 }

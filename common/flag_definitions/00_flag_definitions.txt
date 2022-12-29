@@ -3535,6 +3535,13 @@ FRA = { # France
 		}
 	}
 	flag_definition = {
+		coa = FRA_anarchy
+		priority = 1600
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = FRA_communist
 		subject_canton = FRA_communist
 		priority = 0
@@ -7913,18 +7920,79 @@ NGF = { # North Germany
 		coa = NGF
 		subject_canton = NGF	
 		priority = 1		
+	}
+	flag_definition = {
+		coa = NGF_republic
+		subject_canton = NGF_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
 	}	
 	flag_definition = {
 		coa = NGF_absolute_monarchy
-		priority = 10
+		subject_canton = NGF_absolute_monarchy
+		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = NGF_monarchy
+		subject_canton = NGF_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_dictatorship
+		subject_canton = NGF_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_oligarchy
+		subject_canton = NGF_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_autocratic_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_voting_theocracy
+		priority = 1500
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_autocratic_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NGF_voting_communism
+		priority = 1500
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = NGF_fascist
 		subject_canton = NGF_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
@@ -10639,24 +10707,91 @@ SWI = { # Switzerland
 		priority = 1
 	}
 	flag_definition = {
+		coa = SWI_republic
+		subject_canton = SWI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SWI_absolute_monarchy
+		subject_canton = SWI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SWI_monarchy
+		subject_canton = SWI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_dictatorship
+		subject_canton = SWI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_oligarchy
+		subject_canton = SWI_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_autocratic_theocracy
+		priority = 100
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_voting_theocracy
+		priority = 100
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_autocratic_communism
+		priority = 1100
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_voting_communism
+		priority = 1100
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SWI_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = SWI_fascist
 		subject_canton = SWI_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
-		coa = SWI_dictatorship
-		subject_canton = SWI_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
 		coa = SWI_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
@@ -10666,7 +10801,7 @@ SWI = { # Switzerland
 		allow_overlord_canton = yes	
 		overlord_canton_offset = { 0.01 0.015 }
 		overlord_canton_scale = { 0.48 0.47 }			
-		priority = 50
+		priority = 0
 		trigger = { 
 			coa_def_french_ensign_trigger = yes
 		}

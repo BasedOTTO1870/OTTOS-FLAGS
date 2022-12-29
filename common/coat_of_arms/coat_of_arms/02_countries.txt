@@ -7411,6 +7411,16 @@ FRA = {
 		color2 = "red"
 	}
 }
+FRA_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "FRAAN.dds"
+	}
+	
+}
 FRA_bourbon = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -16044,53 +16054,104 @@ NEW_theocracy = {
 }
 
 NGF = { # North German Federation
-	# Actually used the simple tricolor given to GER
-	# version with german state crown
 	
 	pattern = "pattern_solid.tga"
-	color1 = "black"
-	color2 = "white"
-	color3 = "red"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color2
-		color2 = color3
+	textured_emblem = {
+	texture = "NGFRE.dds"
 	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
-	}	
-	textured_emblem  = {
-		texture = "te_german_state_crown.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.48 } }	
-	}	
+	
 }
 NGF_absolute_monarchy = {
-	# version with prussian eagle
-	
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-	color2 = "white"
-	color3 = "red"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color2
-		color2 = color3
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFAM.dds"
 	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
-	}	
-	textured_emblem  = {
-		texture = "te_eagle_prussia_monogram_crown.dds"
-		instance = { scale = { 0.66 0.66 } position = { 0.5 0.52 } }	
-	}	
+
+}
+NGF_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFRE.dds"
+	}
+	
+}
+NGF_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFMO.dds"
+	}
+	
+}
+NGF_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFDI.dds"
+	}
+	
+}
+NGF_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFOL.dds"
+	}
+	
+}
+NGF_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFAT.dds"
+	}
+	
+}
+NGF_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFVT.dds"
+	}
+	
+}
+NGF_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFVC.dds"
+	}
+	
+}
+NGF_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "NGFAC.dds"
+	}
+	
 }
 NGF_fascist = {		
 	# Same as V2 NGF	
@@ -22263,24 +22324,111 @@ SWE_fascist = {
 
 SWI = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	
-	colored_emblem = {
-		texture = "ce_cross_switzerland.dds"
-		color1 = "white"
-		color2 = "white"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWI.dds"
 	}
 }
-SWI_dictatorship = {
+SWI_absolute_monarchy = {
+
 	pattern = "pattern_solid.tga"
-	color1 = "green"
-	color2 = "red"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIAM.dds"
+	}
+
+}
+SWI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIRE.dds"
+	}
 	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "red"
-		color2 = "yellow"
-	}		
+}
+SWI_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIMO.dds"
+	}
+	
+}
+SWI_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIDI.dds"
+	}
+	
+}
+SWI_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIOL.dds"
+	}
+	
+}
+SWI_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIAT.dds"
+	}
+	
+}
+SWI_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIVT.dds"
+	}
+	
+}
+SWI_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIVC.dds"
+	}
+	
+}
+SWI_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIAC.dds"
+	}
+	
+}
+SWI_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SWIAN.dds"
+	}
+	
 }
 SWI_fascist = {		
 	# NSSAP without Swastika

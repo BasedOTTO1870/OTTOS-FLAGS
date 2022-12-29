@@ -1,4 +1,23 @@
 ﻿l_english:
+ dyn_c_switzerland_absolutist_monarchy:0 "Kingdom of Switzerland"
+ dyn_c_switzerland_monarchy:0 "Kingdom of Switzerland"
+ dyn_c_switzerland_dictatorship:0 "Free Republic of Switzerland"
+ dyn_c_switzerland_republic:0 "Swiss Republic"
+ dyn_c_switzerland_communist:0 "Workers Cantons of Switzerland"
+ dyn_c_switzerland_communistvote:0 "United Socialist Cantons"
+ dyn_c_switzerland_theocratic:0 "Holy Cantons"
+ dyn_c_switzerland_theocraticvote:0 "Protestant Republic of Switzerland"
+ dyn_c_switzerland_anarchy:0 "Free Cantons"
+ 
+ dyn_c_NGF_absolutist_monarchy:0 "North German Federation"
+ dyn_c_NGF_monarchy:0 "North German Federation"
+ dyn_c_NGF_dictatorship:0 "North German Empire"
+ dyn_c_NGF_republic:0 "North German Republic"
+ dyn_c_NGF_communist:0 "Free Communes of Germany"
+ dyn_c_NGF_communistvote:0 "North German Communes"
+ dyn_c_NGF_theocratic:0 "Heiliges Norddeutschland"
+ dyn_c_NGF_theocraticvote:0 "Catholic Union of Northern Germany"
+ 
  dyn_c_portugal_absolutist_monarchy:0 "Kingdom of Portugal"
  dyn_c_portugal_monarchy:0 "Kingdom of Portugal"
  dyn_c_portugal_dictatorship:0 "Portugese Empire"
@@ -815,6 +834,7 @@
  
  dyn_c_france_monarchy:0 "France"
  dyn_c_france_monarchy_adj:0 "French"
+ dyn_c_france_anarchy:0 "Anarchist Communes of France"
  dyn_c_france_absolutist_monarchy:0 "Kingdom of France"
  dyn_c_france_absolutist_monarchy_adj:0 "French"
  dyn_c_france_dictatorship:0 "French Empire"

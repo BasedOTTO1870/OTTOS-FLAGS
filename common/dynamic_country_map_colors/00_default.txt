@@ -1,4 +1,105 @@
-﻿#####portugal#####
+﻿#####switzerland#####
+
+democratic_switzerland = {
+	color = "democratic_switzerland"
+
+	possible = {
+		exists = c:SWI
+		THIS = c:SWI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_switzerland = {
+	color = "democratic_switzerland"
+
+	possible = {
+		exists = c:SWI
+		THIS = c:SWI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+communist_switzerland = {
+	color = "communist_switzerland"
+
+	possible = {
+		exists = c:SWI
+		THIS = c:SWI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_switzerland = {
+	color = "theocratic_switzerland"
+
+	possible = {
+		exists = c:SWI
+		THIS = c:SWI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_switzerland = {
+	color = "monarchist_switzerland"
+	possible = {
+		exists = c:SWI
+		THIS = c:SWI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####NGF#####
+
+democratic_NGF = {
+	color = "democratic_NGF"
+
+	possible = {
+		exists = c:NGF
+		THIS = c:NGF
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_NGF = {
+	color = "democratic_NGF"
+
+	possible = {
+		exists = c:NGF
+		THIS = c:NGF
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_NGF = {
+	color = "communist_NGF"
+
+	possible = {
+		exists = c:NGF
+		THIS = c:NGF
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_NGF = {
+	color = "theocratic_NGF"
+
+	possible = {
+		exists = c:NGF
+		THIS = c:NGF
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_NGF = {
+	color = "monarchist_NGF"
+	possible = {
+		exists = c:NGF
+		THIS = c:NGF
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####portugal#####
 
 democratic_portugal = {
 	color = "democratic_portugal"
