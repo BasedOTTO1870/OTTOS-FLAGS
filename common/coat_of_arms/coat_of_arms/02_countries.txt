@@ -6820,15 +6820,114 @@ ELS = { # El Salvador
 }
 
 ENG = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
 
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = color2
-		color2 = color2
+	textured_emblem = {
+	texture = "ENG.dds"
 	}
+	
+}
+ENG_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGAM.dds"
+	}
+
+}
+ENG_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGRE.dds"
+	}
+	
+}
+ENG_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGMO.dds"
+	}
+	
+}
+ENG_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGDI.dds"
+	}
+	
+}
+ENG_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGOL.dds"
+	}
+	
+}
+ENG_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGAT.dds"
+	}
+	
+}
+ENG_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGVT.dds"
+	}
+	
+}
+ENG_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGVC.dds"
+	}
+	
+}
+ENG_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGAC.dds"
+	}
+	
+}
+ENG_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ENGAN.dds"
+	}
+	
 }
 ENG_coa = {
     sub = {
@@ -11255,14 +11354,113 @@ IRC = { # Iron Confederacy
 }
 
 IRE = { # Ireland
+	
 	pattern = "pattern_solid.tga"
-	color1 = "green"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_harp_ireland.dds"
-		color1 = "yellow"
-		color2 = "yellow"
+	textured_emblem = {
+	texture = "IRE.dds"
 	}
+}
+IRE_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREAM.dds"
+	}
+
+}
+IRE_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IRERE.dds"
+	}
+	
+}
+IRE_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREMO.dds"
+	}
+	
+}
+IRE_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREDI.dds"
+	}
+	
+}
+IRE_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREOL.dds"
+	}
+	
+}
+IRE_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREAT.dds"
+	}
+	
+}
+IRE_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREVT.dds"
+	}
+	
+}
+IRE_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREVC.dds"
+	}
+	
+}
+IRE_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREAC.dds"
+	}
+	
+}
+IRE_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "IREAN.dds"
+	}
+	
 }
 IRE_with_canton = {		
 	pattern = "pattern_solid.tga"
@@ -21115,9 +21313,113 @@ SCN_canton = {
 }
 
 SCO = {
-    sub = {
-        parent = "sub_SCO" 
-    }
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCO.dds"
+	}
+}
+SCO_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOAM.dds"
+	}
+
+}
+SCO_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCORE.dds"
+	}
+	
+}
+SCO_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOMO.dds"
+	}
+	
+}
+SCO_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCODI.dds"
+	}
+	
+}
+SCO_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOOL.dds"
+	}
+	
+}
+SCO_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOAT.dds"
+	}
+	
+}
+SCO_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOVT.dds"
+	}
+	
+}
+SCO_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOVC.dds"
+	}
+	
+}
+SCO_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOAC.dds"
+	}
+	
+}
+SCO_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SCOAN.dds"
+	}
+	
 }
 SCO_theocracy = {
 	# similar to the Covenanters flags
@@ -23984,24 +24286,114 @@ UKR_free_state = {
 }
 
 ULS = {
-	# Ulster province
+	
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = "red"
+	textured_emblem = {
+	texture = "ULS.dds"
 	}
-	colored_emblem = {
-		texture = "ce_shield_heater.dds"
-		color1 = "white"
-		instance = { scale = { 0.5 0.5 }  }
+	
+}
+ULS_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSAM.dds"
 	}
-	colored_emblem = {
-		texture = "ce_hand.dds"
-		color1 = "red"
-		instance = { scale = { 0.35 0.35 }  }
+
+}
+ULS_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSRE.dds"
 	}
+	
+}
+ULS_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSMO.dds"
+	}
+	
+}
+ULS_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSDI.dds"
+	}
+	
+}
+ULS_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSOL.dds"
+	}
+	
+}
+ULS_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSAT.dds"
+	}
+	
+}
+ULS_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSVT.dds"
+	}
+	
+}
+ULS_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSVC.dds"
+	}
+	
+}
+ULS_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSAC.dds"
+	}
+	
+}
+ULS_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "ULSAN.dds"
+	}
+	
 }
 ULS_uk = {
 	# Ulster Banner (Northern Ireland) without crown
@@ -25109,22 +25501,114 @@ WLL = { # Wallonia
 }
 
 WLS = {
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { position = { 0.5 1 } }
+	textured_emblem = {
+	texture = "WLS.dds"
+	}	
+	
+}
+WLS_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSAM.dds"
 	}
-	colored_emblem = {
-		texture = "ce_dragon_wales.dds"
-		color1 = "red"
-		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 1.25 1.2 } position = { 0.5 0.5 } }		
+
+}
+WLS_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSRE.dds"
 	}
+	
+}
+WLS_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSMO.dds"
+	}
+	
+}
+WLS_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSDI.dds"
+	}
+	
+}
+WLS_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSOL.dds"
+	}
+	
+}
+WLS_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSAT.dds"
+	}
+	
+}
+WLS_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSVT.dds"
+	}
+	
+}
+WLS_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSVC.dds"
+	}
+	
+}
+WLS_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSAC.dds"
+	}
+	
+}
+WLS_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "WLSAN.dds"
+	}
+	
 }
 WLS_theocracy = {
 	# St David's Cross

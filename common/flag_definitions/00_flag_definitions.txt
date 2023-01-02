@@ -3225,24 +3225,99 @@ ENG = { # England
 		priority = 1
 	}
 	flag_definition = {
+		coa = ENG_republic
+		subject_canton = ENG_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ENG_absolute_monarchy
+		subject_canton = ENG_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ENG_monarchy
+		subject_canton = ENG_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_dictatorship
+		subject_canton = ENG_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_oligarchy
+		subject_canton = ENG_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ENG_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		# no colonial canton when ruled by UK
 		coa = ENG
 		subject_canton = ENG
-		priority = 2
+		priority = 0
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = ENG_coa
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = ENG_coa_france
-		priority = 11
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_france = yes
@@ -3721,7 +3796,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_ISE
 		subject_canton = GBR_ISE
-		priority = 50
+		priority = 20
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 		trigger = { 
@@ -3733,7 +3808,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_SE
 		subject_canton = GBR_SE
-		priority = 50
+		priority = 20
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 		trigger = { 
@@ -3745,7 +3820,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_IE
 		subject_canton = GBR_IE
-		priority = 50
+		priority = 20
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 		trigger = { 
@@ -5572,29 +5647,102 @@ IRE = { # Ireland
 		priority = 1
 	}
 	flag_definition = {
-		coa = IRE_coa
+		coa = IRE
+		subject_canton = IRE
+		priority = 1
+	}
+	flag_definition = {
+		coa = IRE_republic
+		subject_canton = IRE_republic
 		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = IRE_absolute_monarchy
+		subject_canton = IRE_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = IRE_monarchy
+		subject_canton = IRE_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_dictatorship
+		subject_canton = IRE_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_oligarchy
+		subject_canton = IRE_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRE_coa
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
-		coa = IRE_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
 		coa = IRE_theocracy
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = IRE_republic_state_religion
-		priority = 11
+		priority = 0
 		trigger = {
 			coa_def_catholic_trigger = yes
 			coa_def_republic_flag_trigger = yes
@@ -5603,19 +5751,12 @@ IRE = { # Ireland
 	}
 	flag_definition = {
 		coa = IRE_theocracy_state_religion
-		priority = 12
+		priority = 0
 		trigger = { 
 			coa_def_catholic_trigger = yes
 			coa_def_theocracy_flag_trigger = yes
 			coa_def_state_religion_flag_trigger = yes
 			
-		}
-	}
-	flag_definition = {
-		coa = IRE_dictatorship
-		priority = 15
-		trigger = { 
-			coa_def_dictatorship_flag_trigger = yes
 		}
 	}
 	flag_definition = {
@@ -5628,7 +5769,7 @@ IRE = { # Ireland
 	}
 	flag_definition = {
 		coa = IRE_easter_rising
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 			coa_def_secessionist_country_trigger = yes
@@ -5637,7 +5778,7 @@ IRE = { # Ireland
 	flag_definition = {
 		coa = IRE_fascist
 		subject_canton = IRE_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
@@ -10142,16 +10283,91 @@ SCO = { # Scotland
 		priority = 1
 	}
 	flag_definition = {
+		coa = SCO_republic
+		subject_canton = SCO_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCO_absolute_monarchy
+		subject_canton = SCO_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = SCO_monarchy
+		subject_canton = SCO_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_dictatorship
+		subject_canton = SCO_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_oligarchy
+		subject_canton = SCO_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SCO_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = SCO_theocracy
 		subject_canton = SCO_theocracy
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = SCO_coa
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
@@ -10159,7 +10375,7 @@ SCO = { # Scotland
 	flag_definition = {
 		coa = SCO_military
 		subject_canton = SCO
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_military_junta_flag_trigger = yes
 		}
@@ -10167,7 +10383,7 @@ SCO = { # Scotland
 	flag_definition = {
 		coa = SCO_fascist
 		subject_canton = SCO_fascist
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
@@ -10175,7 +10391,7 @@ SCO = { # Scotland
 	flag_definition = {
 		coa = SCO_military
 		allow_overlord_canton = no	
-		priority = 50
+		priority = 0
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 		}
@@ -11591,15 +11807,88 @@ UKR = { # Ukraine
 
 ULS = { # Ulster / Northern Ireland flegs
 	flag_definition = {
-		coa = ULS_uk
-		priority = 5
+		coa = ULS
+		subject_canton = ULS
+		priority = 1
+	}
+	flag_definition = {
+		coa = ULS_republic
+		subject_canton = ULS_republic
+		priority = 10
 		trigger = { 
-			coa_def_british_ensign_trigger = yes
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ULS_absolute_monarchy
+		subject_canton = ULS_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ULS_monarchy
+		subject_canton = ULS_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_dictatorship
+		subject_canton = ULS_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_oligarchy
+		subject_canton = ULS_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ULS_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = ULS_uk_monarchy
-		priority = 6
+		priority = 0
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 			coa_def_monarchy_flag_trigger = yes
@@ -11607,14 +11896,14 @@ ULS = { # Ulster / Northern Ireland flegs
 	}
 	flag_definition = {
 		coa = ULS_third_way
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_independent_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = ULS_third_way
-		priority = 11
+		priority = 0
 		trigger = { 
 			coa_def_independent_trigger = yes
 			coa_def_monarchy_flag_trigger = yes
@@ -11623,7 +11912,7 @@ ULS = { # Ulster / Northern Ireland flegs
 	flag_definition = {
 		coa = ULS_theocracy
 		subject_canton = ENG
-		priority = 15
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
@@ -12120,23 +12409,96 @@ WLL = { # Wallonia
 
 WLS = { # Wales
 	flag_definition = {
+		coa = ULS
+		subject_canton = ULS
+		priority = 1
+	}
+	flag_definition = {
 		coa = WLS_republic
+		subject_canton = WLS_republic
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WLS_absolute_monarchy
+		subject_canton = WLS_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = WLS_monarchy
+		subject_canton = WLS_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_dictatorship
+		subject_canton = WLS_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_oligarchy
+		subject_canton = WLS_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WLS_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLS_theocracy
 		subject_canton = WLS_theocracy
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLS_coa
-		priority = 10
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
@@ -12144,14 +12506,14 @@ WLS = { # Wales
 	flag_definition = {
 		coa = WLS_fascist
 		subject_canton = WLS_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = WLS_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger =yes
 		}
@@ -12159,7 +12521,7 @@ WLS = { # Wales
 	flag_definition = {
 		coa = WLS_subject_GBR
 		allow_overlord_canton = yes		
-		priority = 50
+		priority = 0
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 		}
