@@ -8306,35 +8306,246 @@ GAL = { # Galicia (Halych)
 }
 
 GBR = {
-	# 1707-1800 flag without the Irish red diagonals
-    sub = {
-        parent = "sub_GBR" 
-    }
-}
-GBR_dictatorship = {
-	# 1659 ensign
-	# Quarterly; England, Scotland, Scotland, England
-	pattern = "pattern_checkers_01.tga"
-	
+	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "blue"
-	color3 = "red"
-	color4 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = color3
-		color2 = color3
-		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+
+	textured_emblem = {
+	texture = "GBR.dds"
 	}
-	colored_emblem = {
-		texture = "ce_saltire.dds"
-		color1 = color1
-		color2 = color1
-		instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
-	}	
+}
+GBR_ISE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESI.dds"
+	}
+}
+GBR_SE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRES.dds"
+	}
+}
+GBR_IE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBREI.dds"
+	}
+}
+GBR_ESWI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESWIRE.dds"
+	}
+	
+}
+GBR_ESW_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESWRE.dds"
+	}
+	
+}
+GBR_EWI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBREWIRE.dds"
+	}
+	
+}
+GBR_ESI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESIRE.dds"
+	}
+	
+}
+GBR_ES_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESRE.dds"
+	}
+	
+}
+GBR_EI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBREIRE.dds"
+	}
+	
+}
+GBR_EW_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBREW.dds"
+	}
+	
+}
+GBR_E_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRERE.dds"
+	}
+	
+}
+GBR_dictatorship_EIS = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRDIEIS.dds"
+	}
+	
+}
+GBR_dictatorship_ES = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRDIES.dds"
+	}
+	
+}
+GBR_dictatorship_EI = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRDIEI.dds"
+	}
+	
+}
+GBR_dictatorship_E = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRDIE.dds"
+	}
+	
+}
+GBR_oligarchy_EIS = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRESI.dds"
+	}
+	
+}
+GBR_oligarchy_EI = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBREI.dds"
+	}
+	
+}
+GBR_oligarchy_ES = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRES.dds"
+	}
+	
+}
+GBR_oligarchy_E = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRERE.dds"
+	}
+	
+}
+GBR_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRAT.dds"
+	}
+	
+}
+GBR_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRVT.dds"
+	}
+	
+}
+GBR_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRVC.dds"
+	}
+	
+}
+GBR_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRAC.dds"
+	}
+	
+}
+GBR_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "GBRAN.dds"
+	}
+	
 }
 GBR_dictatorship_uk = {		
 	# Based on personal standard of Jolly Olly
@@ -8365,17 +8576,6 @@ GBR_dictatorship_uk = {
 		color2 = color4
 		instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
 	}	
-}
-GBR_republic = {
-	# same as Hungarian tricolor, also symbolised British Republicanism in this era
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "green"
-	}
 }
 GBR_scotland = {
 	pattern = "pattern_solid.tga"

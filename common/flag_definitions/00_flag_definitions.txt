@@ -3719,9 +3719,248 @@ GBR = { # Great Britain / United Kingdom
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 	flag_definition = {
+		coa = GBR_ISE
+		subject_canton = GBR_ISE
+		priority = 50
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		trigger = { 
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_SE
+		subject_canton = GBR_SE
+		priority = 50
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		trigger = { 
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_IE
+		subject_canton = GBR_IE
+		priority = 50
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		trigger = { 
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = no
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_ESWI_republic
+		subject_canton = GBR_ESIW_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_walesuk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_ESI_republic
+		subject_canton = GBR_ESI_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_walesuk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_ESW_republic
+		subject_canton = GBR_ESW_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_walesuk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_EIW_republic
+		subject_canton = GBR_EIW_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = no
+			coa_def_walesuk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_EW_republic
+		subject_canton = GBR_EW_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = no
+			coa_def_walesuk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_EI_republic
+		subject_canton = GBR_EI_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = no
+			coa_def_walesuk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_ES_republic
+		subject_canton = GBR_ES_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = yes
+			coa_def_walesuk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_E_republic
+		subject_canton = GBR_E_republic
+		priority = 30
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = no
+			coa_def_walesuk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_dictatorship_EIS
+		subject_canton = GBR_dictatorship_EIS
+		priority = 30
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_dictatorship_EI
+		subject_canton = GBR_dictatorship_EI
+		priority = 30
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_dictatorship_ES
+		subject_canton = GBR_dictatorship_ES
+		priority = 30
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_dictatorship_E
+		subject_canton = GBR_dictatorship_E
+		priority = 30
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_oligarchy_EIS
+		subject_canton = GBR_oligarchy_EIS
+		priority = 60
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_oligarchy_E
+		subject_canton = GBR_oligarchy_E
+		priority = 60
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_oligarchy_EI
+		subject_canton = GBR_oligarchy_EI
+		priority = 60
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = yes
+			coa_def_scotlanduk_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = GBR_oligarchy_ES
+		subject_canton = GBR_oligarchy_ES
+		priority = 60
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+			coa_def_irelanduk_flag_trigger = no
+			coa_def_scotlanduk_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GBR_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = GBR_uk
 		subject_canton = GBR_uk
-		priority = 2
+		priority = 0
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 		trigger = { 
@@ -3731,7 +3970,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_scotland
 		subject_canton = GBR_scotland
-		priority = 10
+		priority = 0
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 		trigger = { 
@@ -3739,26 +3978,10 @@ GBR = { # Great Britain / United Kingdom
 		}
 	}
 	flag_definition = {
-		coa = GBR_republic
-		priority = 15
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		# English and Scottish flags quartered
-		coa = GBR_dictatorship
-		subject_canton = ENG
-		priority = 16
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}
-	flag_definition = {
 		# English, Scottish, Irish crosses quartered
 		coa = GBR_dictatorship_uk
 		subject_canton = ENG
-		priority = 17
+		priority = 0
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3766,14 +3989,14 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_coa
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = GBR_coa_scotland
-		priority = 21
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_dominant_scotland_trigger = yes
@@ -3781,7 +4004,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_coa_france
-		priority = 22
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_france = yes
@@ -3789,7 +4012,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_uk_coa
-		priority = 23
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3797,7 +4020,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_uk_coa_france
-		priority = 24
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3806,7 +4029,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_uk_scotland_coa
-		priority = 24
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3815,7 +4038,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_uk_scotland_coa_france
-		priority = 25
+		priority = 0
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3828,7 +4051,7 @@ GBR = { # Great Britain / United Kingdom
 		subject_canton = GBR_theocracy
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
@@ -3838,7 +4061,7 @@ GBR = { # Great Britain / United Kingdom
 		subject_canton = GBR
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
-		priority = 20
+		priority = 0
 		trigger = { 
 			coa_def_military_junta_flag_trigger = yes
 		}
@@ -3848,7 +4071,7 @@ GBR = { # Great Britain / United Kingdom
 		subject_canton = GBR_uk
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
-		priority = 21
+		priority = 0
 		trigger = { 
 			coa_def_military_junta_flag_trigger = yes
 			coa_def_controls_part_of_ireland = yes
@@ -3857,7 +4080,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = MAC
 		subject_canton = MAC
-		priority = 22
+		priority = 0
 		trigger = { 
 			exists = scope:actor
 			scope:actor = { capital = { state_region = s:STATE_LANCASHIRE } }
@@ -3865,7 +4088,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = MAC_communist
-		priority = 23
+		priority = 0
 		trigger = {
 			coa_def_communist_flag_trigger = yes
 			scope:actor = { capital = { state_region = s:STATE_LANCASHIRE } }
@@ -3873,7 +4096,7 @@ GBR = { # Great Britain / United Kingdom
 	}
 	flag_definition = {
 		coa = GBR_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 			scope:actor = { NOT = { capital = { state_region = s:STATE_LANCASHIRE } } }
@@ -3882,7 +4105,7 @@ GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_fascist
 		subject_canton = GBR_fascist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}

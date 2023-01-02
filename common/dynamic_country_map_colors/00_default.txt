@@ -1,4 +1,259 @@
-﻿#####switzerland#####
+﻿#####ireland#####
+
+democratic_ireland = {
+	color = "democratic_ireland"
+
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_ireland = {
+	color = "democratic_ireland"
+
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_ireland = {
+	color = "communist_ireland"
+
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_ireland = {
+	color = "theocratic_ireland"
+
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_ireland = {
+	color = "monarchist_ireland"
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####ulster#####
+
+democratic_ulster = {
+	color = "democratic_ulster"
+
+	possible = {
+		exists = c:ULS
+		THIS = c:ULS
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_ulster = {
+	color = "democratic_ulster"
+
+	possible = {
+		exists = c:ULS
+		THIS = c:ULS
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_ulster = {
+	color = "communist_ulster"
+
+	possible = {
+		exists = c:ULS
+		THIS = c:ULS
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_ulster = {
+	color = "theocratic_ulster"
+
+	possible = {
+		exists = c:ULS
+		THIS = c:ULS
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_ulster = {
+	color = "monarchist_ulster"
+	possible = {
+		exists = c:ULS
+		THIS = c:ULS
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####wales#####
+
+democratic_wales = {
+	color = "democratic_wales"
+
+	possible = {
+		exists = c:WLS
+		THIS = c:WLS
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_wales = {
+	color = "democratic_wales"
+
+	possible = {
+		exists = c:WLS
+		THIS = c:WLS
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_wales = {
+	color = "communist_wales"
+
+	possible = {
+		exists = c:WLS
+		THIS = c:WLS
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_wales = {
+	color = "theocratic_wales"
+
+	possible = {
+		exists = c:WLS
+		THIS = c:WLS
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_wales = {
+	color = "monarchist_wales"
+	possible = {
+		exists = c:WLS
+		THIS = c:WLS
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####scotland#####
+
+democratic_scotland = {
+	color = "democratic_scotland"
+
+	possible = {
+		exists = c:SCO
+		THIS = c:SCO
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_scotland = {
+	color = "democratic_scotland"
+
+	possible = {
+		exists = c:SCO
+		THIS = c:SCO
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_scotland = {
+	color = "communist_scotland"
+
+	possible = {
+		exists = c:SCO
+		THIS = c:SCO
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_scotland = {
+	color = "theocratic_scotland"
+
+	possible = {
+		exists = c:SCO
+		THIS = c:SCO
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_scotland = {
+	color = "monarchist_scotland"
+	possible = {
+		exists = c:SCO
+		THIS = c:SCO
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####britain#####
+
+democratic_britain = {
+	color = "democratic_britain"
+
+	possible = {
+		exists = c:GBR
+		THIS = c:GBR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_britain = {
+	color = "democratic_britain"
+
+	possible = {
+		exists = c:GBR
+		THIS = c:GBR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_britain = {
+	color = "communist_britain"
+
+	possible = {
+		exists = c:GBR
+		THIS = c:GBR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_britain = {
+	color = "theocratic_britain"
+
+	possible = {
+		exists = c:GBR
+		THIS = c:GBR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_britain = {
+	color = "monarchist_britain"
+	possible = {
+		exists = c:GBR
+		THIS = c:GBR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####switzerland#####
 
 democratic_switzerland = {
 	color = "democratic_switzerland"

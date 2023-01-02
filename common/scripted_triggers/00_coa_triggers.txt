@@ -215,6 +215,41 @@ coa_def_monarchy_flag_trigger = {
 	scope:actor = { coa_monarchy_trigger = yes }
 }
 
+####
+
+coa_irelanduk_trigger = {
+	owns_entire_state_region = STATE_MUNSTER
+	owns_entire_state_region = STATE_CONNAUGHT
+	owns_entire_state_region = STATE_LEINSTER
+	owns_entire_state_region = STATE_ULSTER
+}
+
+coa_def_irelanduk_flag_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_irelanduk_trigger = yes }
+}
+
+coa_scotlanduk_trigger = {
+	owns_entire_state_region = STATE_LOWLANDS
+	owns_entire_state_region = STATE_HIGHLANDS
+}
+
+coa_def_scotlanduk_flag_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_scotlanduk_trigger = yes }
+}
+
+coa_walesuk_trigger = {
+	owns_entire_state_region = STATE_WALES
+}
+
+coa_def_walesuk_flag_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_walesuk_trigger = yes }
+}
+
+####
+
 coa_def_absolute_monarchy_flag_trigger = {
 	exists = scope:actor
 	scope:actor = { coa_absolute_monarchy_trigger = yes }
