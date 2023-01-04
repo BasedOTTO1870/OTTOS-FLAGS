@@ -1,4 +1,1526 @@
-﻿###ireland####
+﻿#####1.6#####
+
+###korea####
+KOR = {
+		
+	dynamic_country_name = {
+		name = dyn_c_korea_absolutist_monarchy
+		adjective = KOR_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_monarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_monarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_monarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_monarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_monarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+
+		dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_dictatorship
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_dictatorship
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocratic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocraticvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocraticvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocraticvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocraticvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_theocraticvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communist
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communistvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communistvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communistvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communistvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_communistvote
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_korea_anarchy
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+###china####
+CHI = {
+		
+	dynamic_country_name = {
+		name = dyn_c_china_absolutist_monarchy
+		adjective = CHI_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_monarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_monarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_monarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_monarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_monarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+
+		dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_republic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_china_dictatorship
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_dictatorship
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocratic
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocraticvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocraticvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocraticvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocraticvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_theocraticvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communist
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communistvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communistvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communistvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communistvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_communistvote
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_china_anarchy
+		adjective = CHI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+###japan####
+JAP = {
+		
+	dynamic_country_name = {
+		name = dyn_c_japan_absolutist_monarchy
+		adjective = JAP_ADJ
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_monarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_monarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_monarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_monarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_monarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############republic#############
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+
+		dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_republic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	#############dictatorship#############
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_dictatorship
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_parliamentary_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_dictatorship
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	######theocratic#####
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocratic
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocraticvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocraticvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocraticvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocraticvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_theocraticvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	######communist#####
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communist
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_autocracy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communistvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_oligarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communistvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_landed_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communistvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communistvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_census_voting
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_communistvote
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_universal_suffrage
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_japan_anarchy
+		adjective = JAP_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+#####1.5#####
+
+##ireland####
 IRE = {
 		
 	dynamic_country_name = {
@@ -24335,355 +25857,6 @@ RUS = {
 	
 }
 
-############################################
-
-JAP = { # Japan
-	dynamic_country_name = {
-		name = dyn_c_japan_shogunate
-		adjective = dyn_c_japan_shogunate_adj
-
-		is_main_tag_only = yes
-		priority = 10
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				NOT = { has_variable = meiji_var }
-			}
-		}
-	}
-	
-	#############republic#############
-	
-		dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_republic
-		adjective = dyn_c_japan_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	#############dictatorship#############
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_dictatorship
-		adjective = dyn_c_japan_dictatorship_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_dictatorship
-		adjective = dyn_c_japan_dictatorship_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	######theocratic#####
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_theocratic
-		adjective = dyn_c_japan_theocratic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_theocraticvote
-		adjective = dyn_c_japan_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_theocraticvote
-		adjective = dyn_c_japan_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_theocraticvote
-		adjective = dyn_c_japan_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_theocraticvote
-		adjective = dyn_c_japan_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	######communist#####
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_communist
-		adjective = dyn_c_japan_communist_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_communistvote
-		adjective = dyn_c_japan_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_communistvote
-		adjective = dyn_c_japan_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_communistvote
-		adjective = dyn_c_japan_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_japan_communistvote
-		adjective = dyn_c_japan_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-}
-
 #####Prussia#####
 
 PRU = { 
@@ -27184,421 +28357,6 @@ EGY = {
 	dynamic_country_name = {
 		name = dyn_c_egypt_communistvote
 		adjective = dyn_c_egypt_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-}
-
-#####china#####
-
-CHI = { 
-	
-	dynamic_country_name = {
-		name = dyn_c_china_absolutist_monarchy
-		adjective = dyn_c_china_absolutist_monarchy_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	
-	dynamic_country_name = {
-		name = dyn_c_china_monarchy
-		adjective = dyn_c_china_monarchy_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_monarchy
-		adjective = dyn_c_china_monarchy_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_monarchy
-		adjective = dyn_c_china_monarchy_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_monarchy
-		adjective = dyn_c_china_monarchy_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	#############republic#############
-	
-		dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_republic
-		adjective = dyn_c_china_republic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	#############dictatorship#############
-	
-	dynamic_country_name = {
-		name = dyn_c_china_dictatorship
-		adjective = dyn_c_china_dictatorship_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_parliamentary_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_dictatorship
-		adjective = dyn_c_china_dictatorship_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	######theocratic#####
-	
-	dynamic_country_name = {
-		name = dyn_c_china_theocratic
-		adjective = dyn_c_china_theocratic_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_theocraticvote
-		adjective = dyn_c_china_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_theocraticvote
-		adjective = dyn_c_china_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_theocraticvote
-		adjective = dyn_c_china_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_theocraticvote
-		adjective = dyn_c_china_theocraticvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_theocracy
-				has_law = law_type:law_universal_suffrage
-			}
-		}
-	}
-	
-	######communist#####
-	
-	dynamic_country_name = {
-		name = dyn_c_china_communist
-		adjective = dyn_c_china_communist_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_communistvote
-		adjective = dyn_c_china_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_landed_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_communistvote
-		adjective = dyn_c_china_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_wealth_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_communistvote
-		adjective = dyn_c_china_communistvote_adj
-
-		is_main_tag_only = yes
-		priority = 0
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_council_republic
-				has_law = law_type:law_census_voting
-			}
-		}
-	}
-	
-	dynamic_country_name = {
-		name = dyn_c_china_communistvote
-		adjective = dyn_c_china_communistvote_adj
 
 		is_main_tag_only = yes
 		priority = 0

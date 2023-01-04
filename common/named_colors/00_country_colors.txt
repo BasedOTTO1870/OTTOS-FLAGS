@@ -1,4 +1,8 @@
 colors = {
+	monarchist_korea = rgb { 47 45 73 }
+	democratic_korea =  rgb { 87 85 137 }
+	theocratic_korea = rgb { 56 71 107 }
+	communist_korea = rgb { 139 0 0 }
 	monarchist_ireland = rgb { 72 99 66 }
 	democratic_ireland =  rgb { 125 173 116 }
 	theocratic_ireland = rgb { 76 0 33 }

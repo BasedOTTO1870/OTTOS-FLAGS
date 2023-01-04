@@ -2610,6 +2610,57 @@ monarchist_russia = {
 	}
 }
 
+#####korea#####
+
+democratic_korea = {
+	color = "democratic_korea"
+
+	possible = {
+		exists = c:KOR
+		THIS = c:KOR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_korea = {
+	color = "democratic_korea"
+
+	possible = {
+		exists = c:KOR
+		THIS = c:KOR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_korea = {
+	color = "communist_korea"
+
+	possible = {
+		exists = c:KOR
+		THIS = c:KOR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_korea = {
+	color = "theocratic_korea"
+
+	possible = {
+		exists = c:KOR
+		THIS = c:KOR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_korea = {
+	color = "monarchist_korea"
+	possible = {
+		exists = c:KOR
+		THIS = c:KOR
+		has_law = law_type:law_monarchy 
+	}
+}
+
 
 ###JAPAN###
 
