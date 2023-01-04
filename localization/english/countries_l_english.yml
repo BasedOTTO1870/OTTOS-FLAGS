@@ -1,4 +1,15 @@
 ﻿l_english:
+ dyn_c_eastindies_absolutist_monarchy:0 "Kingdom of the East Indies"
+ dyn_c_eastindies_monarchy:0 "Kingdom of the East Indies"
+ dyn_c_eastindies_dictatorship:0 "East Indian Empire"
+ dyn_c_eastindies_republic:0 "Republic of Indonesia"
+ dyn_c_eastindies_communist:0 "Indonesian Workers Assembly"
+ dyn_c_eastindies_communistvote:0 "Peoples Republic of Indonesia"
+ dyn_c_eastindies_theocratic:0 "Islamic Empire of Indonesia"
+ dyn_c_eastindies_theocraticvote:0 "Islamic Republic of Indonesia"
+ dyn_c_eastindies_anarchy:0 "Free Indian Territory"
+ dyn_c_eastindies_puppet:0 "Dutch East India Company"
+ 
  dyn_c_china_absolutist_monarchy:0 "Great Qing"
  dyn_c_china_monarchy:0 "Reformed Kingdom of China"
  dyn_c_china_dictatorship:0 "Chinese Empire"

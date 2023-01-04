@@ -2928,11 +2928,93 @@ DAI = { # Dai Nam
 DEI = { # Dutch East India Company
 	flag_definition = {
 		coa = DEI
+		priority = 1
+	}
+	flag_definition = {
+		coa = DEI_subject_netherlands
+		priority = 1600
+		trigger = { 
+			coa_def_netherland_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_republic
+		subject_canton = DEI_republic
 		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = DEI_absolute_monarchy
+		subject_canton = DEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = DEI_monarchy
+		subject_canton = DEI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_dictatorship
+		subject_canton = DEI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_oligarchy
+		subject_canton = DEI_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DEI_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
 	}
 	flag_definition = {
 		coa = DEI_subject
-		priority = 20
+		priority = 0
 		trigger = {
 			coa_def_colonial_ensign_trigger = yes
 		}
@@ -2940,7 +3022,7 @@ DEI = { # Dutch East India Company
 #	flag_definition = { # this is the company flag
 #		coa = DEI_voc
 #		coa_with_overlord_canton = DEI_voc
-#		priority = 100
+#		priority = 0
 #		trigger = {
 #			coa_def_republic_flag_trigger = yes
 #			AND = {

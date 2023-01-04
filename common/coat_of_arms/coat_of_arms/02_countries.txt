@@ -6311,16 +6311,125 @@ DAI_subject_FRA = {
 }
 
 DEI = { 
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
+	textured_emblem = {
+	texture = "DEI.dds"
 	}
+	
 }
+DEI_subject_netherlands = { 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
+	textured_emblem = {
+	texture = "DEINET.dds"
+	}
+	
+}
+DEI_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIAM.dds"
+	}
+
+}
+DEI_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIRE.dds"
+	}
+	
+}
+DEI_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIMO.dds"
+	}
+	
+}
+DEI_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIDI.dds"
+	}
+	
+}
+DEI_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIOL.dds"
+	}
+	
+}
+DEI_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIAT.dds"
+	}
+	
+}
+DEI_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIVT.dds"
+	}
+	
+}
+DEI_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIVC.dds"
+	}
+	
+}
+DEI_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIAC.dds"
+	}
+	
+}
+DEI_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DEIAN.dds"
+	}
+	
+}
 DEI_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -6332,30 +6441,15 @@ DEI_subject = {
 	}
 }
 
-DEI_voc = { #Company Flag
+DEI_voc = { 
+	
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
+	textured_emblem = {
+	texture = "DEINET.dds"
 	}
-	colored_emblem = {
-		texture = "ce_letter_v_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_o.dds"
-		color1 = "black"
-		instance = { position = { 0.47 0.48 } scale = { 0.3 0.23 } }
-	}
-	colored_emblem = {
-		texture = "ce_letter_c_serif.dds"
-		color1 = "black"
-		instance = { position = { 0.56 0.48 } scale = { 0.23 0.23 } }
-	}
+	
 }
 
 DES = {

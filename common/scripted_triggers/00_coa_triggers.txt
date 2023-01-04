@@ -708,3 +708,10 @@ coa_def_prussian_subject_trigger = {
 		is_subject_of = c:PRU
 	}
 }
+
+coa_def_netherland_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { 
+		is_subject_of = c:NET
+	}
+}

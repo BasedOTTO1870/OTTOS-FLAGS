@@ -1,4 +1,8 @@
 colors = {
+	monarchist_eastindies = rgb { 170 177 193 }
+	democratic_eastindies =  rgb { 197 205 224 }
+	theocratic_eastindies = rgb { 0 96 14 }
+	communist_eastindies = rgb { 150 0 0 }
 	monarchist_korea = rgb { 47 45 73 }
 	democratic_korea =  rgb { 87 85 137 }
 	theocratic_korea = rgb { 56 71 107 }
