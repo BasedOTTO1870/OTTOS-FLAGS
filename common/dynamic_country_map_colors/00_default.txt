@@ -1,4 +1,148 @@
-﻿#####eastindies#####
+﻿#####burma#####
+
+democratic_burma = {
+	color = "democratic_burma"
+	possible = {
+		exists = c:BUR
+		THIS = c:BUR
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_burma = {
+	color = "democratic_burma"
+	possible = {
+		exists = c:BUR
+		THIS = c:BUR
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_burma = {
+	color = "communist_burma"
+	priority = 0
+	possible = {
+		exists = c:BUR
+		THIS = c:BUR
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_burma = {
+	color = "theocratic_burma"
+	possible = {
+		exists = c:BUR
+		THIS = c:BUR
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_burma = {
+	color = "monarchist_burma"
+	possible = {
+		exists = c:BUR
+		THIS = c:BUR
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####dainam#####
+
+democratic_dainam = {
+	color = "democratic_dainam"
+	possible = {
+		exists = c:DAI
+		THIS = c:DAI
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_dainam = {
+	color = "democratic_dainam"
+	possible = {
+		exists = c:DAI
+		THIS = c:DAI
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_dainam = {
+	color = "communist_dainam"
+	priority = 0
+	possible = {
+		exists = c:DAI
+		THIS = c:DAI
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_dainam = {
+	color = "theocratic_dainam"
+	possible = {
+		exists = c:DAI
+		THIS = c:DAI
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_dainam = {
+	color = "monarchist_dainam"
+	possible = {
+		exists = c:DAI
+		THIS = c:DAI
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####siam#####
+
+democratic_siam = {
+	color = "democratic_siam"
+	possible = {
+		exists = c:SIA
+		THIS = c:SIA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_siam = {
+	color = "democratic_siam"
+	possible = {
+		exists = c:SIA
+		THIS = c:SIA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_siam = {
+	color = "communist_siam"
+	priority = 0
+	possible = {
+		exists = c:SIA
+		THIS = c:SIA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_siam = {
+	color = "theocratic_siam"
+	possible = {
+		exists = c:SIA
+		THIS = c:SIA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_siam = {
+	color = "monarchist_siam"
+	possible = {
+		exists = c:SIA
+		THIS = c:SIA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####eastindies#####
 
 democratic_eastindies = {
 	color = "democratic_eastindies"

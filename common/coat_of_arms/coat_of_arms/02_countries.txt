@@ -3384,67 +3384,114 @@ BUN_subject = {
 }
 
 BUR = { # Burma	
+	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
+
 	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
-	}		
+	texture = "BUR.dds"
+	}	
+	
 }
 BUR_absolute_monarchy = {
-	# Starting flag
-	
+
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }		
-	}
+
 	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
-	}		
+	texture = "BURAM.dds"
+	}
+
 }
 BUR_republic = {
+
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURRE.dds"
+	}
 	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "green"
-		color2 = "red"
-	}	
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
-	}	
+}
+BUR_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURMO.dds"
+	}
+	
 }
 BUR_dictatorship = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "blue"
-		color2 = "blue"
-        instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
-	}	
 
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.33 0.33 } position = { 0.25 0.24 } }	
-		instance = { scale = { 0.15 0.15 } position = { 0.355 0.29 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.145 0.29 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.25 0.40 } }	
-		instance = { scale = { 0.15 0.15 } position = { 0.32 0.115 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.18 0.115 } }			
-	}	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURDI.dds"
+	}
+	
+}
+BUR_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BUROL.dds"
+	}
+	
+}
+BUR_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURAT.dds"
+	}
+	
+}
+BUR_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURVT.dds"
+	}
+	
+}
+BUR_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURVC.dds"
+	}
+	
+}
+BUR_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURAC.dds"
+	}
+	
+}
+BUR_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "BURAN.dds"
+	}
+	
 }
 BUR_theocracy = {
 	pattern = "pattern_solid.tga"
@@ -6220,39 +6267,113 @@ DAH_subject = {
 }
 
 DAI = { # Dai Nam
-	# Imperial flag
-	pattern = "pattern_border_of_3.dds"
-	color1 = "yellow"
-	color2 = "blue_light"	
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 0.9 0.9 } position = { 0.50 0.50 } }			
+	textured_emblem = {
+	texture = "DAI.dds"
 	}
 }
-DAI_monarchy = {
-	pattern = "pattern_border_of_3.dds"
-	color1 = "yellow"
-	color2 = "red"
-	
-    sub = {
-        parent = "sub_DAI_dragon" 
-        instance = { scale = { 0.9 0.9 } offset = { 0.05 0.075 } }
-    }	
+DAI_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIAM.dds"
+	}
+
 }
 DAI_republic = {
-	# Annam flag
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 1.0 0.5 } position = { 0.50 0.50 } }			
-	}	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIRE.dds"
+	}
+	
+}
+DAI_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIMO.dds"
+	}
+	
+}
+DAI_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIDI.dds"
+	}
+	
+}
+DAI_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIOL.dds"
+	}
+	
+}
+DAI_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIAT.dds"
+	}
+	
+}
+DAI_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIVT.dds"
+	}
+	
+}
+DAI_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIVC.dds"
+	}
+	
+}
+DAI_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIAC.dds"
+	}
+	
+}
+DAI_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "DAIAN.dds"
+	}
+	
 }
 DAI_subject = {
 	# Annam Protectorate
@@ -21880,77 +22001,115 @@ SGF_fascist = {
 	}			
 }
 
-SIA = {
-	# 1891 decorated elephant on dais, chakra in chief dexter sometimes (1851-91 the design doesnt feature the platform)
+SIA = { 
 	
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
-	
-	colored_emblem = {
-		texture = "ce_platform_siam.dds"
-		color1 = "yellow"
-		color2 = "brown_light"
-		instance = { scale = { 0.9 1.0 } position = { 0.53 0.77 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_elephant_asia_decorated.dds"
-		color1 = "white"
-		color2 = "yellow"
-		color3 = "green"
-		instance = { scale = { 1.0 1.0 } position = { 0.50 0.48 } }			
-	}
-}
-SIA_absolute_monarchy = { # Siam
-	# Early design, starting flag
-	
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_chakra_siam.dds"
-		color1 = "white"
-		color2 = "yellow"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_elephant_asia.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.4 0.4 } position = { 0.50 0.49 } }			
-	}
-}
-SIA_republic = {
-	# Modern flag of Thailand, adopted 1917
-	
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "blue"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 @[third*2] } position = { 0.50 0.50 } }			
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 1.0 @third } position = { 0.50 0.50 } }			
-	}	
-}
-SIA_dictatorship = {
-	# 1916 flag
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
-	colored_emblem = {
-		texture = "ce_stripes_05.dds"
-		color1 = "red"
-		color2 = "white"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+
+	textured_emblem = {
+	texture = "SIA.dds"
 	}	
+	
+}
+SIA_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAAM.dds"
+	}
+
+}
+SIA_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIARE.dds"
+	}
+	
+}
+SIA_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAMO.dds"
+	}
+	
+}
+SIA_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIADI.dds"
+	}
+	
+}
+SIA_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAOL.dds"
+	}
+	
+}
+SIA_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAAT.dds"
+	}
+	
+}
+SIA_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAVT.dds"
+	}
+	
+}
+SIA_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAVC.dds"
+	}
+	
+}
+SIA_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAAC.dds"
+	}
+	
+}
+SIA_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "SIAAN.dds"
+	}
+	
 }
 SIA_theocracy = {
 	pattern = "pattern_border_of_3_double.dds"
