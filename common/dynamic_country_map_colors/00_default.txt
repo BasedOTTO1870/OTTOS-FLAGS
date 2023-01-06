@@ -1,4 +1,148 @@
-﻿#####burma#####
+﻿#####texas#####
+
+democratic_texas = {
+	color = "democratic_texas"
+	possible = {
+		exists = c:TEX
+		THIS = c:TEX
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_texas = {
+	color = "democratic_texas"
+	possible = {
+		exists = c:TEX
+		THIS = c:TEX
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_texas = {
+	color = "communist_texas"
+	priority = 0
+	possible = {
+		exists = c:TEX
+		THIS = c:TEX
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_texas = {
+	color = "theocratic_texas"
+	possible = {
+		exists = c:TEX
+		THIS = c:TEX
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_texas = {
+	color = "monarchist_texas"
+	possible = {
+		exists = c:TEX
+		THIS = c:TEX
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####mexico#####
+
+democratic_mexico = {
+	color = "democratic_mexico"
+	possible = {
+		exists = c:MEX
+		THIS = c:MEX
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_mexico = {
+	color = "democratic_mexico"
+	possible = {
+		exists = c:MEX
+		THIS = c:MEX
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_mexico = {
+	color = "communist_mexico"
+	priority = 0
+	possible = {
+		exists = c:MEX
+		THIS = c:MEX
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_mexico = {
+	color = "theocratic_mexico"
+	possible = {
+		exists = c:MEX
+		THIS = c:MEX
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_mexico = {
+	color = "monarchist_mexico"
+	possible = {
+		exists = c:MEX
+		THIS = c:MEX
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####usa#####
+
+democratic_usa = {
+	color = "democratic_usa"
+	possible = {
+		exists = c:USA
+		THIS = c:USA
+		has_law = law_type:law_presidential_republic
+	}
+}
+
+democratic_usa = {
+	color = "democratic_usa"
+	possible = {
+		exists = c:USA
+		THIS = c:USA
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+communist_usa = {
+	color = "communist_usa"
+	priority = 0
+	possible = {
+		exists = c:USA
+		THIS = c:USA
+		has_law = law_type:law_council_republic
+	}
+}
+
+theocratic_usa = {
+	color = "theocratic_usa"
+	possible = {
+		exists = c:USA
+		THIS = c:USA
+		has_law = law_type:law_theocracy
+	}
+}
+
+monarchist_usa = {
+	color = "monarchist_usa"
+	possible = {
+		exists = c:USA
+		THIS = c:USA
+		has_law = law_type:law_monarchy 
+	}
+}
+
+#####burma#####
 
 democratic_burma = {
 	color = "democratic_burma"

@@ -14923,20 +14923,115 @@ MEW_subject = {
 	}			
 }
 
-MEX = { # Mexico
+MEX = { 
+	
 	pattern = "pattern_solid.tga"
-	color1 = "green"
-
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}
+	color1 = "white"
 
 	textured_emblem = {
-		texture = "te_coa_mexico.dds"
-		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	texture = "MEX.dds"
+	}	
+	
+}
+MEX_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXAM.dds"
 	}
+
+}
+MEX_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXRE.dds"
+	}
+	
+}
+MEX_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXMO.dds"
+	}
+	
+}
+MEX_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXDI.dds"
+	}
+	
+}
+MEX_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXOL.dds"
+	}
+	
+}
+MEX_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXAT.dds"
+	}
+	
+}
+MEX_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXVT.dds"
+	}
+	
+}
+MEX_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXVC.dds"
+	}
+	
+}
+MEX_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXAC.dds"
+	}
+	
+}
+MEX_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "MEXAN.dds"
+	}
+	
 }
 MEX_subject = { 
 	pattern = "pattern_solid.tga"
@@ -14954,57 +15049,6 @@ MEX_subject = {
 		texture = "te_coa_mexico.dds"
 		instance = { scale = { 0.42 0.42 } position = { 0.75 0.51 } }
 	}
-}
-MEX_absolute_monarchy = {
-	# 1865 imperial design
-	
-	pattern = "pattern_solid.tga"
-	color1 = "green"
-
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "red"
-	}
-	textured_emblem = {
-		texture = "te_eagle_mexico.dds"
-		instance = { scale = { 0.65 0.65 } position = { 0.51 0.60 } }
-	}
-	textured_emblem = {
-		texture = "te_crown_imperial_eagles.dds"
-		instance = { scale = { 0.35 0.35 } position = { 0.5 0.23 } }
-	}	
-}
-MEX_dictatorship = {
-	# Inspired by the 1815 independentist flag
-	
-	pattern = "pattern_border_of_4.dds"
-	color1 = "white"
-	color2 = "red"
-
-	colored_emblem = {
-		texture = "ce_checker_05.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 1.225	0.8 } position = { 0.5 0.5 } }		
-		mask = { 1 }
-	}	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.525 0.48 } position = { 0.5 0.5 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_wreath.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { 0.60 0.60 } position = { 0.5 0.5 } }
-	}		
-	textured_emblem = {
-		texture = "te_eagle_mexico.dds"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
-	}	
 }
 MEX_communist = {	
 	pattern = "pattern_solid.tga"
@@ -23480,28 +23524,131 @@ TAS_subject = {
         instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 } }
 	}
 }
-
-TEX = {	
+TEX = { 
+	
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "yellow"
+	color1 = "white"
 
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.7 0.7 } position = { 0.5 0.51 }  }
+	textured_emblem = {
+	texture = "TEX.dds"
+	}	
+	
+}
+TEX_absolute_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXAM.dds"
+	}
+
+}
+TEX_republic = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXRE.dds"
+	}
+	
+}
+TEX_monarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXMO.dds"
+	}
+	
+}
+TEX_dictatorship = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXDI.dds"
+	}
+	
+}
+TEX_oligarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXOL.dds"
+	}
+	
+}
+TEX_autocratic_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXAT.dds"
+	}
+	
+}
+TEX_voting_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXVT.dds"
+	}
+	
+}
+TEX_voting_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXVC.dds"
+	}
+	
+}
+TEX_autocratic_communism = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXAC.dds"
+	}
+	
+}
+TEX_anarchy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXAN.dds"
+	}
+	
+}
+TEX_subject_mexico  = { 
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+	texture = "TEXMEX.dds"
 	}
 }
-TEX_absolute_monarchy = {	
-	pattern = "pattern_border_of_4.dds"
+TEX_subject_america  = { 
+	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "red"
 
-    sub = {
-        parent = "sub_TEX_coa" 
-		instance = { scale = { 0.8 0.8 } offset = { 0.1 0.1 } }
-    }
+	textured_emblem = {
+	texture = "TEXUSA.dds"
+	}
 }
 TEX_subject_USA = {
 	@tex_star_position = @[1/3/2]
@@ -23553,69 +23700,6 @@ TEX_subject = {
 		color2 = "red"
 		instance = { scale = { 0.5 1.0 } position = { 0.75 0.5 }  }
 	}	
-}
-TEX_oligarchy = {
-	# 1836 variant (naval ensign)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-
-	colored_emblem = {
-		texture = "ce_stripes_13.dds"
-		color1 = "red"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { scale = { 0.36 0.54 } position = { 0.18 0.27 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.35 0.35 } position = { 0.18 0.27 } }
-	}
-}
-TEX_merchant = {
-	# 1839 another variant (merchant flag)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		color2 = "red"	
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.52 } }
-	}	
-}
-TEX_Bonnie_Blue = {	
-	# Bonnie blue w/ yellow border
-	
-	pattern = "pattern_border_of_4.dds"
-	color1 = "blue"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.6 0.6 } position = { 0.5 0.51 }  }
-	}
 }
 TEX_communist = {	
 	pattern = "pattern_solid.tga"

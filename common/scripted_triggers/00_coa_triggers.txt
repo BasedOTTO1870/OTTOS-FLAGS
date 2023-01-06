@@ -715,3 +715,16 @@ coa_def_netherland_subject_trigger = {
 		is_subject_of = c:NET
 	}
 }
+
+coa_def_mexican_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { 
+		is_subject_of = c:MEX
+	}
+}
+coa_def_american_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { 
+		is_subject_of = c:USA
+	}
+}

@@ -7795,38 +7795,93 @@ MEX = { # Mexico
 	flag_definition = {
 		coa = MEX
 		subject_canton = MEX
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = MEX_subject			
 		priority = 1
 	}
 	flag_definition = {
+		coa = MEX_republic
+		subject_canton = MEX_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
 		coa = MEX_absolute_monarchy
 		subject_canton = MEX_absolute_monarchy
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = MEX_subject			
 		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
+		coa = MEX_monarchy
+		subject_canton = MEX_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
 		coa = MEX_dictatorship
 		subject_canton = MEX_dictatorship
-		priority = 20
-		trigger = {
+		priority = 15
+		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = MEX_oligarchy
+		subject_canton = MEX_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEX_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEX_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEX_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEX_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MEX_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = MEX_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = MEX_subject_USA
-		priority = 50
+		priority = 0
 		trigger = { 
 			coa_def_american_ensign_trigger = yes
 		}
@@ -11658,18 +11713,14 @@ TAS = { # Tasmania
 
 TEX = { # Texas
 	flag_definition = {
-		coa = TEX_Bonnie_Blue
-		subject_canton = TEX_Bonnie_Blue
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = TEX_subject
+		coa = TEX
+		subject_canton = TEX
 		priority = 1
 	}
 	flag_definition = {
-		coa = TEX
-		subject_canton = TEX
-		priority = 5
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = TEX_subject		
+		coa = TEX_republic
+		subject_canton = TEX_republic
+		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
@@ -11683,15 +11734,21 @@ TEX = { # Texas
 		}
 	}	
 	flag_definition = {
-		coa = TEX_merchant
-		subject_canton = TEX_merchant
-		priority = 10
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = TEX_subject			
+		coa = TEX_monarchy
+		subject_canton = TEX_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_dictatorship
+		subject_canton = TEX_dictatorship
+		priority = 15
 		trigger = { 
 			coa_def_dictatorship_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
 		coa = TEX_oligarchy
 		subject_canton = TEX_oligarchy
@@ -11699,31 +11756,80 @@ TEX = { # Texas
 		trigger = {
 			coa_def_oligarchy_flag_trigger = yes
 		}
-	}	
+	}
+	flag_definition = {
+		coa = TEX_autocratic_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_voting_theocracy
+		priority = 1000
+		trigger = { 
+			coa_def_theocratic_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_autocratic_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_voting_communism
+		priority = 1000
+		trigger = { 
+			coa_def_communist_voting_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_anarchy
+		priority = 1200
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_subject_mexico
+		priority = 1500
+		trigger = { 
+			coa_def_mexican_subject_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TEX_subject_america
+		priority = 1500
+		trigger = { 
+			coa_def_american_subject_trigger = yes
+		}
+	}
 	flag_definition = {
 		coa = TEX_subject_USA
-		priority = 50
+		priority = 0
 		trigger = { 
 			coa_def_american_ensign_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = TEX_communist
-		priority = 1500
+		priority = 0
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = TEX_subject_SPA
-		priority = 30
+		priority = 0
 		trigger = { 
 			coa_def_spanish_ensign_trigger = yes
 		}
 	}	
 	flag_definition = {
 		coa = TEX_subject_MEX
-		priority = 30
+		priority = 0
 		trigger = { 
 			coa_def_mexican_ensign_trigger = yes
 		}
